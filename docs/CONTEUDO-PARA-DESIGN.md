@@ -1,12 +1,16 @@
 # GABiSOU — conteúdo e direção para a designer
 
-Versão 2 · 27/10/2026 · Proposta editorial para revisão conjunta, ainda não aprovada para publicação.
+Versão 3 · 27/10/2026 · Proposta editorial para revisão conjunta, ainda não aprovada para publicação.
 
 ## O que veio do seu trabalho
 
 Esta revisão parte dos cinco wireframes enviados por Gabriel, produzidos pela designer que o apoia. Mantém a base clara, os azuis, o logotipo, a navegação simples e os botões arredondados. As cores de referência foram lidas dos arquivos: fundo `#FAF7F4`, azul do cabeçalho `#418CC2` e azul escuro `#2C6795`.
 
-A estrutura implementada é: início, sobre, serviços, como trabalhamos, contato e rodapé. A seção Projetos entra quando houver trabalhos com autoria e divulgação confirmadas. Os cards vazios do wireframe são espaços de composição, não evidência de projetos entregues.
+A estrutura implementada é: início, serviços, sobre, como trabalhamos, contato e rodapé. A seção Projetos entra quando houver trabalhos com autoria e divulgação confirmadas. Os cards vazios do wireframe são espaços de composição, não evidência de projetos entregues.
+
+## Revisão orientada pelas referências
+
+A V3 mantém a direção visual da designer e o título explícito. A revisão aproxima os serviços de situações do comprador, coloca Serviços antes de Sobre e demonstra proximidade com “Contato direto com quem desenvolve”. A análise, fontes e limites estão em `REFERENCIAS-E-MENSAGEM.md`. Os textos seguem como proposta, sem aprovação editorial ou publicação.
 
 ## Primeira tela — texto pronto
 
@@ -14,7 +18,7 @@ A estrutura implementada é: início, sobre, serviços, como trabalhamos, contat
 
 **Título:** Sites, sistemas e automações para sua empresa.
 
-**Apoio:** Do design de interfaces ao desenvolvimento, a GABiSOU ajuda a apresentar seus serviços, organizar informações e conectar as ferramentas usadas no dia a dia.
+**Apoio:** Apresentar seus serviços, organizar a operação ou automatizar tarefas: o que sua empresa precisa agora? A GABiSOU reúne design de interfaces e desenvolvimento para transformar essa necessidade em uma entrega definida com você.
 
 **Botão:** Conversar sobre meu projeto
 
@@ -24,11 +28,11 @@ A frase principal apresenta a oferta. Evitar prometer vendas, liderança de merc
 
 ## Sobre — texto pronto
 
-**Título:** Tecnologia com acompanhamento próximo.
+**Título:** Contato direto com quem desenvolve.
 
 A GABiSOU é conduzida por Gabriel de Souza, desenvolvedor sênior e tech lead em Jacarepaguá, no Rio de Janeiro.
 
-Criamos interfaces e desenvolvemos sites, aplicativos, sistemas e automações a partir do que sua empresa precisa resolver.
+Gabriel conduz o desenvolvimento e conversa diretamente com você sobre as decisões do projeto, desde a necessidade inicial até a revisão da entrega.
 
 O trabalho começa por entender a necessidade e definir uma entrega clara, com escopo, prazo e investimento combinados antes do desenvolvimento.
 
@@ -52,7 +56,7 @@ São propostas de posicionamento, não fatos históricos ou declarações já ap
 
 **Chamada:** Apresentar com clareza. Facilitar o uso.
 
-Sites e páginas para apresentar seus serviços e facilitar o contato. Design de interfaces para sites e aplicativos, com atenção à organização das informações e à facilidade de uso.
+Seu cliente precisa entender o que você oferece e encontrar como falar com você. Criamos sites e páginas com conteúdo e navegação claros, além de interfaces para sites e aplicativos.
 
 **Exemplos:** site institucional, página de serviço, interface de aplicativo.
 
@@ -60,15 +64,15 @@ Sites e páginas para apresentar seus serviços e facilitar o contato. Design de
 
 **Chamada:** Organizar a operação. Conectar informações.
 
-Quando os dados se espalham entre planilhas e ferramentas, acompanhar o trabalho fica difícil. Desenvolvemos soluções para reunir informações e apoiar os processos da empresa.
+Informações espalhadas e cadastros repetidos dificultam acompanhar o trabalho. Desenvolvemos sistemas e aplicativos e conectamos ferramentas para organizar os dados e os processos da sua empresa.
 
 **Exemplos:** acompanhamento de solicitações, sistemas internos, integração entre ferramentas.
 
 ### 3. Automações e aplicações de IA
 
-**Chamada:** Automatizar tarefas. Aplicar IA com propósito.
+**Chamada:** Diminuir tarefas manuais. Automatizar com critério.
 
-Copiar dados, preparar documentos e consultar informações são exemplos de tarefas que podem receber apoio de automação. Avaliamos a viabilidade e onde a IA é útil, com critérios de revisão.
+Copiar dados de uma ferramenta para outra ou preparar documentos toma tempo. Avaliamos o que pode ser automatizado e onde a IA é útil, com uma tarefa definida e critérios de revisão.
 
 **Exemplos:** fluxos entre sistemas, preparação de documentos, consulta a informações.
 
@@ -86,7 +90,7 @@ O modelo acima fica apenas neste documento interno. Nenhum placeholder de projet
 
 **Título:** O que você precisa resolver agora?
 
-Conte o que sua empresa faz e o que gostaria de criar ou melhorar. Você não precisa chegar com uma especificação técnica pronta.
+Conte o que você quer criar ou o que está dificultando a rotina da sua empresa. Você não precisa chegar com uma especificação técnica pronta.
 
 **Botão:** Conversar sobre meu projeto
 

@@ -1,4 +1,27 @@
-# Verificação — versão 2
+# Verificação — versão 3
+
+27/10/2026, Brasília. Revisão de mensagem orientada pelas referências; sem publicação.
+
+## Executado na V3
+
+- `check.py`, `prepare_release.py --origin https://gabisou.com --output build` e `check.py build --public`: aprovados. 17 links, 11 IDs, dois logotipos com alt e dimensões, recursos existentes, e-mail esperado, prévia sem indexação e release indexável. Geração de release não publica.
+- Primeira tela e serviços inspecionados visualmente no desktop; primeira tela e serviços inspecionados em iframe de 320 px.
+- Reflow nos iframes de 320, 390, 768 e 1024 px: áreas úteis de 305, 375, 753 e 1009 px; `scrollWidth` igual a `clientWidth` em todas. Nenhuma rolagem horizontal indevida. Não são dispositivos físicos.
+- Ordem dos títulos confirmada nos quatro frames: serviços → sobre → processo → contato. Menu e rodapé acompanham a ordem.
+- Teclado: primeiro Tab alcança “Pular para o conteúdo”, depois logo e Serviços; foco sólido visível. Enter em Serviços levou a `#solucoes`. Âncora Serviços também acionada no frame de menor largura.
+- Destinos dos links e endereço mailto preservados e verificados estaticamente; nenhum e-mail enviado. Recebimento continua não testado.
+- CSS e ativos não alterados nesta revisão. Os cálculos de contraste da V2 abaixo continuam aplicáveis; não houve nova auditoria completa de contraste.
+- Release: seis arquivos, 81.503 bytes sem compressão; 57.264 bytes em estimativa gzip. Não é medição de rede, Lighthouse ou dados reais de uso.
+- HTML de prévia portátil gerado com CSS, favicon e logotipo incorporados. A página interna de QA não integra código sincronizado, release ou entrega.
+- Textos próprios e vinculados aos serviços confirmados. Sem cases, equipe permanente, números, clientes ou parcerias inventados. Evidências, limitações e próxima tarefa registradas em `CONTINUIDADE.md` e `REFERENCIAS-E-MENSAGEM.md`.
+
+## Limites atuais
+
+Sem teste de recebimento, auditoria integral WCAG 2.2, leitor de tela, aparelhos físicos, vários navegadores, Lighthouse ou métricas de campo. WhatsApp não foi incluído sem número confirmado. Hospedagem e aprovação editorial seguem pendentes. A comparação de concorrentes cobre conteúdo e navegação, não qualidade visual ou técnica completa.
+
+---
+
+## Histórico de verificação — versão 2
 
 27/10/2026, Brasília. Versão baseada no material da designer. Implementação revisada, sem publicação.
 

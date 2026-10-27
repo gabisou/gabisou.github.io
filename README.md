@@ -1,6 +1,6 @@
-# GABiSOU — versão comercial do site (V2)
+# GABiSOU — versão comercial do site (V3)
 
-Página em português para apresentar design de interfaces, sites, sistemas, aplicativos, integrações, automações e aplicações de IA. A versão 2 incorpora a direção visual dos cinco wireframes fornecidos pela designer que apoia Gabriel. HTML/CSS sem JavaScript de execução, dependências de produção, formulário ou rastreadores. Logotipo original recuperado de `https://gabisou.com/logo.png` em 27/10/2026.
+Página em português para apresentar design de interfaces, sites, sistemas, aplicativos, integrações, automações e aplicações de IA. A versão 3 preserva a direção visual dos cinco wireframes fornecidos pela designer e refina a mensagem após analisar seis referências indicadas por Gabriel. HTML/CSS sem JavaScript de execução, dependências de produção, formulário ou rastreadores. Logotipo original recuperado de `https://gabisou.com/logo.png` em 27/10/2026.
 
 ## Estado
 
@@ -33,6 +33,7 @@ Antes de implantar: aprovação editorial, confirmação da hospedagem atual e d
 - Conteúdo e destinos de contato: `dist/index.html`.
 - Cores, espaçamento e responsividade: `dist/styles.css`.
 - Identidade original: `dist/assets/logo.png`.
+- Referências e direção de mensagem: `docs/REFERENCIAS-E-MENSAGEM.md`.
 - Textos e orientação para design: `docs/CONTEUDO-PARA-DESIGN.md`.
 - Contexto, fontes e próxima tarefa: `docs/CONTINUIDADE.md`.
 - Resultados e limites dos testes: `docs/VERIFICACAO.md`.
