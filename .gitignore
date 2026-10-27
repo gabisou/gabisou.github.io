@@ -134,3 +134,12 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Static commercial site source and local generated output
+!/dist/
+!/dist/**
+/dist/__qa.html
+/build/
+/artifacts/
+__pycache__/
+.DS_Store
