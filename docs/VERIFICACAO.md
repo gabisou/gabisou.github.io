@@ -19,7 +19,7 @@ Data: 27/10/2026, Brasília. Estado: implementação revisada; publicação não
 
 ## Limites e pendências
 
-- Uma interrupção temporária do ambiente ocorreu durante a última revisão visual. Finalizar contato e percurso completo por teclado antes de publicar.
+- A interrupção do ambiente foi resolvida. Revisão visual final do contato em desktop e celular concluída. Percurso por teclado conferiu os 12 links após o skip link na ordem esperada; todos os alvos medidos no desktop têm pelo menos 24 px em cada dimensão.
 - Sem teste com leitor de tela, dispositivos físicos, Safari/Firefox ou auditoria completa de acessibilidade.
 - Lighthouse e métricas de usuários reais não executados. Não há nota de desempenho.
 - LinkedIn usa o destino publicado no site atual e localizado na pesquisa. Conteúdo profissional não foi importado como case ou endosso.

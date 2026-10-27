@@ -106,3 +106,7 @@ Contato relevante significa uma conversa com necessidade identificável e possib
 Preservar os arquivos em uma branch de revisão, concluir os itens finais de QA e apresentar a versão revisável a Gabriel. Depois, resolver somente os bloqueios reais de lançamento: ajustes solicitados, hospedagem e autorização para a ação concreta de publicação. Não reabrir a triagem financeira nem condicionar a prospecção ao site.
 
 Trabalhos rotineiros seguem em profundidade econômica. Recomendar profundidade máxima apenas se uma dependência, falha persistente ou decisão conflitante justificar o esforço; não alegar alterar o modo da plataforma.
+
+## Fechamento desta sessão
+
+A revisão final de contato em desktop e celular foi concluída após a recuperação do ambiente. Percurso completo dos links por teclado e alvos desktop verificados. A versão está implementada e revisável, preservada na branch `codex/site-comercial-v1`; nenhuma publicação ou merge realizado. O relatório `VERIFICACAO.md` contém os testes e seus limites. Próxima tarefa: revisão editorial de Gabriel, confirmação da hospedagem de gabisou.com e preparação da ação concreta de publicação para autorização. WhatsApp opcional depende de número confirmado; o e-mail publicado no site atual já é o contato funcional por mailto, sem teste de entrega.
