@@ -1,6 +1,6 @@
 # GABiSOU — continuidade do site
 
-## Estado atual — integração do redesign, 27/10/2026 (Brasília)
+## Estado atual — integração do redesign, 28/10/2026 (Brasília)
 
 Esta seção substitui a próxima tarefa dos registros históricos abaixo. O redesign aprovado no Figma passa a ser a referência visual; a V3 não comprova sua reprodução.
 
@@ -8,16 +8,17 @@ Esta seção substitui a próxima tarefa dos registros históricos abaixo. O red
 - Branch desta etapa: `codex/figma-redesign`, derivada dessa base. Alterações iniciais limitadas a AGENTS.md e este registro.
 - Stack confirmada pela árvore e arquivos: HTML/CSS em dist; Python padrão para scripts; sem manifesto/lockfile, framework ou AGENTS.md anterior.
 - GitHub: leitura de árvore, arquivos, branches, PR e resultados de CI funcionou. Conta conectada possui pull/push; ferramentas de escrita, branches e PRs estão expostas. Ausência de statuses, check-runs e workflow runs no commit base não equivale a CI aprovado.
-- Figma: autenticação confirmada como gabisoudev, equipe no plano Starter, assento View. Ainda não houve leitura de frame: link/ID aprovado ausente. Cota restante desconhecida; evitar buscas e extrações redundantes.
+- Figma: arquivo GABiSOU-Site fornecido por Gabriel em 28/10; conta conectada reconfirmada como gabisoudev (gabisoudev@gmail.com), plano Starter, assento View. create_session e get_metadata do nó 0:1 retornaram falta de acesso de edição (INVALID_ARGUMENT). Nenhum frame, screenshot ou especificação foi lido. Não repetir chamadas antes de resolver acesso/conta; cota restante desconhecida.
 - Ambiente A (nuvem): terminal e edição local funcionam; Python, Git e Node presentes. Recuperados dez arquivos pelo conector, com hashes Git conferidos, em cópia de trabalho sem .git. Isto não comprova acesso Git por terminal nem equivale ao PC de Gabriel.
 - Verificação atual dessa base: `python scripts/check.py` aprovado (17 links, 11 IDs, 2 imagens); servidor Python respondeu HTTP 200 para página, CSS, logo e favicon. Playwright presente, mas lançamento falhou por falta do executável Chromium. Nenhuma comparação visual atual realizada.
-- B: implementação preferencial no navegador, usando a base acima; confirmar plugins, escrita, terminal e navegador na sessão efetivamente escolhida. As capacidades de A não são automaticamente as de B.
+- B (retorno trazido por Gabriel): ChatGPT Work, Bash/Python, leitura GitHub e snapshot do commit ec83e65ab602164ff67698add99d347e50ddf123 com 15/15 hashes conferidos; check.py aprovado. Chrome remoto não alcançou o servidor local: erro de bearer token e conexão recusada em outra execução. Git por terminal sem autenticação; navegador acessível não comprova renderização do projeto. Implementação permanece preferencialmente em B; comparação visual depende de ambiente funcional, com C como alternativa.
 - C: Windows, VS Code e Codex app/extensão informados por Gabriel, ainda sem inspeção local. Usar para conferência visual se B não tiver navegador funcional; não exigir CLI, Docker, WSL ou inferência local.
 - Domínio registrado anteriormente: https://gabisou.com/. Hospedagem/DNS e fluxo de publicação não confirmados. Repositório informa GitHub Pages desativado. Nenhuma publicação autorizada nesta etapa.
 
 ### Referências do design
 
-- Desktop aprovado (arquivo/frame/node-id): PENDENTE de Gabriel.
+- Arquivo do site informado por Gabriel: [GABiSOU-Site](https://www.figma.com/design/XYP2AAZXyTlLTNvY2OphZX/GABiSOU-Site?node-id=0-1). fileKey: XYP2AAZXyTlLTNvY2OphZX; nó do link: 0:1. A estrutura/tipo do nó não pôde ser confirmado devido ao bloqueio de acesso.
+- Frame desktop de cabeçalho/abertura: PENDENTE de identificação após liberação do acesso. Não pedir novamente o link geral já recebido.
 - Mobile aprovado: PENDENTE; existência ainda não confirmada.
 - Tipografia, cores, espaçamentos, componentes, estados e assets do redesign: PENDENTES da primeira leitura.
 - Não reutilizar cores, fontes ou ilustrações da V3 como se fossem decisões do redesign.
@@ -25,7 +26,7 @@ Esta seção substitui a próxima tarefa dos registros históricos abaixo. O red
 
 ### Próxima tarefa
 
-Obter o link com node-id; realizar uma leitura real pequena; definir navegador de validação de B ou C; então implementar apenas cabeçalho/abertura desktop e mobile. Enquanto isso, C pode inspecionar seu ambiente sem editar o site. No cliente Codex, informar instruções carregadas antes de ler explicitamente AGENTS.md para distinguir carregamento automático de leitura manual.
+Gabriel deve verificar em Compartilhar qual acesso a conta gabisoudev@gmail.com possui ao arquivo, ou informar se o acesso correto pertence a outra conta para autenticação oficial. A integração já está presente; instalar plugin gerador de código dentro do Figma não resolve a permissão observada. Não contratar plano/assento. Se o acesso exigir custo, usar exportação mínima de captura do cabeçalho/abertura, dimensões, tipografia/cores e assets autorizados. Após resolver acesso, realizar uma leitura pequena real e registrar os frames; então B implementa somente cabeçalho/abertura. C pode comprovar visualização da mesma base no navegador local sem novo inventário amplo. Preparação continua parcial: repositório validado, design não lido e comparação visual não estabelecida.
 
 Fontes consultadas: [Figma: limites](https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/), [Figma: remoto](https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/), [OpenAI: AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md), [OpenAI: MCP](https://learn.chatgpt.com/docs/extend/mcp?surface=cli).
 
