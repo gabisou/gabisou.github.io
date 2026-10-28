@@ -13,16 +13,22 @@
   <title>GABiSOU — Sites, sistemas e automações</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
+  <script src="header.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
   <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#inicio" aria-label="GABiSOU — início"><img src="assets/logo.png" alt="GABiSOU" width="1920" height="600"></a>
-      <nav aria-label="Navegação principal">
-        <a href="#solucoes">Serviços</a>
-        <a href="#sobre">Sobre</a>
-        <a class="header-contact" href="#contato">Contato <span aria-hidden="true">↗</span></a>
+    <div class="header-inner">
+      <a class="header-brand" href="#inicio" aria-label="GABiSOU — início"><img src="assets/figma/gabisou-wordmark.png" alt="GABiSOU" width="260" height="77"></a>
+      <button class="header-menu" type="button" aria-expanded="false" aria-controls="header-navigation" hidden>Menu</button>
+      <nav class="header-navigation" id="header-navigation" aria-label="Navegação principal">
+        <ul class="header-links">
+          <li><a href="#sobre">QUEM SOMOS</a></li>
+          <li><a href="#solucoes">SERVIÇOS</a></li>
+          <li><a href="#como-trabalhamos">COMO TRABALHAMOS</a></li>
+          <li><span class="header-pending" aria-disabled="true">PROJETOS<small>Pendente na prévia</small></span></li>
+          <li><a class="header-contact" href="#contato">CONTATO</a></li>
+        </ul>
       </nav>
     </div>
   </header>

@@ -1,8 +1,10 @@
 # GABiSOU — continuidade do site
 
-## Estado atual — header atual aprovado, 28/10/2026 (Brasília)
+## Estado atual — header implementado; validação visual pendente, 28/10/2026 (Brasília)
 
-- Gabriel confirmou explicitamente o header atual 25:55 e Contato #C6D2CC, autorizando implementar apenas esta etapa. A referência atual e a captura são registradas antes do commit de implementação. Header continua separado do hero.
+- Gabriel confirmou explicitamente o header atual 25:55 e Contato #C6D2CC. Referências/captura foram persistidas em e7f90ff094e8ad80f134fd8c3c5fa6f924e270e1; a implementação segue em commit separado, sem alterar hero/rodapé.
+- Header implementado em HTML/CSS com Grid estrutural, navegação Flex, fonte local restrita ao componente e JS local com defer. Menu compacto expande no fluxo e tem fallback de links visíveis sem JS. Projetos permanece texto sem destino, identificado como “Pendente na prévia”; a seção real segue obrigatória no lançamento.
+- Breakpoint inicial de 95em deriva da estimativa de encaixe; precisa ser validado no navegador. A altura de referência é obtida por conteúdo/padding, com crescimento permitido. Não há comparação renderizada concluída nem aceite visual da implementação.
 - Componente atual: https://www.figma.com/design/XYP2AAZXyTlLTNvY2OphZX/GABiSOU-Site?node-id=25-55. Captura atual: docs/design/header-desktop-25-55-1920.png (1920 × 125). A captura anterior hero-desktop-1920.png está marcada como histórica para não validar o header antigo.
 - Logo atual 25:15 exportado e comparado ao arquivo local: bytes e pixels idênticos. Manter gabisou-wordmark.png existente.
 - Política de capacidade acrescentada por Gabriel: concentrar decisões difíceis/contratos no máximo ou maior capacidade; executar e ajustar blocos delimitados no econômico. Modelo/esforço reais dependem do cliente; nenhuma troca foi efetuada pela coordenação. O contrato do header deve ser reaproveitado; aprofundar só lacunas materiais.
@@ -21,14 +23,14 @@
 - B, segundo retorno de Gabriel: leitura GitHub e snapshot ec83e65 com 15/15 hashes conferidos; Python e check.py funcionaram. Git por terminal sem autenticação. Chrome remoto não alcançou localhost (bearer token/conexão recusada). Usar conector para persistência e encaminhar comparação visual a C se o impedimento permanecer.
 - Neste ambiente, Playwright está instalado, mas Chromium/Firefox/WebKit apontam para executáveis inexistentes; uma tentativa de chromium.launch comprovou ausência do binário. Nenhum browser encontrado na busca limitada; nada instalado. A renderização será encaminhada à C.
 - C: Windows, VS Code e Codex app/extensão informados; navegador local ainda não verificado. Sua tarefa será abrir o commit entregue e gerar evidências nas dimensões correspondentes, sem repetir inventário amplo.
-- Checks já executados na base: 17 links, 11 IDs, 2 imagens e HTTP 200 de página/CSS/assets. Nenhuma implementação do redesign ou comparação visual do código com o Figma ocorreu ainda.
+- Checks da implementação: python scripts/check.py aprovado (18 links, 12 IDs, 2 imagens); node --check dist/header.js aprovado. Casos direcionados do check aceitam JS local defer e rejeitam externo, inexistente, fuga de pasta e ausência de defer. HTTP 200 com bytes conferidos para HTML/CSS/JS/logo/fonte e logo legado. HTML fora do header/include preservado exatamente; estilos externos ao header preservados. Detalhes em VERIFICACAO.md.
 - Domínio histórico: https://gabisou.com/. Hospedagem, DNS e fluxo de publicação seguem pendentes. Nova consulta em 28/10/2026 confirmou GitHub Pages desativado e zero execuções de Actions na branch de redesign; isso não descarta hospedagem externa existente. Nenhum deploy do redesign foi feito pela coordenação. Sem merge, publicação ou gasto autorizado nesta etapa.
 
 ### Próxima tarefa
 
-Coordenação: concluir a implementação delimitada do header e checks, entregar commit revisável e handoff de validação à C. A aprovação da referência já foi dada; falta implementar e validar a renderização. Não avançar ao hero. Se outra executora já estiver trabalhando, preservar suas alterações e evitar edição concorrente.
+C: validar somente o commit de implementação entregue pela coordenação no Windows, seguindo o contrato e checklist em VERIFICACAO.md; entregar capturas/evidências. A coordenação revisa e Gabriel valida o resultado. Não avançar ao hero. Se forem necessárias correções, retornar achados com viewport/estado; uma executora altera os arquivos por vez.
 
-Arquitetura recomendada: página única estática, HTML semântico, CSS por componente com tokens, Grid estrutural e Flexbox local, JS nativo somente para comportamentos necessários e biblioteca local de assets. Sem instalação/migração nesta rodada. Os checks atuais exigem evolução direcionada quando houver JS local, imagens decorativas ou WhatsApp confirmado.
+Arquitetura recomendada: página única estática, HTML semântico, CSS por componente com tokens, Grid estrutural e Flexbox local, JS nativo somente para comportamentos necessários e biblioteca local de assets. Sem instalação/migração nesta rodada. O check já permite JS local existente dentro da pasta verificada, com defer; mantém a restrição de WhatsApp não confirmado. Outras evoluções só quando houver requisito real.
 
 Preparação do repositório e acesso ao design concluídos; ambiente de comparação visual ainda precisa ser comprovado. No cliente Codex, distinguir carregamento automático de AGENTS.md de leitura explícita.
 

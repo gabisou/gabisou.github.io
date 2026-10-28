@@ -34,7 +34,14 @@ for link in page.links:
     if link.startswith('mailto:'):assert urlsplit(link).path=='gabisoudev@gmail.com',link
 for asset in page.assets:assert (folder/asset).is_file(),asset
 for img in page.images:assert img.get('alt') and img.get('width') and img.get('height')
-assert not any(s.get('src') for s in page.scripts),'External script'
+for script in page.scripts:
+    if 'src' not in script:continue
+    src=script['src'] or ''
+    url=urlsplit(src)
+    assert src and not url.scheme and not url.netloc and not src.startswith('/'), 'Script must be local: '+src
+    target=(folder/unquote(url.path)).resolve()
+    assert target.is_relative_to(folder) and target.is_file(), 'Script missing or outside dist: '+src
+    assert 'defer' in script, 'Local script requires defer: '+src
 assert 'description' in page.meta
 assert 'wa.me' not in html, 'WhatsApp still requires a confirmed number'
 if a.public:

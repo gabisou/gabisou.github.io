@@ -1,10 +1,10 @@
 # Arquitetura e entregas por etapa — GABiSOU
 
-Registro de coordenação em 28/10/2026. Substitui o handoff anterior que reunia cabeçalho e abertura. Estado: Gabriel aprovou o header atual 25:55 e autorizou execução delimitada. A coordenação prepara a referência vigente e a implementação; comparação no navegador permanece pendente. A primeira etapa de implementação será somente o header. Gabriel confirmou botão Menu no mobile e seção Projetos obrigatória no lançamento. Diretriz de layout incorporada em seguida: Grid como primeira opção estrutural, Flexbox nos grupos adequados e adaptação dos componentes aos pais nos dois eixos.
+Registro de coordenação em 28/10/2026. Substitui o handoff anterior que reunia cabeçalho e abertura. Estado: Gabriel aprovou o header atual 25:55 e autorizou execução delimitada. Referência vigente persistida em e7f90ff; implementação do header concluída neste ambiente. Comparação no navegador e aceite visual permanecem pendentes. A primeira etapa de implementação será somente o header. Gabriel confirmou botão Menu no mobile e seção Projetos obrigatória no lançamento. Diretriz de layout incorporada em seguida: Grid como primeira opção estrutural, Flexbox nos grupos adequados e adaptação dos componentes aos pais nos dois eixos.
 
 ## Base verificada e objetivo
 
-Repositório `gabisou/gabisou.github.io`, branch `codex/figma-redesign`, commit de partida da atualização de referência `c5dd9ef0a9256d62f8f0887dcf05027b77189d52`. Código atual: HTML/CSS estático em dist; scripts Python de verificação/release. O redesign ainda não foi implementado. Figma acessível, header/hero extraídos, referências e assets versionados. Só existe a página desktop no arquivo inspecionado.
+Repositório `gabisou/gabisou.github.io`, branch `codex/figma-redesign`, commit de partida da atualização de referência `c5dd9ef0a9256d62f8f0887dcf05027b77189d52`. Código atual: HTML/CSS estático em dist; scripts Python de verificação/release. O header está implementado, com validação visual pendente; as demais seções continuam na base anterior. Figma acessível, header/hero extraídos, referências e assets versionados. Só existe a página desktop no arquivo inspecionado.
 
 Objetivo: explicar a oferta, demonstrar autoria real e facilitar contato. Figma aprovado orienta o visual; o código existente orienta a integração. Entrega por etapa significa uma parte integrada à prévia e verificada, não publicação automática de cada parte.
 
@@ -72,7 +72,7 @@ Na documentação oficial consultada em 28/10/2026, maior esforço pode aumentar
 - Manter IDs das seções existentes. Tratar links para seções futuras explicitamente na prévia; produção não pode conter âncoras quebradas ou cases fictícios.
 - Uma executora altera os arquivos de implementação por vez. Registrar commit de partida e saída; cada etapa deve ter diff delimitado e revisão própria. Correções continuam pertencendo à etapa atual.
 - A migração pode deixar a prévia temporariamente com header novo e conteúdo antigo. Não confundir essa prévia de transição com a entrega final.
-- O check atual exige alt não vazio em toda imagem e rejeita qualquer script src, até local. Evoluir essas regras na etapa em que houver uso legítimo: imagem decorativa com alt vazio, JS local existente e destino WhatsApp confirmado. Preservar a intenção dos checks e não apagar validações só para obter PASS.
+- Na etapa 1, o check passou a aceitar JS local existente dentro da pasta verificada, com defer, mantendo a rejeição de destinos externos ou fora da pasta. Ainda exige alt não vazio nas imagens atuais e não aceita WhatsApp sem confirmação. Evoluir outras regras apenas quando houver requisito legítimo; não apagar validações só para obter PASS.
 
 ## Biblioteca de assets
 
@@ -158,7 +158,7 @@ Situação de publicação verificada em 28/10/2026: GitHub Pages desativado e z
 | Conteúdo e assets das outras seções | Ao preparar cada etapa | Coordenação; Gabriel/Carol para fatos/autorizações |
 | Hospedagem e publicação | Antes do lançamento | Gabriel + coordenação |
 
-Próxima ação: implementar somente o header aprovado. O ambiente desta coordenação possui Playwright, mas nenhum browser executável encontrado; preparar a tarefa delimitada de C a partir do commit entregue para validar no Windows, sem instalar infraestrutura. Usar a filosofia de layout e o contrato acima, sem reabrir inventário geral nem repetir tentativas de localhost sem nova evidência.
+Próxima ação: C validar no Windows o commit entregue do header. Este ambiente possui Playwright, mas não possui browser executável; o handoff usa ferramentas locais existentes, sem instalar infraestrutura. A coordenação e Gabriel revisam antes de avançar. Usar a filosofia de layout e o contrato acima, sem reabrir inventário geral nem repetir tentativas de localhost sem nova evidência.
 
 ## Referências técnicas consultadas
 - [W3C: navegação expansível](https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation/) — padrão de comportamento e semântica, não código pronto para copiar sem testes.
