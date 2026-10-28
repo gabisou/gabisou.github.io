@@ -4,7 +4,7 @@ Registro de coordenação em 28/10/2026. Substitui o handoff anterior que reunia
 
 ## Base verificada e objetivo
 
-Repositório `gabisou/gabisou.github.io`, branch `codex/figma-redesign`, commit de partida desta atualização documental `eecd599fcb2dfb742bdb87e4fffc548e658b22a5`. Código atual: HTML/CSS estático em dist; scripts Python de verificação/release. O redesign ainda não foi implementado. Figma acessível, header/hero extraídos, referências e assets versionados. Só existe a página desktop no arquivo inspecionado.
+Repositório `gabisou/gabisou.github.io`, branch `codex/figma-redesign`, commit de partida desta atualização documental `1d6779dce3945a214323ff8a65c3416e0b22a19c`. Código atual: HTML/CSS estático em dist; scripts Python de verificação/release. O redesign ainda não foi implementado. Figma acessível, header/hero extraídos, referências e assets versionados. Só existe a página desktop no arquivo inspecionado.
 
 Objetivo: explicar a oferta, demonstrar autoria real e facilitar contato. Figma aprovado orienta o visual; o código existente orienta a integração. Entrega por etapa significa uma parte integrada à prévia e verificada, não publicação automática de cada parte.
 
@@ -43,6 +43,23 @@ Contrato curto a incluir na tarefa de cada etapa:
 > Container responsável: …; largura: …; altura e sua origem: …; crescimento/encolhimento/proporção: …; limites: …; falta de espaço: …; evidências e pendências: ….
 
 Este contrato não exige uma nova biblioteca, container queries ou infraestrutura. Usar esses recursos apenas quando o comportamento da seção justificar.
+
+## Capacidade, custo e transição entre modos
+
+Diretriz de Gabriel: concentrar a concepção técnica e as decisões difíceis no modo de maior capacidade, produzindo contexto suficiente para implementações e ajustes pequenos no modo econômico. “Desenhar” aqui significa detalhar a solução de implementação do Figma aprovado, não redesenhar a interface.
+
+- **Máximo / maior capacidade:** fechar arquitetura, contratos de componentes, relações nos dois eixos, estados, acessibilidade, integração, limites e evidências esperadas. Resolver o máximo útil de decisões reutilizáveis e da etapa próxima, usando o que já foi extraído. Não extrair todos os frames, criar especificações especulativas das seções futuras ou reiniciar decisões já registradas.
+- **Saída obrigatória desse trabalho:** contrato executável com arquivos/alvos, marcação e estados previstos, comportamento responsivo, dependências, decisões explícitas versus inferidas, limites do escopo e verificações. Uma decisão nova que altere materialmente o visual, comportamento ou escopo vai para validação de Gabriel antes da implementação dependente. Decisões já aceitas não exigem novo aceite.
+- **Econômico / esforço suficiente:** implementar um bloco delimitado desse contrato, executar os checks e a comparação visual pertinentes, corrigir problemas localizados e atualizar o estado. Não omitir evidências para reduzir consumo. Não recriar arquitetura nem reler todo o repositório/Figma.
+- **Aplicação imediata ao header:** seu contrato já existe. A executora deve reaproveitá-lo; só recomendar uma rodada de maior capacidade se identificar lacuna material ou diagnóstico difícil. Havendo informação suficiente, começar a implementação delimitada no econômico. Isso evita pagar novamente pela mesma concepção técnica.
+- **Escalada:** após duas tentativas fundamentadas sem avanço sobre a mesma causa, interromper o ciclo, registrar hipótese, tentativas e resultados, e propor outro diagnóstico. Recomendar maior capacidade quando a dificuldade for de raciocínio; falta de acesso, quota ou navegador exige resolver a capacidade do ambiente ou encaminhar a C. Após solucionar, voltar ao econômico.
+- **Revisão:** checks determinísticos, capturas e correções simples usam capacidade suficiente. Julgamento visual difícil, conflito entre fidelidade e adaptação ou regressão de causa incerta pode justificar maior capacidade. Validação humana da etapa permanece obrigatória, independentemente do modo.
+- **Controle real:** “máximo” e “econômico” descrevem uma política de trabalho, não opções garantidas de todo cliente. Separar modelo, esforço e velocidade. Informar modo recomendado e motivo; informar o configurado apenas quando verificável. Se a troca depender de Gabriel, fornecer orientação curta baseada nas opções reais e permitir a troca antes do próximo bloco. Não afirmar que trocou modelo/esforço por ter recebido um prompt.
+- **Limites de custo:** usar assinaturas existentes, sem compra de créditos/serviços. Não apresentar estimativas como consumo medido nem ativar modos de velocidade pagos para supostamente economizar.
+
+Formato curto para sinalizar uma transição: “Próximo bloco: [entrega]. Modo recomendado: [máximo/econômico]. Motivo: [uma frase]. Configuração atual: [verificada ou não verificável]. Ação necessária de Gabriel: [somente se houver].”
+
+Na documentação oficial consultada em 28/10/2026, maior esforço pode aumentar tempo e tokens; Max atende tarefas difíceis e as opções variam por cliente/modelo/conta. A interface específica de B/C e o modo atualmente selecionado não foram inspecionados nesta rodada: não atribuir rótulos ou acesso à conta por suposição. A política acima é a aplicação das prioridades de Gabriel, não promessa de custo.
 
 ## Engenharia para migração incremental
 
@@ -120,7 +137,7 @@ Não extrair todos os frames agora. Preparar apenas a etapa próxima, reaproveit
 
 Cada unidade revisável (header, hero e demais seções da sequência) segue este ciclo:
 
-1. B implementa somente o escopo atribuído, executa os checks pertinentes e prepara código/preview identificado pelo commit.
+1. A coordenação e B reaproveitam o contrato da etapa; maior capacidade fecha apenas decisões/lacunas que a exijam. Se surgir mudança material, Gabriel valida antes da implementação dependente. B então implementa somente o escopo atribuído no econômico/esforço suficiente, executa os checks pertinentes e prepara código/preview identificado pelo commit.
 2. A renderização é comparada ao Figma e verificada nos estados e tamanhos do contrato. B faz isso se tiver navegador funcional; se o impedimento conhecido persistir, C recebe uma tarefa de validação do mesmo commit no Windows. C não implementa a próxima seção.
 3. A coordenação confere evidências, escopo e limitações; Gabriel recebe a prévia/capturas para validar o resultado visual. Logo, links, contato e menu aberto/fechado fazem parte da revisão do header.
 4. Havendo problemas, corrigir e rever a mesma etapa. Depois da revisão técnica/visual e do aceite de Gabriel, a coordenação prepara a próxima tarefa. B não avança automaticamente ao hero.
@@ -149,3 +166,4 @@ Próxima ação: Gabriel encaminhar o handoff da etapa 1 à executora B. A coord
 - [MDN: grid-template-columns](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns) — dimensionamento de trilhas, mínimos e frações; consultado em 28/10/2026.
 - [MDN: height](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/height) — referência das alturas percentuais; consultado em 28/10/2026.
 - [W3C: reflow](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html) — reorganização com ampliação e largura equivalente de 320 CSS px; consultado em 28/10/2026.
+- [OpenAI: modelos e esforço de raciocínio](https://learn.chatgpt.com/docs/models) — diferenças entre modelo/esforço, uso de Max e disponibilidade variável; consultado em 28/10/2026. Não comprova o seletor disponível a B/C.

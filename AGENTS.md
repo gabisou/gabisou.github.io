@@ -33,6 +33,13 @@
 - Validar larguras e alturas distintas, redimensionamento contínuo, conteúdo real/textos longos, ampliação de texto, zoom e teclado. Não ocultar conteúdo essencial nem encolher controles/texto indefinidamente para evitar overflow. Informar verificações pendentes.
 - Em dúvida sobre sintaxe, suporte ou comportamento, consultar documentação oficial atual e citar a fonte consultada. Não impor uso de todas as funções CSS ou uma biblioteca nova.
 
+## Capacidade e custo
+- Seguir “Capacidade, custo e transição entre modos” em `docs/ARQUITETURA-E-ETAPAS.md`: maior capacidade/máximo para fechar decisões difíceis e contratos executáveis; econômico/esforço suficiente para implementações pequenas, checks e ajustes.
+- Reaproveitar decisões e contexto já preparados. O contrato do header já existe: não refazer planejamento em máximo sem lacuna material. Maior capacidade não autoriza redesenhar o Figma nem planejar detalhadamente todas as seções antecipadamente.
+- Recomendar modo e motivo por bloco; informar modelo/esforço configurado só quando verificável. Não afirmar troca automática por prompt. Se depender de Gabriel, orientar a troca apenas entre opções reais antes do bloco seguinte.
+- Após duas tentativas fundamentadas sem avanço sobre a mesma causa, mudar diagnóstico; usar maior capacidade quando apropriado e voltar ao econômico após resolver. Não confundir falta de ferramentas/acesso com falta de raciocínio.
+- Validar com Gabriel mudanças materiais antes de implementá-las e cada etapa renderizada antes de avançar. Não pedir novamente decisões já aceitas. Preservar a verificação visual em qualquer modo.
+
 ## Conclusão e evidências
 - Executar checks pertinentes; comparar a renderização com o frame Figma nas mesmas dimensões e conferir a adaptação nos dois eixos conforme a filosofia de layout.
 - Conferir assets/fontes, links/menu/CTA, teclado/foco/rótulos, console e ausência de transbordamento horizontal.

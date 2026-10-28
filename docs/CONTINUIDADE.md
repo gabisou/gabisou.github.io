@@ -3,6 +3,7 @@
 ## Estado atual — handoff do header preparado, 28/10/2026 (Brasília)
 
 - Organização registrada; handoff da etapa 1 preparado para Gabriel encaminhar à executora B. O envio e o início da execução ainda não foram comprovados. Header é uma etapa própria, anterior ao hero; o handoff antigo que reunia ambos foi substituído.
+- Política de capacidade acrescentada por Gabriel: concentrar decisões difíceis/contratos no máximo ou maior capacidade; executar e ajustar blocos delimitados no econômico. Modelo/esforço reais dependem do cliente; nenhuma troca foi efetuada pela coordenação. O contrato do header deve ser reaproveitado; aprofundar só lacunas materiais.
 - Pausa entre etapas: B entrega código/evidências; coordenação revisa; Gabriel valida visualmente antes de avançar. Se B continuar sem navegador funcional, C valida o mesmo commit no Windows. Não fechar etapa sem comparação ao Figma nem iniciar a próxima automaticamente.
 - [ARQUITETURA-E-ETAPAS.md](ARQUITETURA-E-ETAPAS.md) registra recomendações, sequência, contrato preliminar do header, critérios de conclusão e decisões abertas. A V3 serve de base técnica, não de referência visual.
 - Repositório: `gabisou/gabisou.github.io`; branch de trabalho `codex/figma-redesign`. O pacote de design parte do commit `178b83323eb8b9b49fc6fe2b7c98cb2ee989c5ae`. Base de implementação anterior: `857c326be11e4c335c4c508f8b4ee49995f590af` / PR #1 em rascunho.
@@ -22,7 +23,7 @@
 
 ### Próxima tarefa
 
-Gabriel: encaminhar à B a tarefa exclusiva da etapa 1 preparada na conversa. B deve seguir ARQUITETURA-E-ETAPAS.md, incluindo o contrato de layout, verificações de largura/altura/zoom/conteúdo e parada para revisão antes do hero. Coordenação: conferir o retorno; se necessário, encaminhar a C somente a validação do commit entregue. As escolhas de botão Menu no mobile e Projetos obrigatório já foram dadas por Gabriel; não perguntar novamente. Assets e fontes já estão no repositório. Não implementar hero junto. A conferência visual deverá ter um caminho comprovado antes de encerrar a primeira etapa.
+Gabriel: encaminhar à B a tarefa exclusiva da etapa 1 com a correção de política de capacidade. Se o prompt anterior já foi enviado, encaminhar a correção na mesma conversa, preservando trabalho existente. B deve seguir ARQUITETURA-E-ETAPAS.md, incluindo o contrato de layout, a política de capacidade/custo, verificações de largura/altura/zoom/conteúdo e parada para revisão antes do hero. Mudanças novas de impacto material exigem validação antes da implementação dependente; não reabrir escolhas já aceitas. Coordenação: conferir o retorno; se necessário, encaminhar a C somente a validação do commit entregue. As escolhas de botão Menu no mobile e Projetos obrigatório já foram dadas por Gabriel; não perguntar novamente. Assets e fontes já estão no repositório. Não implementar hero junto. A conferência visual deverá ter um caminho comprovado antes de encerrar a primeira etapa.
 
 Arquitetura recomendada: página única estática, HTML semântico, CSS por componente com tokens, Grid estrutural e Flexbox local, JS nativo somente para comportamentos necessários e biblioteca local de assets. Sem instalação/migração nesta rodada. Os checks atuais exigem evolução direcionada quando houver JS local, imagens decorativas ou WhatsApp confirmado.
 
