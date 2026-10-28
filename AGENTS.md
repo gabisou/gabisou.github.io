@@ -38,3 +38,4 @@
 - Conferir assets/fontes, links/menu/CTA, teclado/foco/rótulos, console e ausência de transbordamento horizontal.
 - Captura da própria versão anterior serve para regressão, não para comprovar fidelidade ao Figma.
 - Devolver branch/commit ou patch, comandos e resultados, capturas/preview, limitações e próximo passo. Não declarar pronto/testado sem a evidência correspondente.
+- Ao entregar a etapa, parar para revisão da coordenação e validação visual de Gabriel. Corrigir a mesma etapa quando necessário; não iniciar a próxima seção por conta própria. Sem renderização/comparação comprovada, registrar “implementado; validação visual pendente” e preparar o handoff de verificação. Preview de revisão não equivale a deploy de produção.

@@ -1,10 +1,10 @@
 # Arquitetura e entregas por etapa — GABiSOU
 
-Registro de coordenação em 28/10/2026. Substitui o handoff anterior que reunia cabeçalho e abertura. Estado: organização; nenhuma tarefa nova foi enviada às executoras. A primeira etapa de implementação será somente o header. Gabriel confirmou botão Menu no mobile e seção Projetos obrigatória no lançamento. Diretriz de layout incorporada em seguida: Grid como primeira opção estrutural, Flexbox nos grupos adequados e adaptação dos componentes aos pais nos dois eixos.
+Registro de coordenação em 28/10/2026. Substitui o handoff anterior que reunia cabeçalho e abertura. Estado: tarefa da etapa 1 preparada para Gabriel encaminhar à executora B; início da execução ainda não comprovado. A primeira etapa de implementação será somente o header. Gabriel confirmou botão Menu no mobile e seção Projetos obrigatória no lançamento. Diretriz de layout incorporada em seguida: Grid como primeira opção estrutural, Flexbox nos grupos adequados e adaptação dos componentes aos pais nos dois eixos.
 
 ## Base verificada e objetivo
 
-Repositório `gabisou/gabisou.github.io`, branch `codex/figma-redesign`, commit de partida desta atualização documental `8b288b2fdb390465e086daec4daf989d24f5a29e`. Código atual: HTML/CSS estático em dist; scripts Python de verificação/release. O redesign ainda não foi implementado. Figma acessível, header/hero extraídos, referências e assets versionados. Só existe a página desktop no arquivo inspecionado.
+Repositório `gabisou/gabisou.github.io`, branch `codex/figma-redesign`, commit de partida desta atualização documental `eecd599fcb2dfb742bdb87e4fffc548e658b22a5`. Código atual: HTML/CSS estático em dist; scripts Python de verificação/release. O redesign ainda não foi implementado. Figma acessível, header/hero extraídos, referências e assets versionados. Só existe a página desktop no arquivo inspecionado.
 
 Objetivo: explicar a oferta, demonstrar autoria real e facilitar contato. Figma aprovado orienta o visual; o código existente orienta a integração. Entrega por etapa significa uma parte integrada à prévia e verificada, não publicação automática de cada parte.
 
@@ -116,6 +116,19 @@ Não extrair todos os frames agora. Preparar apenas a etapa próxima, reaproveit
 
 “Implementado” e “verificado visualmente” são estados distintos. Só a segunda condição permite encerrar a etapa. Resolver uma vez o caminho de visualização para repetir esse ciclo nas próximas entregas.
 
+## Pausa e revisão entre etapas
+
+Cada unidade revisável (header, hero e demais seções da sequência) segue este ciclo:
+
+1. B implementa somente o escopo atribuído, executa os checks pertinentes e prepara código/preview identificado pelo commit.
+2. A renderização é comparada ao Figma e verificada nos estados e tamanhos do contrato. B faz isso se tiver navegador funcional; se o impedimento conhecido persistir, C recebe uma tarefa de validação do mesmo commit no Windows. C não implementa a próxima seção.
+3. A coordenação confere evidências, escopo e limitações; Gabriel recebe a prévia/capturas para validar o resultado visual. Logo, links, contato e menu aberto/fechado fazem parte da revisão do header.
+4. Havendo problemas, corrigir e rever a mesma etapa. Depois da revisão técnica/visual e do aceite de Gabriel, a coordenação prepara a próxima tarefa. B não avança automaticamente ao hero.
+
+Se faltar renderização, a entrega permanece “implementada; validação visual pendente”. Não fechar a etapa só com HTTP 200/check estático. Não é necessário deploy público para revisão local; o caminho de visualização deve ser comprovado antes de encerrar a primeira etapa.
+
+Situação de publicação verificada em 28/10/2026: GitHub Pages desativado e zero execuções de Actions na branch de redesign. Nenhum deploy do redesign foi realizado nesta coordenação. Hospedagem/fluxo do domínio histórico ainda não identificados; esses sinais não comprovam ausência de uma hospedagem externa. Nenhum serviço novo será configurado nesta tarefa.
+
 ## Decisões abertas e momento de resolução
 
 | Decisão | Quando importa | Responsável |
@@ -127,7 +140,7 @@ Não extrair todos os frames agora. Preparar apenas a etapa próxima, reaproveit
 | Conteúdo e assets das outras seções | Ao preparar cada etapa | Coordenação; Gabriel/Carol para fatos/autorizações |
 | Hospedagem e publicação | Antes do lançamento | Gabriel + coordenação |
 
-Próxima ação da coordenação: usar a filosofia de layout, o contrato do header e as escolhas registradas para preparar, quando retomarmos a execução, uma tarefa exclusiva da etapa 1. Confirmar o caminho de conferência visual sem reabrir inventário geral. Nenhum prompt novo de execução integra esta rodada.
+Próxima ação: Gabriel encaminhar o handoff da etapa 1 à executora B. A coordenação recebe o retorno para revisar o header; se faltar renderização, prepara a tarefa delimitada de C a partir do commit entregue. Usar a filosofia de layout e o contrato acima, sem reabrir inventário geral nem repetir tentativas de localhost sem nova evidência.
 
 ## Referências técnicas consultadas
 - [W3C: navegação expansível](https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation/) — padrão de comportamento e semântica, não código pronto para copiar sem testes.

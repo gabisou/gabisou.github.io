@@ -1,12 +1,13 @@
 # GABiSOU — continuidade do site
 
-## Estado atual — organização das entregas, 28/10/2026 (Brasília)
+## Estado atual — handoff do header preparado, 28/10/2026 (Brasília)
 
-- Orientação atual de Gabriel: organizar arquitetura, engenharia, assets e entregas antes de atribuir novas tarefas a outras LLMs. Header será uma etapa própria, anterior ao hero. O handoff anterior que reunia ambos foi substituído; nenhuma tarefa nova foi delegada nesta rodada.
+- Organização registrada; handoff da etapa 1 preparado para Gabriel encaminhar à executora B. O envio e o início da execução ainda não foram comprovados. Header é uma etapa própria, anterior ao hero; o handoff antigo que reunia ambos foi substituído.
+- Pausa entre etapas: B entrega código/evidências; coordenação revisa; Gabriel valida visualmente antes de avançar. Se B continuar sem navegador funcional, C valida o mesmo commit no Windows. Não fechar etapa sem comparação ao Figma nem iniciar a próxima automaticamente.
 - [ARQUITETURA-E-ETAPAS.md](ARQUITETURA-E-ETAPAS.md) registra recomendações, sequência, contrato preliminar do header, critérios de conclusão e decisões abertas. A V3 serve de base técnica, não de referência visual.
 - Repositório: `gabisou/gabisou.github.io`; branch de trabalho `codex/figma-redesign`. O pacote de design parte do commit `178b83323eb8b9b49fc6fe2b7c98cb2ee989c5ae`. Base de implementação anterior: `857c326be11e4c335c4c508f8b4ee49995f590af` / PR #1 em rascunho.
 - HTML/CSS editáveis em `dist/`; Python padrão para scripts; sem framework ou gerenciador de pacotes. Usar AGENTS.md.
-- Diretriz de layout fornecida por Gabriel: Grid como primeira opção estrutural, Flexbox em grupos apropriados, componentes adaptados aos pais e comportamento explicado nos dois eixos. Incorporada em AGENTS.md e ARQUITETURA-E-ETAPAS.md; aplicada ao contrato do header e aos critérios de QA. Esta atualização parte de `8b288b2fdb390465e086daec4daf989d24f5a29e` e altera apenas documentação.
+- Diretriz de layout fornecida por Gabriel: Grid como primeira opção estrutural, Flexbox em grupos apropriados, componentes adaptados aos pais e comportamento explicado nos dois eixos. Incorporada em AGENTS.md e ARQUITETURA-E-ETAPAS.md; aplicada ao contrato do header e aos critérios de QA. Diretriz registrada no commit `eecd599fcb2dfb742bdb87e4fffc548e658b22a5`; a atualização atual também altera apenas documentação.
 - GitHub: leitura, criação de branch, commits e gravação já comprovadas nesta coordenação. Leitura de PR/CI comprovada; criação de PR ainda não exercitada nesta rodada. Não há CI executado no commit base.
 - A troca de conta Figma funcionou: `gabisougpt@gmail.com`, handle Gabriel, plano Starter, assento View. A conta anterior `gabisoudev@gmail.com` foi substituída nesta conexão. Acesso real ao arquivo e contexto/captura da abertura agora comprovados.
 - Arquivo: [GABiSOU-Site](https://www.figma.com/design/XYP2AAZXyTlLTNvY2OphZX/GABiSOU-Site?node-id=1-200); fileKey `XYP2AAZXyTlLTNvY2OphZX`; página única `0:1`, Website — Desktop; alvo `1:200`, 01-hero-desktop, 1920 × 1080.
@@ -17,11 +18,11 @@
 - B, segundo retorno de Gabriel: leitura GitHub e snapshot ec83e65 com 15/15 hashes conferidos; Python e check.py funcionaram. Git por terminal sem autenticação. Chrome remoto não alcançou localhost (bearer token/conexão recusada). Usar conector para persistência e encaminhar comparação visual a C se o impedimento permanecer.
 - C: Windows, VS Code e Codex app/extensão informados; navegador local ainda não verificado. Sua tarefa futura é delimitada: abrir a versão de B e gerar evidências no mesmo viewport do Figma, não repetir inventário amplo.
 - Checks já executados na base: 17 links, 11 IDs, 2 imagens e HTTP 200 de página/CSS/assets. Nenhuma implementação do redesign ou comparação visual do código com o Figma ocorreu ainda.
-- Domínio histórico: https://gabisou.com/. Hospedagem, DNS e fluxo de publicação seguem pendentes; GitHub Pages desativado no repositório. Sem merge, publicação ou gasto autorizado nesta etapa.
+- Domínio histórico: https://gabisou.com/. Hospedagem, DNS e fluxo de publicação seguem pendentes. Nova consulta em 28/10/2026 confirmou GitHub Pages desativado e zero execuções de Actions na branch de redesign; isso não descarta hospedagem externa existente. Nenhum deploy do redesign foi feito pela coordenação. Sem merge, publicação ou gasto autorizado nesta etapa.
 
 ### Próxima tarefa
 
-Coordenação: quando retomarmos a execução, preparar uma tarefa exclusiva da etapa 1 conforme ARQUITETURA-E-ETAPAS.md, incluindo o contrato de layout e suas verificações de largura, altura, zoom e conteúdo. As escolhas de botão Menu no mobile e Projetos obrigatório já foram dadas por Gabriel; não perguntar novamente. Assets e fontes já estão no repositório. Não implementar hero junto. A conferência visual deverá ter um caminho comprovado antes de encerrar a primeira etapa.
+Gabriel: encaminhar à B a tarefa exclusiva da etapa 1 preparada na conversa. B deve seguir ARQUITETURA-E-ETAPAS.md, incluindo o contrato de layout, verificações de largura/altura/zoom/conteúdo e parada para revisão antes do hero. Coordenação: conferir o retorno; se necessário, encaminhar a C somente a validação do commit entregue. As escolhas de botão Menu no mobile e Projetos obrigatório já foram dadas por Gabriel; não perguntar novamente. Assets e fontes já estão no repositório. Não implementar hero junto. A conferência visual deverá ter um caminho comprovado antes de encerrar a primeira etapa.
 
 Arquitetura recomendada: página única estática, HTML semântico, CSS por componente com tokens, Grid estrutural e Flexbox local, JS nativo somente para comportamentos necessários e biblioteca local de assets. Sem instalação/migração nesta rodada. Os checks atuais exigem evolução direcionada quando houver JS local, imagens decorativas ou WhatsApp confirmado.
 
