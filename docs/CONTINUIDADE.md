@@ -1,5 +1,38 @@
 # GABiSOU — continuidade do site
 
+## Estado atual — integração do redesign, 27/10/2026 (Brasília)
+
+Esta seção substitui a próxima tarefa dos registros históricos abaixo. O redesign aprovado no Figma passa a ser a referência visual; a V3 não comprova sua reprodução.
+
+- Base verificada: `codex/site-comercial-v1`, commit `857c326be11e4c335c4c508f8b4ee49995f590af`; PR #1 aberto em rascunho. `main` em `12a9196889ef93bf3597765daa360a286bb5e761` contém somente README e gitignore.
+- Branch desta etapa: `codex/figma-redesign`, derivada dessa base. Alterações iniciais limitadas a AGENTS.md e este registro.
+- Stack confirmada pela árvore e arquivos: HTML/CSS em dist; Python padrão para scripts; sem manifesto/lockfile, framework ou AGENTS.md anterior.
+- GitHub: leitura de árvore, arquivos, branches, PR e resultados de CI funcionou. Conta conectada possui pull/push; ferramentas de escrita, branches e PRs estão expostas. Ausência de statuses, check-runs e workflow runs no commit base não equivale a CI aprovado.
+- Figma: autenticação confirmada como gabisoudev, equipe no plano Starter, assento View. Ainda não houve leitura de frame: link/ID aprovado ausente. Cota restante desconhecida; evitar buscas e extrações redundantes.
+- Ambiente A (nuvem): terminal e edição local funcionam; Python, Git e Node presentes. Recuperados dez arquivos pelo conector, com hashes Git conferidos, em cópia de trabalho sem .git. Isto não comprova acesso Git por terminal nem equivale ao PC de Gabriel.
+- Verificação atual dessa base: `python scripts/check.py` aprovado (17 links, 11 IDs, 2 imagens); servidor Python respondeu HTTP 200 para página, CSS, logo e favicon. Playwright presente, mas lançamento falhou por falta do executável Chromium. Nenhuma comparação visual atual realizada.
+- B: implementação preferencial no navegador, usando a base acima; confirmar plugins, escrita, terminal e navegador na sessão efetivamente escolhida. As capacidades de A não são automaticamente as de B.
+- C: Windows, VS Code e Codex app/extensão informados por Gabriel, ainda sem inspeção local. Usar para conferência visual se B não tiver navegador funcional; não exigir CLI, Docker, WSL ou inferência local.
+- Domínio registrado anteriormente: https://gabisou.com/. Hospedagem/DNS e fluxo de publicação não confirmados. Repositório informa GitHub Pages desativado. Nenhuma publicação autorizada nesta etapa.
+
+### Referências do design
+
+- Desktop aprovado (arquivo/frame/node-id): PENDENTE de Gabriel.
+- Mobile aprovado: PENDENTE; existência ainda não confirmada.
+- Tipografia, cores, espaçamentos, componentes, estados e assets do redesign: PENDENTES da primeira leitura.
+- Não reutilizar cores, fontes ou ilustrações da V3 como se fossem decisões do redesign.
+- Primeiro teste: criar sessão do arquivo e obter contexto + captura somente do cabeçalho/abertura aprovado, adaptando a HTML/CSS. Se houver quota/acesso bloqueado, registrar o erro e solicitar apenas captura nas dimensões do frame, especificações e assets dessa área.
+
+### Próxima tarefa
+
+Obter o link com node-id; realizar uma leitura real pequena; definir navegador de validação de B ou C; então implementar apenas cabeçalho/abertura desktop e mobile. Enquanto isso, C pode inspecionar seu ambiente sem editar o site. No cliente Codex, informar instruções carregadas antes de ler explicitamente AGENTS.md para distinguir carregamento automático de leitura manual.
+
+Fontes consultadas: [Figma: limites](https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/), [Figma: remoto](https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/), [OpenAI: AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md), [OpenAI: MCP](https://learn.chatgpt.com/docs/extend/mcp?surface=cli).
+
+---
+
+## Histórico anterior — V3
+
 Atualizado em 27/10/2026 (Brasília). Estado atual: V3 implementada e revisada; ainda não publicada.
 
 ## Objetivo e restrições
