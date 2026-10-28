@@ -2,7 +2,7 @@
 
 ## Objetivo e referências
 - Site institucional para explicar a oferta, transmitir confiança em quem executa e iniciar uma conversa comercial.
-- O redesign aprovado de Carol Faustino no Figma é a referência visual; a prévia V3 é somente contexto e base técnica. Os links aprovados ainda estão pendentes.
+- O redesign aprovado de Carol Faustino no Figma é a referência visual; a prévia V3 é somente contexto e base técnica. Arquivo, frame da primeira entrega e extração atual estão em `docs/DESIGN-HERO.md`.
 - Repositório e convenções existentes orientam a implementação. Leia o estado atual no início de `docs/CONTINUIDADE.md`; seus registros históricos não comprovam aprovação do redesign.
 - Não inventar clientes, resultados, depoimentos, experiência, contatos ou fotos; não expor urgência comercial.
 
