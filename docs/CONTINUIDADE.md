@@ -1,8 +1,10 @@
 # GABiSOU — continuidade do site
 
-## Estado atual — handoff do header preparado, 28/10/2026 (Brasília)
+## Estado atual — header atual aprovado, 28/10/2026 (Brasília)
 
-- Organização registrada; handoff da etapa 1 preparado para Gabriel encaminhar à executora B. O envio e o início da execução ainda não foram comprovados. Header é uma etapa própria, anterior ao hero; o handoff antigo que reunia ambos foi substituído.
+- Gabriel confirmou explicitamente o header atual 25:55 e Contato #C6D2CC, autorizando implementar apenas esta etapa. A referência atual e a captura são registradas antes do commit de implementação. Header continua separado do hero.
+- Componente atual: https://www.figma.com/design/XYP2AAZXyTlLTNvY2OphZX/GABiSOU-Site?node-id=25-55. Captura atual: docs/design/header-desktop-25-55-1920.png (1920 × 125). A captura anterior hero-desktop-1920.png está marcada como histórica para não validar o header antigo.
+- Logo atual 25:15 exportado e comparado ao arquivo local: bytes e pixels idênticos. Manter gabisou-wordmark.png existente.
 - Política de capacidade acrescentada por Gabriel: concentrar decisões difíceis/contratos no máximo ou maior capacidade; executar e ajustar blocos delimitados no econômico. Modelo/esforço reais dependem do cliente; nenhuma troca foi efetuada pela coordenação. O contrato do header deve ser reaproveitado; aprofundar só lacunas materiais.
 - Pausa entre etapas: B entrega código/evidências; coordenação revisa; Gabriel valida visualmente antes de avançar. Se B continuar sem navegador funcional, C valida o mesmo commit no Windows. Não fechar etapa sem comparação ao Figma nem iniciar a próxima automaticamente.
 - [ARQUITETURA-E-ETAPAS.md](ARQUITETURA-E-ETAPAS.md) registra recomendações, sequência, contrato preliminar do header, critérios de conclusão e decisões abertas. A V3 serve de base técnica, não de referência visual.
@@ -12,18 +14,19 @@
 - GitHub: leitura, criação de branch, commits e gravação já comprovadas nesta coordenação. Leitura de PR/CI comprovada; criação de PR ainda não exercitada nesta rodada. Não há CI executado no commit base.
 - A troca de conta Figma funcionou: `gabisougpt@gmail.com`, handle Gabriel, plano Starter, assento View. A conta anterior `gabisoudev@gmail.com` foi substituída nesta conexão. Acesso real ao arquivo e contexto/captura da abertura agora comprovados.
 - Arquivo: [GABiSOU-Site](https://www.figma.com/design/XYP2AAZXyTlLTNvY2OphZX/GABiSOU-Site?node-id=1-200); fileKey `XYP2AAZXyTlLTNvY2OphZX`; página única `0:1`, Website — Desktop; alvo `1:200`, 01-hero-desktop, 1920 × 1080.
-- [DESIGN-HERO.md](DESIGN-HERO.md) reúne contexto extraído, geometria, textos, assets, fonte e decisões. Captura em `docs/design/hero-desktop-1920.png`; logo/arte em `dist/assets/figma/`; Inter e licença em `dist/assets/fonts/`. Não repetir a extração do Figma enquanto o design não mudar.
+- [DESIGN-HERO.md](DESIGN-HERO.md) reúne referência atual do header e, em seção histórica, a extração anterior da abertura. Assets em dist/assets/figma/; Inter/licença em dist/assets/fonts/. Reaproveitar a extração atual; não reler todo o Figma.
 - Sem mobile no arquivo lido. Gabriel escolheu botão Menu no mobile: expansão dos links no fluxo, com alternativa sem JS. A forma visual será uma adaptação, não um frame aprovado pela designer. Hero em coluna continua como proposta técnica.
 - Arte decorativa estática exportada diretamente do Figma; manter HTML/CSS e evitar runtime React/WebGPU apenas para esse efeito sem animação/interação.
 - WhatsApp ainda sem número/link confirmado. Gabriel definiu Projetos como obrigatório no lançamento: manter a seção no plano e exigir conteúdo real autorizado antes de publicar. O Figma possui placeholders e não há seção correspondente na V3; identificar pendências na prévia, sem inventar destinos/cases.
 - B, segundo retorno de Gabriel: leitura GitHub e snapshot ec83e65 com 15/15 hashes conferidos; Python e check.py funcionaram. Git por terminal sem autenticação. Chrome remoto não alcançou localhost (bearer token/conexão recusada). Usar conector para persistência e encaminhar comparação visual a C se o impedimento permanecer.
-- C: Windows, VS Code e Codex app/extensão informados; navegador local ainda não verificado. Sua tarefa futura é delimitada: abrir a versão de B e gerar evidências no mesmo viewport do Figma, não repetir inventário amplo.
+- Neste ambiente, Playwright está instalado, mas Chromium/Firefox/WebKit apontam para executáveis inexistentes; uma tentativa de chromium.launch comprovou ausência do binário. Nenhum browser encontrado na busca limitada; nada instalado. A renderização será encaminhada à C.
+- C: Windows, VS Code e Codex app/extensão informados; navegador local ainda não verificado. Sua tarefa será abrir o commit entregue e gerar evidências nas dimensões correspondentes, sem repetir inventário amplo.
 - Checks já executados na base: 17 links, 11 IDs, 2 imagens e HTTP 200 de página/CSS/assets. Nenhuma implementação do redesign ou comparação visual do código com o Figma ocorreu ainda.
 - Domínio histórico: https://gabisou.com/. Hospedagem, DNS e fluxo de publicação seguem pendentes. Nova consulta em 28/10/2026 confirmou GitHub Pages desativado e zero execuções de Actions na branch de redesign; isso não descarta hospedagem externa existente. Nenhum deploy do redesign foi feito pela coordenação. Sem merge, publicação ou gasto autorizado nesta etapa.
 
 ### Próxima tarefa
 
-Gabriel: encaminhar à B a tarefa exclusiva da etapa 1 com a correção de política de capacidade. Se o prompt anterior já foi enviado, encaminhar a correção na mesma conversa, preservando trabalho existente. B deve seguir ARQUITETURA-E-ETAPAS.md, incluindo o contrato de layout, a política de capacidade/custo, verificações de largura/altura/zoom/conteúdo e parada para revisão antes do hero. Mudanças novas de impacto material exigem validação antes da implementação dependente; não reabrir escolhas já aceitas. Coordenação: conferir o retorno; se necessário, encaminhar a C somente a validação do commit entregue. As escolhas de botão Menu no mobile e Projetos obrigatório já foram dadas por Gabriel; não perguntar novamente. Assets e fontes já estão no repositório. Não implementar hero junto. A conferência visual deverá ter um caminho comprovado antes de encerrar a primeira etapa.
+Coordenação: concluir a implementação delimitada do header e checks, entregar commit revisável e handoff de validação à C. A aprovação da referência já foi dada; falta implementar e validar a renderização. Não avançar ao hero. Se outra executora já estiver trabalhando, preservar suas alterações e evitar edição concorrente.
 
 Arquitetura recomendada: página única estática, HTML semântico, CSS por componente com tokens, Grid estrutural e Flexbox local, JS nativo somente para comportamentos necessários e biblioteca local de assets. Sem instalação/migração nesta rodada. Os checks atuais exigem evolução direcionada quando houver JS local, imagens decorativas ou WhatsApp confirmado.
 

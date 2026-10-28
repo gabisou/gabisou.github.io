@@ -1,10 +1,10 @@
 # Arquitetura e entregas por etapa — GABiSOU
 
-Registro de coordenação em 28/10/2026. Substitui o handoff anterior que reunia cabeçalho e abertura. Estado: tarefa da etapa 1 preparada para Gabriel encaminhar à executora B; início da execução ainda não comprovado. A primeira etapa de implementação será somente o header. Gabriel confirmou botão Menu no mobile e seção Projetos obrigatória no lançamento. Diretriz de layout incorporada em seguida: Grid como primeira opção estrutural, Flexbox nos grupos adequados e adaptação dos componentes aos pais nos dois eixos.
+Registro de coordenação em 28/10/2026. Substitui o handoff anterior que reunia cabeçalho e abertura. Estado: Gabriel aprovou o header atual 25:55 e autorizou execução delimitada. A coordenação prepara a referência vigente e a implementação; comparação no navegador permanece pendente. A primeira etapa de implementação será somente o header. Gabriel confirmou botão Menu no mobile e seção Projetos obrigatória no lançamento. Diretriz de layout incorporada em seguida: Grid como primeira opção estrutural, Flexbox nos grupos adequados e adaptação dos componentes aos pais nos dois eixos.
 
 ## Base verificada e objetivo
 
-Repositório `gabisou/gabisou.github.io`, branch `codex/figma-redesign`, commit de partida desta atualização documental `1d6779dce3945a214323ff8a65c3416e0b22a19c`. Código atual: HTML/CSS estático em dist; scripts Python de verificação/release. O redesign ainda não foi implementado. Figma acessível, header/hero extraídos, referências e assets versionados. Só existe a página desktop no arquivo inspecionado.
+Repositório `gabisou/gabisou.github.io`, branch `codex/figma-redesign`, commit de partida da atualização de referência `c5dd9ef0a9256d62f8f0887dcf05027b77189d52`. Código atual: HTML/CSS estático em dist; scripts Python de verificação/release. O redesign ainda não foi implementado. Figma acessível, header/hero extraídos, referências e assets versionados. Só existe a página desktop no arquivo inspecionado.
 
 Objetivo: explicar a oferta, demonstrar autoria real e facilitar contato. Figma aprovado orienta o visual; o código existente orienta a integração. Entrega por etapa significa uma parte integrada à prévia e verificada, não publicação automática de cada parte.
 
@@ -80,11 +80,12 @@ Será um catálogo de arquivos locais e de sua procedência, não uma dependênc
 
 | Arquivo existente | Uso | Procedência/estado |
 | --- | --- | --- |
-| dist/assets/figma/gabisou-wordmark.png | Marca do header | Nó 1:210; PNG 260 × 77. Verificar nitidez nas dimensões usadas. |
+| dist/assets/figma/gabisou-wordmark.png | Marca do header | PNG 260 × 77; bytes/pixels idênticos à exportação atual do nó 25:15. Nitidez renderizada ainda depende do navegador. |
 | dist/assets/figma/hero-artwork.png | Arte decorativa da etapa 2 | Nó 3:25; PNG 935 × 907, efeito estático incorporado. |
 | dist/assets/fonts/InterVariable.woff2 | Tipografia | Inter oficial v4.1; fonte normal variável. Comparar métricas com Figma. |
 | dist/assets/fonts/Inter-LICENSE.txt | Licença da fonte | Manter junto à distribuição. |
-| docs/design/hero-desktop-1920.png | Referência de QA | Frame 1:200; não usar como imagem da página. |
+| docs/design/header-desktop-25-55-1920.png | Referência atual de QA do header | Componente 25:55, aprovado por Gabriel; 1920 × 125. |
+| docs/design/hero-desktop-1920.png | Referência histórica da extração anterior | Header desatualizado; não usar para aprovar etapa 1 nem como imagem da página. |
 | dist/assets/logo.png e favicon.svg | Assets anteriores | Preservar usos fora do escopo; revisar adoção/substituição na etapa pertinente. |
 
 Para cada asset futuro, registrar arquivo, seção, nó/origem, dimensões, licença ou autorização e estado (final/placeholder). Preferir SVG quando houver original vetorial aprovado; preservar o raster quando for o original adequado. Não converter/desenhar logos por aproximação. Novas categorias de pastas surgem conforme necessário. Sem URLs temporárias, fontes em CDN ou fotos inventadas. Otimização de imagens deve preservar o visual e ser verificada; não transformar tudo antecipadamente.
@@ -95,7 +96,7 @@ A ordem abaixo acompanha os frames existentes e separa o header. Uma pendência 
 
 | Etapa | Entrega delimitada | Referência Figma | Condição específica |
 | --- | --- | --- | --- |
-| 1 | Header: marca, navegação e contato | 3:4, dentro de 1:200 | Desktop, proposta mobile, links e foco. Não implementar hero junto. |
+| 1 | Header: marca, navegação e contato | 25:55, componente atual aprovado | Desktop, proposta mobile, links e foco. Não implementar hero junto. |
 | 2 | Hero: título, apoio, CTA e arte | 1:200, excluindo header já concluído | Destino do WhatsApp confirmado para funcionalidade final. |
 | 3 | Serviços | 1:417 | Definir se as setas abrem conteúdo; não inferir apenas pela forma do ícone. |
 | 4 | Projetos | 1:470 | Obrigatória no lançamento por escolha de Gabriel. Conteúdo real autorizado é requisito de publicação; placeholders só na prévia. |
@@ -110,8 +111,8 @@ Não extrair todos os frames agora. Preparar apenas a etapa próxima, reaproveit
 
 ## Contrato preliminar da etapa 1 — header
 
-- Entradas prontas: nó 3:4, referência visual desktop, wordmark, Inter, links/IDs das seções existentes.
-- Desktop de referência: 1920 px de largura e header observado com 125 px; fundo #F7F7F0, borda #282836, logo 260 × 77 e navegação Inter 22 px. Usar a geometria completa de DESIGN-HERO.md. Os 125 px são alvo de comparação nesse contexto, não altura fixa para todas as situações.
+- Entradas prontas: nó 25:55 aprovado por Gabriel, captura docs/design/header-desktop-25-55-1920.png, wordmark conferido byte a byte com 25:15, Inter e links/IDs existentes. A referência antiga 3:4/#D9D9D9 é histórica.
+- Desktop de referência: 1920 px de largura e header observado com 125 px; fundo #F7F7F0, borda #282836, logo 260 × 77, navegação Inter 22 px e Contato #C6D2CC. Padding horizontal 29 px, distância marca/navegação 185 px e intervalo entre itens 56 px. Usar a geometria completa de DESIGN-HERO.md. Os 125 px são alvo de comparação nesse contexto, não altura fixa para todas as situações.
 - Comportamento base: um header no fluxo da página, sem fixação ou animação de scroll não especificadas.
 - Contrato de layout proposto: header ocupa a largura da página; sua grade interna organiza marca e navegação/ações. Limites, margens e intervalos devem reproduzir os alinhamentos do frame, inclusive o espaço livre à direita; não esticar automaticamente a navegação até a borda. A altura acompanha conteúdo e espaçamentos, podendo crescer com quebra de texto, zoom ou menu aberto.
 - A marca cabe em sua célula preservando a proporção 260:77 e um limite coerente com a referência; textos e botões mantêm dimensões de uso. A lista de navegação pode usar Flexbox por ser linear. A transição para Menu ocorre quando os itens, com a fonte real, deixam de caber de forma utilizável; o breakpoint exato exige verificação.
@@ -157,7 +158,7 @@ Situação de publicação verificada em 28/10/2026: GitHub Pages desativado e z
 | Conteúdo e assets das outras seções | Ao preparar cada etapa | Coordenação; Gabriel/Carol para fatos/autorizações |
 | Hospedagem e publicação | Antes do lançamento | Gabriel + coordenação |
 
-Próxima ação: Gabriel encaminhar o handoff da etapa 1 à executora B. A coordenação recebe o retorno para revisar o header; se faltar renderização, prepara a tarefa delimitada de C a partir do commit entregue. Usar a filosofia de layout e o contrato acima, sem reabrir inventário geral nem repetir tentativas de localhost sem nova evidência.
+Próxima ação: implementar somente o header aprovado. O ambiente desta coordenação possui Playwright, mas nenhum browser executável encontrado; preparar a tarefa delimitada de C a partir do commit entregue para validar no Windows, sem instalar infraestrutura. Usar a filosofia de layout e o contrato acima, sem reabrir inventário geral nem repetir tentativas de localhost sem nova evidência.
 
 ## Referências técnicas consultadas
 - [W3C: navegação expansível](https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation/) — padrão de comportamento e semântica, não código pronto para copiar sem testes.
