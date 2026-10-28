@@ -6,6 +6,7 @@
 - [ARQUITETURA-E-ETAPAS.md](ARQUITETURA-E-ETAPAS.md) registra recomendações, sequência, contrato preliminar do header, critérios de conclusão e decisões abertas. A V3 serve de base técnica, não de referência visual.
 - Repositório: `gabisou/gabisou.github.io`; branch de trabalho `codex/figma-redesign`. O pacote de design parte do commit `178b83323eb8b9b49fc6fe2b7c98cb2ee989c5ae`. Base de implementação anterior: `857c326be11e4c335c4c508f8b4ee49995f590af` / PR #1 em rascunho.
 - HTML/CSS editáveis em `dist/`; Python padrão para scripts; sem framework ou gerenciador de pacotes. Usar AGENTS.md.
+- Diretriz de layout fornecida por Gabriel: Grid como primeira opção estrutural, Flexbox em grupos apropriados, componentes adaptados aos pais e comportamento explicado nos dois eixos. Incorporada em AGENTS.md e ARQUITETURA-E-ETAPAS.md; aplicada ao contrato do header e aos critérios de QA. Esta atualização parte de `8b288b2fdb390465e086daec4daf989d24f5a29e` e altera apenas documentação.
 - GitHub: leitura, criação de branch, commits e gravação já comprovadas nesta coordenação. Leitura de PR/CI comprovada; criação de PR ainda não exercitada nesta rodada. Não há CI executado no commit base.
 - A troca de conta Figma funcionou: `gabisougpt@gmail.com`, handle Gabriel, plano Starter, assento View. A conta anterior `gabisoudev@gmail.com` foi substituída nesta conexão. Acesso real ao arquivo e contexto/captura da abertura agora comprovados.
 - Arquivo: [GABiSOU-Site](https://www.figma.com/design/XYP2AAZXyTlLTNvY2OphZX/GABiSOU-Site?node-id=1-200); fileKey `XYP2AAZXyTlLTNvY2OphZX`; página única `0:1`, Website — Desktop; alvo `1:200`, 01-hero-desktop, 1920 × 1080.
@@ -20,9 +21,9 @@
 
 ### Próxima tarefa
 
-Coordenação: quando retomarmos a execução, preparar uma tarefa exclusiva da etapa 1 conforme ARQUITETURA-E-ETAPAS.md. As escolhas de botão Menu no mobile e Projetos obrigatório já foram dadas por Gabriel; não perguntar novamente. Assets e fontes já estão no repositório. Não implementar hero junto. A conferência visual deverá ter um caminho comprovado antes de encerrar a primeira etapa.
+Coordenação: quando retomarmos a execução, preparar uma tarefa exclusiva da etapa 1 conforme ARQUITETURA-E-ETAPAS.md, incluindo o contrato de layout e suas verificações de largura, altura, zoom e conteúdo. As escolhas de botão Menu no mobile e Projetos obrigatório já foram dadas por Gabriel; não perguntar novamente. Assets e fontes já estão no repositório. Não implementar hero junto. A conferência visual deverá ter um caminho comprovado antes de encerrar a primeira etapa.
 
-Arquitetura recomendada: página única estática, HTML semântico, CSS por componente com tokens, JS nativo somente para comportamentos necessários e biblioteca local de assets. Sem instalação/migração nesta rodada. Os checks atuais exigem evolução direcionada quando houver JS local, imagens decorativas ou WhatsApp confirmado.
+Arquitetura recomendada: página única estática, HTML semântico, CSS por componente com tokens, Grid estrutural e Flexbox local, JS nativo somente para comportamentos necessários e biblioteca local de assets. Sem instalação/migração nesta rodada. Os checks atuais exigem evolução direcionada quando houver JS local, imagens decorativas ou WhatsApp confirmado.
 
 Preparação do repositório e acesso ao design concluídos; ambiente de comparação visual ainda precisa ser comprovado. No cliente Codex, distinguir carregamento automático de AGENTS.md de leitura explícita.
 

@@ -13,7 +13,7 @@ Extração em 28/10/2026, pelo MCP oficial, sem alterar o arquivo. Esta extraç�
 - Outras seções apenas inventariadas, não extraídas para implementação: Serviços `1:417`, Projetos `1:470`, Processo `1:513`, Sobre `1:552`, FAQ `1:582`, Contato `1:623`, Rodapé `1:640`. Existem camadas explicitamente nomeadas como placeholders.
 
 ## Especificação explícita do desktop
-As coordenadas são relativas ao alvo 1920 × 1080. Traduzir a estrutura para layout responsivo; não escalar a página inteira.
+As coordenadas são relativas ao alvo 1920 × 1080. Traduzir a estrutura para layout responsivo; não escalar a página inteira. Seguir a filosofia de layout em ARQUITETURA-E-ETAPAS.md: Grid como primeira opção estrutural, Flexbox nos grupos adequados e adaptação aos pais. Dimensões do frame são referências de comparação, não alturas fixas para seções/header; permitir crescimento pelo conteúdo e preservar proporções dos assets.
 
 | Elemento | x, y | Dimensões e estilo |
 | --- | --- | --- |
@@ -69,5 +69,5 @@ A tipografia do Figma é Inter. O retorno usa line-height normal; as alturas aci
 ## Verificação por etapa
 - Check estático pertinente: `python scripts/check.py`.
 - Etapa 1: comparar somente a região do header no viewport 1920 × 1080 após carregamento da fonte, incluindo logo e navegação; preservar o hero existente. Etapa 2: comparar a abertura completa, incluindo a ilustração e sua integração com o header já verificado.
-- Conferir reflow, links/CTA conforme estado demonstrativo, teclado/foco, nomes acessíveis, console e requisições.
+- Conferir reflow nos dois eixos, redimensionamento contínuo, janela baixa/paisagem, textos longos e ampliação de texto/zoom, conforme o contrato da etapa. Verificar links/CTA conforme estado demonstrativo, teclado/foco, nomes acessíveis, console e requisições. Registrar o que ficou sem teste.
 - B não comprovou acesso do Chrome remoto ao seu servidor. Se isso permanecer, entregar código/preview identificado e encaminhar só a captura/verificação a C no Windows. Não repetir o diagnóstico de localhost sem nova evidência nem declarar fidelidade visual antecipadamente.

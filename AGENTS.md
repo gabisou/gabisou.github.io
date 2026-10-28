@@ -25,8 +25,16 @@
 - Sem compra, nova assinatura, merge, deploy ou alteração de DNS nesta etapa. Não enviar mensagens a terceiros.
 - Reaproveitar CONTINUIDADE.md e VERIFICACAO.md; manter registros curtos e vinculados ao commit verificado.
 
+## Filosofia de layout — diretriz de Gabriel
+- Aplicar ao propor, implementar e revisar: container → regiões → grupos/componentes → conteúdo. Grid é a primeira opção estrutural; Flexbox organiza grupos lineares quando apropriado. Os filhos se adaptam ao espaço organizado pelo pai.
+- Ler a diretriz completa em `docs/ARQUITETURA-E-ETAPAS.md`, seção “Filosofia de layout adotada”. Ela define largura e altura, limites, proporções, falta de espaço e evidências; não substitui o Figma aprovado.
+- Preferir relações, conteúdo e limites a dimensões rígidas de captura. Nesta página, altura acompanha conteúdo; não forçar seções a caber numa tela. Preservar proporção dos assets, legibilidade e áreas de interação.
+- Cada proposta/retorno deve explicar quem organiza cada região, como os dois eixos são determinados, o que cresce/encolhe e como o layout se reorganiza. Inspecionar padrões existentes antes de alterar.
+- Validar larguras e alturas distintas, redimensionamento contínuo, conteúdo real/textos longos, ampliação de texto, zoom e teclado. Não ocultar conteúdo essencial nem encolher controles/texto indefinidamente para evitar overflow. Informar verificações pendentes.
+- Em dúvida sobre sintaxe, suporte ou comportamento, consultar documentação oficial atual e citar a fonte consultada. Não impor uso de todas as funções CSS ou uma biblioteca nova.
+
 ## Conclusão e evidências
-- Executar checks pertinentes; comparar a renderização com o frame Figma nas mesmas dimensões e conferir mobile.
+- Executar checks pertinentes; comparar a renderização com o frame Figma nas mesmas dimensões e conferir a adaptação nos dois eixos conforme a filosofia de layout.
 - Conferir assets/fontes, links/menu/CTA, teclado/foco/rótulos, console e ausência de transbordamento horizontal.
 - Captura da própria versão anterior serve para regressão, não para comprovar fidelidade ao Figma.
 - Devolver branch/commit ou patch, comandos e resultados, capturas/preview, limitações e próximo passo. Não declarar pronto/testado sem a evidência correspondente.
