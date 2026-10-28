@@ -1,17 +1,18 @@
 # GABiSOU — continuidade do site
 
-## Estado atual — primeira parte do redesign, 28/10/2026 (Brasília)
+## Estado atual — organização das entregas, 28/10/2026 (Brasília)
 
-- Objetivo: primeira versão funcional fiel ao redesign de Carol Faustino; começar apenas por cabeçalho/abertura. A V3 serve de base técnica, não de referência visual.
+- Orientação atual de Gabriel: organizar arquitetura, engenharia, assets e entregas antes de atribuir novas tarefas a outras LLMs. Header será uma etapa própria, anterior ao hero. O handoff anterior que reunia ambos foi substituído; nenhuma tarefa nova foi delegada nesta rodada.
+- [ARQUITETURA-E-ETAPAS.md](ARQUITETURA-E-ETAPAS.md) registra recomendações, sequência, contrato preliminar do header, critérios de conclusão e decisões abertas. A V3 serve de base técnica, não de referência visual.
 - Repositório: `gabisou/gabisou.github.io`; branch de trabalho `codex/figma-redesign`. O pacote de design parte do commit `178b83323eb8b9b49fc6fe2b7c98cb2ee989c5ae`. Base de implementação anterior: `857c326be11e4c335c4c508f8b4ee49995f590af` / PR #1 em rascunho.
 - HTML/CSS editáveis em `dist/`; Python padrão para scripts; sem framework ou gerenciador de pacotes. Usar AGENTS.md.
 - GitHub: leitura, criação de branch, commits e gravação já comprovadas nesta coordenação. Leitura de PR/CI comprovada; criação de PR ainda não exercitada nesta rodada. Não há CI executado no commit base.
 - A troca de conta Figma funcionou: `gabisougpt@gmail.com`, handle Gabriel, plano Starter, assento View. A conta anterior `gabisoudev@gmail.com` foi substituída nesta conexão. Acesso real ao arquivo e contexto/captura da abertura agora comprovados.
 - Arquivo: [GABiSOU-Site](https://www.figma.com/design/XYP2AAZXyTlLTNvY2OphZX/GABiSOU-Site?node-id=1-200); fileKey `XYP2AAZXyTlLTNvY2OphZX`; página única `0:1`, Website — Desktop; alvo `1:200`, 01-hero-desktop, 1920 × 1080.
 - [DESIGN-HERO.md](DESIGN-HERO.md) reúne contexto extraído, geometria, textos, assets, fonte e decisões. Captura em `docs/design/hero-desktop-1920.png`; logo/arte em `dist/assets/figma/`; Inter e licença em `dist/assets/fonts/`. Não repetir a extração do Figma enquanto o design não mudar.
-- Sem mobile no arquivo lido. Proposta técnica: coluna com texto/CTA antes da arte, navegação que reflow, validação 390/320 px. Não apresentar essa adaptação como design mobile aprovado.
+- Sem mobile no arquivo lido. Gabriel escolheu botão Menu no mobile: expansão dos links no fluxo, com alternativa sem JS. A forma visual será uma adaptação, não um frame aprovado pela designer. Hero em coluna continua como proposta técnica.
 - Arte decorativa estática exportada diretamente do Figma; manter HTML/CSS e evitar runtime React/WebGPU apenas para esse efeito sem animação/interação.
-- WhatsApp ainda sem número/link confirmado; “Projetos” possui placeholders e não tem seção correspondente na V3. A prévia deve identificar recursos demonstrativos; não inventar destinos, cases ou conteúdo.
+- WhatsApp ainda sem número/link confirmado. Gabriel definiu Projetos como obrigatório no lançamento: manter a seção no plano e exigir conteúdo real autorizado antes de publicar. O Figma possui placeholders e não há seção correspondente na V3; identificar pendências na prévia, sem inventar destinos/cases.
 - B, segundo retorno de Gabriel: leitura GitHub e snapshot ec83e65 com 15/15 hashes conferidos; Python e check.py funcionaram. Git por terminal sem autenticação. Chrome remoto não alcançou localhost (bearer token/conexão recusada). Usar conector para persistência e encaminhar comparação visual a C se o impedimento permanecer.
 - C: Windows, VS Code e Codex app/extensão informados; navegador local ainda não verificado. Sua tarefa futura é delimitada: abrir a versão de B e gerar evidências no mesmo viewport do Figma, não repetir inventário amplo.
 - Checks já executados na base: 17 links, 11 IDs, 2 imagens e HTTP 200 de página/CSS/assets. Nenhuma implementação do redesign ou comparação visual do código com o Figma ocorreu ainda.
@@ -19,7 +20,9 @@
 
 ### Próxima tarefa
 
-B deve implementar cabeçalho/abertura, desktop e proposta mobile, usando os assets e a extração versionados. Conferir branch/commit antes e depois, preservar as outras seções, executar o check e produzir preview/capturas se tiver navegador funcional. Se não tiver, devolver mudanças revisáveis e handoff específico a C; estado será “implementado, aguardando conferência visual”. Só avançar às outras seções após essa comparação.
+Coordenação: quando retomarmos a execução, preparar uma tarefa exclusiva da etapa 1 conforme ARQUITETURA-E-ETAPAS.md. As escolhas de botão Menu no mobile e Projetos obrigatório já foram dadas por Gabriel; não perguntar novamente. Assets e fontes já estão no repositório. Não implementar hero junto. A conferência visual deverá ter um caminho comprovado antes de encerrar a primeira etapa.
+
+Arquitetura recomendada: página única estática, HTML semântico, CSS por componente com tokens, JS nativo somente para comportamentos necessários e biblioteca local de assets. Sem instalação/migração nesta rodada. Os checks atuais exigem evolução direcionada quando houver JS local, imagens decorativas ou WhatsApp confirmado.
 
 Preparação do repositório e acesso ao design concluídos; ambiente de comparação visual ainda precisa ser comprovado. No cliente Codex, distinguir carregamento automático de AGENTS.md de leitura explícita.
 

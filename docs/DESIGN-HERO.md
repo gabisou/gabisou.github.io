@@ -1,6 +1,6 @@
 # Figma — cabeçalho e abertura GABiSOU
 
-Extração em 28/10/2026, pelo MCP oficial, sem alterar o arquivo. Esta referência vale para a primeira parte da implementação, não para as demais seções.
+Extração em 28/10/2026, pelo MCP oficial, sem alterar o arquivo. Esta extração é compartilhada por duas entregas separadas: etapa 1 (header) e etapa 2 (hero). Consultar ARQUITETURA-E-ETAPAS.md antes de implementar; não executar ambos numa única tarefa.
 
 ## Fonte e escopo
 - Arquivo: [GABiSOU-Site](https://www.figma.com/design/XYP2AAZXyTlLTNvY2OphZX/GABiSOU-Site?node-id=1-200).
@@ -55,19 +55,19 @@ A tipografia do Figma é Inter. O retorno usa line-height normal; as alturas aci
 ## Adaptação mobile — proposta técnica, não frame aprovado
 - Usar fluxo normal em coluna: título, apoio, CTA/auxiliar e arte.
 - Margens mínimas de 20 px; manter proporções da arte e limitar sua largura ao espaço disponível.
-- Navegação acessível: logo e contato no topo, demais links em uma segunda faixa que possa quebrar linhas. Preservar ordem do DOM e foco; evitar dependência de menu JavaScript nesta primeira prova.
+- Navegação mobile não foi especificada no Figma. Gabriel escolheu botão Menu que expande os links no fluxo. Consultar ARQUITETURA-E-ETAPAS.md para comportamento, fallback e QA; não apresentar a adaptação visual como frame aprovado pela designer.
 - Conferir 390 × 844 e 320 × 740, além de 768 px e 1440 px de largura. Ajustar tipografia/intervalos de forma fluida preservando a hierarquia.
 - Sem alturas fixas que cortem texto nem transbordamento horizontal. Arte decorativa com alt vazio.
 
 ## Comportamento e pendências materiais
 - O número/link de WhatsApp não foi confirmado. Não inventar telefone nem ligar “Por whatsapp” silenciosamente a e-mail. Pode-se entregar uma prévia visual claramente identificada com CTA demonstrativo até o destino chegar; produção não está concluída.
-- PROJETOS não tem âncora correspondente na V3 e os cards do Figma são placeholders. Não criar casos fictícios ou link quebrado. Na prévia, sinalizar o item como indisponível; manter a decisão de conteúdo/publicação pendente.
+- PROJETOS é obrigatório no lançamento por escolha de Gabriel. Ainda não tem âncora correspondente na V3 e os cards do Figma são placeholders. Não criar casos fictícios ou link quebrado. Na prévia, sinalizar o item como pendente até a etapa 4; publicação exige conteúdo real autorizado.
 - Links existentes que podem funcionar: QUEM SOMOS → #sobre; SERVIÇOS → #solucoes; COMO TRABALHAMOS → #como-trabalhamos; CONTATO → #contato.
 - Preservar textos, contatos e comportamento das demais seções. Não alterar o rodapé para reproduzir a primeira tela.
 - Não tornar o cabeçalho sticky apenas porque ele aparece repetido nos frames; o comportamento de fixação não foi especificado.
 
-## Verificação da primeira entrega
+## Verificação por etapa
 - Check estático pertinente: `python scripts/check.py`.
-- Comparação obrigatória com a referência em 1920 × 1080 após carregamento da fonte; conferir tamanho e recorte de ambos os assets.
+- Etapa 1: comparar somente a região do header no viewport 1920 × 1080 após carregamento da fonte, incluindo logo e navegação; preservar o hero existente. Etapa 2: comparar a abertura completa, incluindo a ilustração e sua integração com o header já verificado.
 - Conferir reflow, links/CTA conforme estado demonstrativo, teclado/foco, nomes acessíveis, console e requisições.
 - B não comprovou acesso do Chrome remoto ao seu servidor. Se isso permanecer, entregar código/preview identificado e encaminhar só a captura/verificação a C no Windows. Não repetir o diagnóstico de localhost sem nova evidência nem declarar fidelidade visual antecipadamente.

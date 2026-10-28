@@ -18,7 +18,8 @@
 - Confirmar branch, commit e alterações existentes antes de editar e antes do handoff. Usar branch delimitada; não descartar alterações nem editar em paralelo os mesmos arquivos.
 - Clientes sem leitura automática de AGENTS.md devem lê-lo explicitamente. A presença de um plugin não comprova permissão, terminal ou navegador.
 - Aproveitar a stack existente. JavaScript mínimo somente quando necessário ao comportamento aprovado; não introduzir framework, backend, CMS ou dependências sem necessidade demonstrada.
-- Primeiro obter contexto e imagem do cabeçalho/abertura aprovado; implementar e conferir desktop/mobile antes das demais seções.
+- Seguir a etapa atribuída em `docs/ARQUITETURA-E-ETAPAS.md`. Header e hero são entregas separadas: header primeiro, com desktop/mobile e verificação visual. Não executar o antigo handoff que reunia ambos.
+- A arquitetura recomendada é HTML/CSS com JS nativo quando necessário. Preservar componentes fora do escopo ao introduzir tokens e fontes; evoluir checks legados apenas quando houver requisito real.
 - Registrar links/IDs, tipografia, cores, espaçamentos, assets e decisões responsivas na seção de design de CONTINUIDADE.md. Distinguir informação explícita e inferência; reutilizar extrações.
 - Baixar assets/fontes autorizados para o projeto; não depender de URLs temporárias ou localhost em produção.
 - Sem compra, nova assinatura, merge, deploy ou alteração de DNS nesta etapa. Não enviar mensagens a terceiros.
