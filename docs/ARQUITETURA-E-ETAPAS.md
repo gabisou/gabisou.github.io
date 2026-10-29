@@ -1,6 +1,6 @@
 # Arquitetura e entregas por etapa — GABiSOU
 
-Registro de coordenação em 28/10/2026. Substitui o handoff anterior que reunia cabeçalho e abertura. Estado: Gabriel aprovou o header atual 25:55 e autorizou execução delimitada. Referência vigente persistida em e7f90ff; implementação do header concluída neste ambiente. Comparação no navegador e aceite visual permanecem pendentes. A primeira etapa de implementação será somente o header. Gabriel confirmou botão Menu no mobile e seção Projetos obrigatória no lançamento. Diretriz de layout incorporada em seguida: Grid como primeira opção estrutural, Flexbox nos grupos adequados e adaptação dos componentes aos pais nos dois eixos.
+Registro de coordenação em 28/10/2026. Substitui o handoff anterior que reunia cabeçalho e abertura. Estado: Gabriel aprovou o header atual 25:55 e autorizou execução delimitada. Depois do setup local, autorizou antecipar a estrutura de Projetos com placeholders do Figma, no próprio site, e retirar o aviso “Pendente na prévia” do menu. Esta decisão substitui a restrição anterior de manter Projetos apenas como item pendente. Referência vigente persistida em e7f90ff; implementação do header concluída neste ambiente. Comparação no navegador e aceite visual permanecem pendentes. A entrega em revisão passa a incluir o ajuste do header e a estrutura antecipada de Projetos, com evidências e aceite separados; hero continua fora do escopo. Gabriel confirmou botão Menu no mobile e seção Projetos obrigatória no lançamento. Diretriz de layout incorporada em seguida: Grid como primeira opção estrutural, Flexbox nos grupos adequados e adaptação dos componentes aos pais nos dois eixos.
 
 ## Base verificada e objetivo
 
@@ -92,14 +92,15 @@ Para cada asset futuro, registrar arquivo, seção, nó/origem, dimensões, lice
 
 ## Sequência de entregas
 
-A ordem abaixo acompanha os frames existentes e separa o header. Uma pendência de conteúdo pode adiar uma etapa, sem alterar silenciosamente a composição aprovada.
+A ordem abaixo acompanha os frames existentes e separa o header. A falta de conteúdo final não bloqueia construir a estrutura de Projetos: usar os placeholders existentes no Figma, sem inventar portfólio. A seção é parte do site e não uma demonstração separada.
 
 | Etapa | Entrega delimitada | Referência Figma | Condição específica |
 | --- | --- | --- | --- |
-| 1 | Header: marca, navegação e contato | 25:55, componente atual aprovado | Desktop, proposta mobile, links e foco. Não implementar hero junto. |
+| 1 | Header: marca, navegação e contato | 25:55, componente atual aprovado | Desktop, proposta mobile, links e foco; Projetos é link normal para #projetos, sem selo de prévia. Não implementar hero junto. |
+| 1B — antecipada | Estrutura de Projetos, integrada ao site, com placeholders do Figma | 1:470 e Cards/Project 27:318 | Três cards, responsividade e destino #projetos funcionais; revisão própria antes de avançar ao hero. Usar docs/DESIGN-PROJETOS.md. |
 | 2 | Hero: título, apoio, CTA e arte | 1:200, excluindo header já concluído | Destino do WhatsApp confirmado para funcionalidade final. |
 | 3 | Serviços | 1:417 | Definir se as setas abrem conteúdo; não inferir apenas pela forma do ícone. |
-| 4 | Projetos | 1:470 | Obrigatória no lançamento por escolha de Gabriel. Conteúdo real autorizado é requisito de publicação; placeholders só na prévia. |
+| 4 | Projetos: incorporar conteúdo autorizado e concluir ações pendentes | 1:470 | Reaproveitar a estrutura antecipada na etapa 1B. Conteúdo final e comportamento de Ver mais aguardam definição; registrar placeholders sem apresentá-los como trabalhos reais. |
 | 5 | Como trabalhamos | 1:513 | Confirmar conteúdo completo e assets ao extrair a seção. |
 | 6 | Quem somos | 1:552 | Fotos, apresentações e links reais autorizados. |
 | 7 | FAQ | 1:582 | Respostas confirmadas e estados aberto/fechado funcionais. |
@@ -119,10 +120,10 @@ Não extrair todos os frames agora. Preparar apenas a etapa próxima, reaproveit
 - Na adaptação compacta, a grade organiza marca e botão Menu na primeira linha; a navegação aberta ocupa a linha seguinte, com largura disponível e altura pelo conteúdo. Rótulos podem quebrar. Em telas baixas, a página rola para alcançar todos os links; não prender o menu a uma altura que corte seu conteúdo. Preservar uma ordem de leitura/foco coerente.
 - Contato do header aponta para #contato; esta etapa não depende de escolher WhatsApp para o CTA do hero.
 - Escolha confirmada por Gabriel para mobile: botão “Menu” que expande uma lista de links no fluxo, sem drawer/modal. Implementar botão nativo com aria-expanded/aria-controls, Tab/Enter/Espaço, Escape para fechar e devolver foco; fechar ao selecionar âncora. Alternativa visível sem JS. Este comportamento substitui a sugestão anterior de segunda faixa sempre visível. O desenho mobile continua sendo adaptação, pois não há frame da designer.
-- Projetos: obrigatório no lançamento por escolha de Gabriel; manter a intenção de navegação no header. Enquanto a seção real não existir, identificar o item como pendente na prévia em vez de criar âncora quebrada. Etapa 4 deverá entregar conteúdo real autorizado; não há autorização para omitir a seção no lançamento.
+- Projetos: obrigatório por escolha de Gabriel. Nova decisão após o setup local: remover “Pendente na prévia” e o estado desabilitado; usar link normal para #projetos e implementar o destino com a estrutura de cards e os placeholders já existentes no Figma. Antecipar esta estrutura sem esperar cases finais. Não criar âncora quebrada, outra página de demonstração ou projetos/clientes/resultados fictícios. A seção possui revisão própria; conteúdo final e ação Ver mais permanecem decisões da etapa 4.
 - Escopo de suporte: tokens/fonte necessários, CSS do header, JS do menu expansível já escolhido e ajuste direcionado dos checks.
 - Evidências: comparar a região do header em 1920 × 1080; conferir reflow nas larguras 1440/768/390/320 px e redimensionamento contínuo, incluindo a transição do Menu. Incluir uma janela baixa (por exemplo 1440 × 600), paisagem mobile (por exemplo 844 × 390), menu aberto/fechado, texto ampliado a 200% e zoom do navegador a 200%/400%, registrando viewport/zoom efetivos. Conferir texto longo temporário sem alterar o conteúdo final, teclado/foco, links, carregamento do logo/fonte, console e ausência de transbordamento horizontal. Reflow a 320 CSS px e teste de zoom não equivalem a uma auditoria completa de acessibilidade. Capturas devem cobrir os estados representativos, sem exigir imagem de cada tamanho intermediário.
-- Nenhuma comparação visual do código ocorreu ainda. B não comprovou que seu Chrome remoto chega ao servidor; C é a alternativa proposta, com navegador local ainda por validar.
+- Segundo o retorno da C, o setup Windows em C:\Repos\gabisou.github.io, os checks e a renderização no navegador do aplicativo foram comprovados. A coordenação ainda não inspecionou os arquivos locais de evidência; comparação completa do header e aceite visual continuam pendentes.
 
 ## Critério para encerrar cada etapa
 
@@ -152,13 +153,13 @@ Situação de publicação verificada em 28/10/2026: GitHub Pages desativado e z
 | Decisão | Quando importa | Responsável |
 | --- | --- | --- |
 | Desenho fino do menu mobile já escolhido | Etapa 1 | Coordenação/executora; consultar Carol se houver impacto visual material |
-| Materiais reais para Projetos, já obrigatório | Etapa 4, necessariamente antes do lançamento | Gabriel/Carol |
+| Conteúdo final de Projetos e destino/ação de Ver mais | Etapa 4; estrutura antecipada com placeholders na etapa 1B | Gabriel/Carol |
 | Caminho comprovado de captura/renderização | Antes de encerrar etapa 1 | Coordenação e executora do ambiente adequado |
 | WhatsApp comercial | Etapa 2/contato | Gabriel |
 | Conteúdo e assets das outras seções | Ao preparar cada etapa | Coordenação; Gabriel/Carol para fatos/autorizações |
 | Hospedagem e publicação | Antes do lançamento | Gabriel + coordenação |
 
-Próxima ação: C validar no Windows o commit entregue do header. Este ambiente possui Playwright, mas não possui browser executável; o handoff usa ferramentas locais existentes, sem instalar infraestrutura. A coordenação e Gabriel revisam antes de avançar. Usar a filosofia de layout e o contrato acima, sem reabrir inventário geral nem repetir tentativas de localhost sem nova evidência.
+Próxima ação: C incorporar esta decisão preservando os três documentos e a captura locais ainda sem commit; remover o aviso do menu, implementar a estrutura de Projetos em #projetos conforme DESIGN-PROJETOS.md e validar header e seção como unidades distintas. A estrutura de Projetos está autorizada com placeholders; não alterar hero nem outras seções. C será a única executora de código desta rodada. Atualizar o estado local de CONTINUIDADE/VERIFICACAO para substituir a orientação antiga; entregar diff e capturas anexáveis à coordenação e parar para aceite humano. Sem instalação, commit/push local ou deploy nesta rodada.
 
 ## Referências técnicas consultadas
 - [W3C: navegação expansível](https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation/) — padrão de comportamento e semântica, não código pronto para copiar sem testes.
