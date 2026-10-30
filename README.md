@@ -1,6 +1,6 @@
 # GABiSOU — versão comercial do site (V3)
 
-Página em português para apresentar design de interfaces, sites, sistemas, aplicativos, integrações, automações e aplicações de IA. A versão 3 preserva a direção visual dos cinco wireframes fornecidos pela designer e refina a mensagem após analisar seis referências indicadas por Gabriel. HTML/CSS sem JavaScript de execução, dependências de produção, formulário ou rastreadores. Logotipo original recuperado de `https://gabisou.com/logo.png` em 27/10/2026.
+Página em português para apresentar design de interfaces, sites, sistemas, aplicativos, integrações, automações e aplicações de IA. A versão 3 preserva a direção visual dos cinco wireframes fornecidos pela designer e refina a mensagem após analisar seis referências indicadas por Gabriel. O header e a seção Projetos do redesign usam HTML/CSS nativo, com JavaScript local para o Menu; as demais seções continuam na V3. Projetos contém somente os três placeholders autorizados do Figma; “Ver mais” permanece desabilitado até definir seu destino. Sem dependências de produção, formulário ou rastreadores. Logotipo original recuperado de `https://gabisou.com/logo.png` em 27/10/2026.
 
 ## Estado
 
@@ -8,13 +8,17 @@ Versão implementada para revisão. Nada publicado; domínio, site atual e branc
 
 ## Revisar localmente
 
-Abra `dist/index.html` em um navegador. Opcionalmente, com Python instalado:
+No Windows de Gabriel, o padrão é `C:\Repos`; este clone fica em `C:\Repos\gabisou.github.io`. Setup comprovado em 28/10/2026: Python 3.13.15, check aprovado e renderização no navegador integrado do aplicativo. Branch `codex/figma-redesign`; base atual `eaa38db79d388901e273abb4d54ad6fa8703158d`, incorporada por fast-forward em 29/10/2026. Header/Projetos estão modificados localmente, sem commit/push, aguardando revisão técnica e validação visual humana. Checks: PASS (19 links, 14 IDs, 2 imagens). Detalhes, diferenças e capturas em [VERIFICACAO.md](docs/VERIFICACAO.md); o registro do setup de 28/10 foi preservado.
 
-```sh
-python -m http.server 8000 --directory dist
+Na raiz do clone, em PowerShell:
+
+```powershell
+Set-Location 'C:\Repos\gabisou.github.io'
+python -X utf8 scripts/check.py
+python -m http.server 8000 --bind 127.0.0.1 --directory dist
 ```
 
-Depois abra `http://localhost:8000`. Nenhuma instalação de pacote é necessária.
+Abra `http://localhost:8000/` (mesmo servidor local em 127.0.0.1); mantenha o terminal ativo e use `Ctrl+C` para parar. Se a porta estiver ocupada, escolha outra sem encerrar processos desconhecidos. Nenhuma instalação de pacote é necessária. `dist/` contém fontes editáveis versionadas. A comprovação técnica não constitui aceite visual. A aba antiga em 127.0.0.1 reteve JavaScript anterior durante o QA; as evidências finais usam a origem local `localhost` recém-aberta.
 
 ## Verificar e preparar para publicação
 

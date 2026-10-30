@@ -1,0 +1,202 @@
+[
+  {
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "clientWidth": 1905,
+    "columns": 3,
+    "closedHeight": 125,
+    "logoClosed": 260,
+    "overflowClosed": [],
+    "documentWidth": 1905,
+    "cardSizes": [
+      [
+        517,
+        561
+      ],
+      [
+        517,
+        561
+      ],
+      [
+        517,
+        561
+      ]
+    ]
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "clientWidth": 1425,
+    "columns": 3,
+    "closedHeight": 125,
+    "openHeight": 193,
+    "logoClosed": 260,
+    "logoOpen": 260,
+    "overflowClosed": [],
+    "overflowOpen": [],
+    "documentWidth": 1425,
+    "cardSizes": [
+      [
+        399.328125,
+        502.953125
+      ],
+      [
+        399.328125,
+        502.953125
+      ],
+      [
+        399.328125,
+        502.953125
+      ]
+    ]
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "clientWidth": 753,
+    "columns": 1,
+    "closedHeight": 125,
+    "openHeight": 273,
+    "logoClosed": 260,
+    "logoOpen": 260,
+    "overflowClosed": [],
+    "overflowOpen": [],
+    "documentWidth": 753,
+    "cardSizes": [
+      [
+        663.390625,
+        468.203125
+      ],
+      [
+        663.390625,
+        468.203125
+      ],
+      [
+        663.390625,
+        468.203125
+      ]
+    ]
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "clientWidth": 375,
+    "columns": 1,
+    "closedHeight": 119.6875,
+    "openHeight": 403.6875,
+    "logoClosed": 242.0625,
+    "logoOpen": 242.0625,
+    "overflowClosed": [],
+    "overflowOpen": [],
+    "documentWidth": 375,
+    "cardSizes": [
+      [
+        329.484375,
+        357.5
+      ],
+      [
+        329.484375,
+        357.5
+      ],
+      [
+        329.484375,
+        357.5
+      ]
+    ]
+  },
+  {
+    "size": {
+      "width": 320,
+      "height": 740
+    },
+    "clientWidth": 305,
+    "columns": 1,
+    "closedHeight": 98.953125,
+    "openHeight": 382.953125,
+    "logoClosed": 172.0625,
+    "logoOpen": 172.0625,
+    "overflowClosed": [],
+    "overflowOpen": [],
+    "documentWidth": 305,
+    "cardSizes": [
+      [
+        267.65625,
+        358.015625
+      ],
+      [
+        267.65625,
+        358.015625
+      ],
+      [
+        267.65625,
+        358.015625
+      ]
+    ]
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 600
+    },
+    "clientWidth": 1425,
+    "columns": 3,
+    "closedHeight": 125,
+    "openHeight": 193,
+    "logoClosed": 260,
+    "logoOpen": 260,
+    "overflowClosed": [],
+    "overflowOpen": [],
+    "documentWidth": 1425,
+    "cardSizes": [
+      [
+        399.328125,
+        502.953125
+      ],
+      [
+        399.328125,
+        502.953125
+      ],
+      [
+        399.328125,
+        502.953125
+      ]
+    ]
+  },
+  {
+    "size": {
+      "width": 844,
+      "height": 390
+    },
+    "clientWidth": 829,
+    "columns": 2,
+    "closedHeight": 125,
+    "openHeight": 247,
+    "logoClosed": 260,
+    "logoOpen": 260,
+    "overflowClosed": [],
+    "overflowOpen": [],
+    "documentWidth": 829,
+    "cardSizes": [
+      [
+        350.515625,
+        478.875
+      ],
+      [
+        350.515625,
+        478.875
+      ],
+      [
+        350.515625,
+        478.875
+      ]
+    ]
+  }
+]

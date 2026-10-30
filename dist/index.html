@@ -18,18 +18,22 @@
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
   <header class="site-header">
-    <div class="header-inner">
-      <a class="header-brand" href="#inicio" aria-label="GABiSOU — início"><img src="assets/figma/gabisou-wordmark.png" alt="GABiSOU" width="260" height="77"></a>
-      <button class="header-menu" type="button" aria-expanded="false" aria-controls="header-navigation" hidden>Menu</button>
-      <nav class="header-navigation" id="header-navigation" aria-label="Navegação principal">
-        <ul class="header-links">
-          <li><a href="#sobre">QUEM SOMOS</a></li>
-          <li><a href="#solucoes">SERVIÇOS</a></li>
-          <li><a href="#como-trabalhamos">COMO TRABALHAMOS</a></li>
-          <li><span class="header-pending" aria-disabled="true">PROJETOS<small>Pendente na prévia</small></span></li>
-          <li><a class="header-contact" href="#contato">CONTATO</a></li>
-        </ul>
-      </nav>
+    <div class="header-shell">
+      <div class="header-inner">
+        <div class="header-controls">
+          <a class="header-brand" href="#inicio" aria-label="GABiSOU — início"><img src="assets/figma/gabisou-wordmark.png" alt="GABiSOU" width="260" height="77"></a>
+          <button class="header-menu" type="button" aria-expanded="false" aria-controls="header-navigation" hidden>Menu</button>
+        </div>
+        <nav class="header-navigation" id="header-navigation" aria-label="Navegação principal">
+          <ul class="header-links">
+            <li><a href="#solucoes">SERVIÇOS</a></li>
+            <li><a href="#projetos">PROJETOS</a></li>
+            <li><a href="#sobre">QUEM SOMOS</a></li>
+            <li><a href="#como-trabalhamos">COMO TRABALHAMOS</a></li>
+          </ul>
+          <a class="header-contact" href="#contato">CONTATO</a>
+        </nav>
+      </div>
     </div>
   </header>
   <main id="conteudo" tabindex="-1">
@@ -73,6 +77,45 @@
           <article class="service-row"><span class="service-number" aria-hidden="true">03</span><div class="service-title"><h3>Diminuir tarefas manuais.<br>Automatizar com critério.</h3><p class="service-type">Automações e aplicações de IA</p></div><div class="service-copy"><p>Copiar dados de uma ferramenta para outra ou preparar documentos toma tempo. Avaliamos o que pode ser automatizado e onde a IA é útil, com uma tarefa definida e critérios de revisão.</p><ul class="examples" aria-label="Exemplos de entregas"><li>Fluxos entre sistemas</li><li>Preparação de documentos</li><li>Consulta a informações</li></ul></div><span class="service-arrow" aria-hidden="true">↗</span></article>
         </div>
         <p class="service-note">Esses são exemplos de soluções que podemos desenvolver. O escopo é definido com você.</p>
+      </div>
+    </section>
+
+    <section class="projects" id="projetos" aria-labelledby="projetos-titulo" tabindex="-1">
+      <div class="projects-inner">
+        <h2 id="projetos-titulo">Projetos</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-media">
+              <h3>Titulo do projeto1</h3>
+              <span class="project-placeholder" aria-hidden="true">IMG</span>
+            </div>
+            <div class="project-body">
+              <p>Resumo breve de projeto</p>
+              <ul class="project-tags" aria-label="Palavras-chave"><li>Palavra-chave</li><li>Palavra-chave</li></ul>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-media">
+              <h3>Titulo do projeto1</h3>
+              <span class="project-placeholder" aria-hidden="true">IMG</span>
+            </div>
+            <div class="project-body">
+              <p>Resumo breve de projeto</p>
+              <ul class="project-tags" aria-label="Palavras-chave"><li>Palavra-chave</li><li>Palavra-chave</li></ul>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-media">
+              <h3>Titulo do projeto1</h3>
+              <span class="project-placeholder" aria-hidden="true">IMG</span>
+            </div>
+            <div class="project-body">
+              <p>Resumo breve de projeto</p>
+              <ul class="project-tags" aria-label="Palavras-chave"><li>Palavra-chave</li><li>Palavra-chave</li></ul>
+            </div>
+          </article>
+        </div>
+        <button class="projects-more" type="button" disabled>Ver mais <span aria-hidden="true">→</span></button>
       </div>
     </section>
 

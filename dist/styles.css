@@ -1,33 +1,61 @@
 @charset "UTF-8";
 :root{--ink:#202632;--muted:#545e6b;--paper:#faf7f4;--white:#fff;--sky:#418cc2;--blue:#2c6795;--deep:#174c73;--pale:#e9f0f5;--line:#d7dfe5;--container:1168px}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:28px}body{margin:0;color:var(--ink);background:var(--paper);font-family:Inter,"Segoe UI",Arial,sans-serif;font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}img{display:block;max-width:100%;height:auto}a{color:inherit;text-decoration:none;-webkit-tap-highlight-color:transparent}a:focus-visible{outline:3px solid #bf5b00;outline-offset:5px;border-radius:3px}.hero-visual a:focus-visible,.site-footer a:focus-visible{outline-color:#fff}main:focus{outline:none}h1,h2,h3,p{margin:0}h1,h2,h3{line-height:1.15;font-weight:600}h1,h2{letter-spacing:-.045em}h3{letter-spacing:-.025em}.container{width:min(var(--container),calc(100% - 96px));margin-inline:auto}.section-space{padding-block:86px}.eyebrow{font-size:11px;font-weight:600;letter-spacing:.11em;line-height:1.6;text-transform:uppercase}.skip-link{position:fixed;top:12px;left:16px;z-index:1000;transform:translateY(-160%);padding:12px 20px;background:var(--paper);color:var(--ink);box-shadow:0 2px 8px #0003}.skip-link:focus{transform:translateY(0)}
-/* Header: Figma 25:55. A fonte fica restrita a este componente. */
+/* Header: geometria Mirai; identidade GABiSOU. Fonte local também usada em Projetos. */
 @font-face{font-family:"Gabisou Header Inter";src:url("assets/fonts/InterVariable.woff2") format("woff2");font-style:normal;font-weight:100 900;font-display:swap}
 .brand{width:148px;flex-shrink:0;display:block}
-.site-header{--header-ink:#282836;--header-paper:#F7F7F0;--header-contact:#C6D2CC;color:#000;background:var(--header-paper);border:1px solid var(--header-ink);font-family:"Gabisou Header Inter","Segoe UI",Arial,sans-serif;font-size:1.375rem;font-weight:400;line-height:normal}
-.header-inner{display:grid;grid-template-columns:16.25rem minmax(0,1fr);align-items:center;column-gap:11.5625rem;padding:1.4375rem 1.8125rem}
-.header-brand{display:block;min-width:0;max-width:16.25rem}
+.site-header{--header-ink:#282836;--header-paper:#F7F7F0;--header-contact:#C6D2CC;color:#000;background:var(--header-paper);border-block:1px solid var(--header-ink);box-shadow:inset 1px 0 var(--header-ink),inset -1px 0 var(--header-ink);font-family:"Gabisou Header Inter","Segoe UI",Arial,sans-serif;font-size:.875rem;font-weight:400;line-height:1.7;letter-spacing:-.03em}
+.header-shell{width:100%;max-width:1440px;margin-inline:auto;padding-inline:28px}
+.header-inner{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;width:100%;max-width:1226px;min-height:78px;margin-inline:auto;padding:10px 16px}
+.header-controls{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;min-width:0}
+.header-brand{display:block;flex:0 0 auto;width:130px;max-width:100%}
 .header-brand img{width:100%;height:auto;aspect-ratio:260 / 77}
-.header-navigation{min-width:0}
-.header-links{display:flex;align-items:center;flex-wrap:wrap;gap:1rem 3.5rem;list-style:none;margin:0;padding:0}
+.header-navigation{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;min-width:0}
+.header-links{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:.5rem clamp(.75rem,calc(10vw - 4.3125rem),1.5rem);min-width:0;list-style:none;margin:0;padding:0}
 .header-links li{min-width:0;max-width:100%}
-.header-links a,.header-pending{display:flex;align-items:center;min-height:2.75rem;overflow-wrap:anywhere}
-.header-links a:hover{text-decoration:underline;text-underline-offset:.25em}
-.header-links .header-contact{justify-content:center;min-width:10.625rem;min-height:3.25rem;padding:.625rem 1.25rem;border-radius:.625rem;background:var(--header-contact)}
-.header-pending{flex-direction:column;justify-content:center;align-items:flex-start}
-.header-pending small{font-size:.75rem;line-height:1.2}
-.header-menu{display:none;font:inherit;color:inherit;border:1px solid currentColor;border-radius:.625rem;background:transparent;min-height:2.75rem;min-width:2.75rem;padding:.625rem .75rem;overflow-wrap:anywhere}
+.header-links a{display:flex;align-items:center;min-height:40px;overflow-wrap:anywhere}
+.header-navigation a:hover{text-decoration:underline;text-underline-offset:.25em}
+.header-contact{display:flex;align-items:center;justify-content:center;justify-self:end;width:154.3px;max-width:100%;min-height:40px;padding:8px 20px;border-radius:.625rem;background:var(--header-contact);overflow-wrap:anywhere}
+.header-menu{display:none;max-width:100%;font:inherit;color:inherit;border:1px solid currentColor;border-radius:.625rem;background:transparent;min-height:2.75rem;min-width:2.75rem;padding:.625rem .75rem;overflow-wrap:anywhere}
 .site-header a:focus-visible,.site-header button:focus-visible{outline:3px solid var(--header-ink);outline-offset:4px;border-radius:3px}
-/* Initial fit estimate: 260 + 185 + ~1014 + 58 = 1517px; browser QA pending. */
-@media(max-width:95em){
-  .header-inner{grid-template-columns:minmax(0,16.25rem) minmax(0,max-content);justify-content:space-between;gap:1rem;padding:1.4375rem clamp(1rem,2vw,1.8125rem)}
-  .header-navigation{grid-column:1/-1}
-  .header-links{align-items:stretch;gap:.5rem 1.5rem}
+@media(min-width:1440px){
+  .header-shell{padding-inline:108px}
+  .header-inner{padding-inline:20px}
+  .header-brand{width:162px}
+}
+/* This exact boundary is shared with header.js; 810px keeps the full navigation. */
+@media(width < 810px){
+  .header-shell{padding-inline:20px}
+  .header-inner{grid-template-columns:minmax(0,1fr);max-width:580px;gap:1rem;padding-inline:8px}
+  .header-brand{width:128px}
+  .header-navigation{grid-column:1/-1;grid-template-columns:minmax(0,1fr);gap:.75rem;padding-bottom:10px}
+  .header-links{align-items:stretch;justify-content:flex-start;gap:.5rem 1.5rem}
   .header-links li{flex:1 1 12rem}
-  .header-links a,.header-pending{padding:.625rem 0;min-height:2.75rem}
-  .header-links .header-contact{min-width:0}
+  .header-links a{padding:.625rem 0;min-height:2.75rem}
+  .header-contact{width:100%;min-height:44px}
   .site-header[data-menu-ready] .header-menu:not([hidden]){display:block}
   .site-header[data-menu-ready] .header-navigation[hidden]{display:none}
+}
+/* Projetos: Figma 1:470. Placeholders neutros; ação final ainda não definida. */
+.projects{padding-block:2.0625rem 7.3125rem;background:#F7F7F0;color:#000;font-family:"Gabisou Header Inter","Segoe UI",Arial,sans-serif;font-size:1.625rem;font-weight:300;line-height:normal}
+.projects:focus-visible{outline:3px solid #282836;outline-offset:-4px}
+.projects-inner{width:min(106rem,calc(100% - clamp(2rem,11.6667vw,14rem)));margin-inline:auto}
+.projects h2,.projects h3{font:inherit;letter-spacing:normal;overflow-wrap:anywhere}
+.projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,20rem),1fr));gap:1.84375rem;width:min(100.625rem,100%);margin:3.875rem auto 0}
+.project-card{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto 1fr;min-width:0;background:#E9EFEC;border-radius:1.375rem}
+.project-media{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(min-content,1fr) 1.875rem;min-width:0;width:100%;aspect-ratio:517 / 255;background:#7D7D7D}
+.project-media h3{grid-area:1/1;margin:.9375rem .4375rem 0}
+.project-placeholder{grid-area:2/1;align-self:center;justify-self:center;color:#fff;font-size:2.125rem;font-weight:400}
+.project-body{display:flex;flex-direction:column;gap:1.5rem;min-width:0;min-height:19.125rem;padding:1.25rem .875rem}
+.project-body p{overflow-wrap:anywhere}
+.project-tags{display:flex;flex-wrap:wrap;gap:.5rem;margin:auto .3125rem 0;padding:0;list-style:none}
+.project-tags li{display:flex;align-items:center;max-width:100%;min-height:2.875rem;padding:.625rem .5625rem;border-radius:.5625rem;background:#C6D2CC;color:#4A36EB;font-size:1.25rem;overflow-wrap:anywhere}
+.projects-more{display:flex;align-items:center;justify-content:center;gap:.5rem;width:min(18rem,100%);min-height:4.5625rem;margin:4.875rem auto 0;padding:.625rem 1.25rem;border:0;border-radius:1.125rem;background:#C6D2CC;color:#000;font:inherit;font-size:2rem;opacity:1;cursor:not-allowed}
+@media(max-width:50em){
+  .projects{padding-bottom:3rem}
+  .projects-grid{margin-top:2.5rem}
+  .project-body{min-height:0}
+  .projects-more{margin-top:2.5rem}
 }
 /* Primeira tela: conteúdo concreto, espaço e uma ação principal. */
 .hero{background:var(--paper)}.hero-grid{display:grid;grid-template-columns:1.14fr 1fr;gap:70px;align-items:center;padding-top:70px;padding-bottom:56px}.hero .eyebrow{display:flex;gap:12px;align-items:center;color:var(--deep)}.small-line{height:1px;width:25px;background:var(--blue);flex-shrink:0}h1{font-size:clamp(42px,4.35vw,60px);margin-top:27px;line-height:1.08;letter-spacing:-.05em}h1 span{color:var(--blue)}.hero-description{max-width:490px;margin-top:25px;color:var(--muted);font-size:16px;line-height:1.8}.button{display:inline-flex;align-items:center;justify-content:space-between;gap:28px;padding:17px 24px;font-size:14px;font-weight:600;line-height:1.4;min-height:56px;border:1px solid transparent;border-radius:28px;transition:background .15s ease}.button span{font-size:23px;line-height:1}.button-light{background:var(--blue);color:#fff;margin-top:30px}.button-light:hover,.button-dark:hover{background:var(--deep)}.button-dark{background:var(--blue);color:#fff}.cta-note{font-size:12px;color:var(--muted);margin-top:12px}.hero-foot{display:flex;align-items:center;justify-content:space-between;gap:30px;border-top:1px solid var(--line);padding-block:18px;color:var(--muted);font-size:12px}.hero-foot a{display:flex;gap:24px;align-items:center;min-height:36px;color:var(--deep)}.hero-foot a:hover{text-decoration:underline}.hero-foot a span{font-size:20px}

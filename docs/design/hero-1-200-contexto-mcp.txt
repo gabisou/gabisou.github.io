@@ -1,0 +1,777 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/c4670cf1-4dea-447e-95a6-3f930b6d9786";
+const imgBrandLogoMonogram = `${assetPathPrefix}/9dcb1.png`;
+const imgBrandLogoWordmark = `${assetPathPrefix}/f913b.png`;
+import { ShaderEffect } from "./lib/custom-effect-runtime/index";
+import { setup as setupCodeComponentId_505065ffcd2ca330e2c78951d58d5c7d9d78a08d_607, render as renderCodeComponentId_505065ffcd2ca330e2c78951d58d5c7d9d78a08d_607, manifest as manifestCodeComponentId_505065ffcd2ca330e2c78951d58d5c7d9d78a08d_607 } from "./lib/custom-effects/CodeComponentId_505065ffcd2ca330e2c78951d58d5c7d9d78a08d_607";
+const imgHeroArtworkGradientGlow = `${assetPathPrefix}/eff6f.svg`;
+const imgEllipse1 = `${assetPathPrefix}/7017e.svg`;
+const imgEllipse2 = `${assetPathPrefix}/9d961.svg`;
+const imgEllipse3 = `${assetPathPrefix}/5bdbb.svg`;
+const imgHeroiconsOutlineClipboardDocumentList = `${assetPathPrefix}/dfd6e.svg`;
+const imgHeroiconsOutlinePuzzlePiece = `${assetPathPrefix}/bced7.svg`;
+const imgHeroiconsOutlineCheck = `${assetPathPrefix}/e9515.svg`;
+const imgLine4 = `${assetPathPrefix}/02a65.svg`;
+const imgLine5 = `${assetPathPrefix}/48689.svg`;
+const imgXButtonArtwork = `${assetPathPrefix}/074ca.svg`;
+const imgHeroArtworkStarburst = `${assetPathPrefix}/3e6b3.svg`;
+const imgHeroArtworkDotRight = `${assetPathPrefix}/c59c3.svg`;
+const imgHeroArtworkDotBottom = `${assetPathPrefix}/3b06b.svg`;
+const imgHeroArtworkDotTop = `${assetPathPrefix}/a9715.svg`;
+const imgLine1 = `${assetPathPrefix}/fdd47.svg`;
+
+function BrandLogoMonogram({ className }: { className?: string }) {
+  return (
+    <div className={className || "h-[76.789px] relative w-[81.047px]"} data-node-id="25:17" data-name="Brand/Logo/Monogram">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <img alt="" className="absolute h-[193.2%] left-[-114.07%] max-w-none top-[-45.62%] w-[325.42%]" src={imgBrandLogoMonogram} />
+      </div>
+    </div>
+  );
+}
+
+type ActionsButtonProps = {
+  className?: string;
+  label?: string;
+  size?: "Default";
+  style?: "Primary";
+};
+
+function ActionsButton({ className, label = "Contato", size = "Default", style = "Primary" }: ActionsButtonProps) {
+  return (
+    <div className={className || "bg-[var(--color\\/brand\\/primary,#4a36eb)] content-stretch flex h-[99px] items-center justify-center px-[var(--spacing\\/20,20px)] py-[var(--spacing\\/10,10px)] relative rounded-[var(--radius\\/18,18px)] w-[303px]"} data-node-id="25:27">
+      <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[32px] text-[color:var(--color\/text\/inverse,white)] whitespace-nowrap" data-node-id="25:28">
+        {label}
+      </p>
+    </div>
+  );
+}
+
+type NavigationLinkProps = {
+  className?: string;
+  label?: string;
+};
+
+function NavigationLink({ className, label = "QUEM SOMOS" }: NavigationLinkProps) {
+  return (
+    <div className={className || "content-stretch flex items-start relative"} data-node-id="25:42" data-name="Navigation/Link">
+      <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[22px] text-[color:var(--color\/text\/primary,black)] whitespace-nowrap" data-node-id="25:43">
+        {label}
+      </p>
+    </div>
+  );
+}
+
+function NavigationPrimary({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex gap-[var(--spacing\\/56,56px)] h-[52px] items-center relative"} data-node-id="25:44" data-name="Navigation/Primary">
+      <NavigationLink className="content-stretch flex items-start relative shrink-0" />
+      <NavigationLink className="content-stretch flex items-start relative shrink-0" label="SERVIÇOS" />
+      <NavigationLink className="content-stretch flex items-start relative shrink-0" label="COMO TRABALHAMOS" />
+      <NavigationLink className="content-stretch flex items-start relative shrink-0" label="PROJETOS" />
+      <div className="bg-[#c6d2cc] content-stretch flex h-[52px] items-center justify-center px-[var(--spacing\/20,20px)] py-[var(--spacing\/10,10px)] relative rounded-[var(--radius\/10,10px)] shrink-0 w-[170px]" data-node-id="25:53" data-name="contact-action">
+        <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[22px] text-[color:var(--color\/text\/primary,black)] whitespace-nowrap" data-node-id="I25:53;25:34">
+          CONTATO
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function BrandLogoWordmark({ className }: { className?: string }) {
+  return (
+    <div className={className || "h-[77px] relative w-[260px]"} data-node-id="25:15" data-name="Brand/Logo/Wordmark">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <img alt="" className="absolute h-[219.51%] left-[-7.77%] max-w-none top-[-60.77%] w-[114.7%]" src={imgBrandLogoWordmark} />
+      </div>
+    </div>
+  );
+}
+
+function NavigationSiteHeader({ className }: { className?: string }) {
+  return (
+    <div className={className || "bg-[var(--color\\/background\\/page,#f7f7f0)] border border-[#282836] border-solid content-stretch flex gap-[var(--spacing\\/header-brand-to-navigation,185px)] h-[125px] items-center px-[var(--spacing\\/header-inline,29px)] relative w-[1920px]"} data-node-id="25:55" data-name="Navigation/Site header">
+      <BrandLogoWordmark className="h-[77px] relative shrink-0 w-[260px]" />
+      <NavigationPrimary className="content-stretch flex gap-[var(--spacing\/56,56px)] h-[52px] items-center relative shrink-0" />
+    </div>
+  );
+}
+
+export default function Component01HeroDesktop() {
+  return (
+    <div className="bg-[var(--color\/background\/hero,#f5f7f0)] relative size-full" data-node-id="1:200" data-name="01-hero-desktop">
+      <NavigationSiteHeader className="absolute bg-[var(--color\/background\/page,#f7f7f0)] border border-[#282836] border-solid content-stretch flex gap-[var(--spacing\/header-brand-to-navigation,185px)] h-[125px] items-center left-0 px-[var(--spacing\/header-inline,29px)] top-0 w-[1920px]" />
+      <div className="absolute contents left-[84px] top-[296px]" data-node-id="3:24" data-name="hero-content">
+        <div className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[0] left-[84px] not-italic text-[0px] text-black top-[296px] whitespace-nowrap" data-node-id="1:211">
+          <p className="font-['Inter:Medium'] font-medium leading-[normal] mb-0 text-[40px]">Desenvolvimento de soluções digitais</p>
+          <p className="leading-[normal] text-[#4a36eb] text-[40px]">para a realidade da sua empresa.</p>
+        </div>
+        <div className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[0] left-[85px] not-italic text-[24px] text-[color:var(--color\/text\/primary,black)] top-[482px] whitespace-nowrap" data-node-id="1:212">
+          <p className="leading-[normal] mb-0 whitespace-pre">{`A GABiSOU transforma necessidades do seu negócio em soluções digitais, com `}</p>
+          <p className="leading-[normal] whitespace-pre">execução técnica e conversa próxima.</p>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[85px] not-italic text-[16px] text-[color:var(--color\/text\/primary,black)] top-[713px] whitespace-nowrap" data-node-id="1:215">
+          Por whatsapp, direto com a equipe de humanos
+        </p>
+        <ActionsButton className="absolute bg-[var(--color\/brand\/primary,#4a36eb)] content-stretch flex h-[99px] items-center justify-center left-[85px] px-[var(--spacing\/20,20px)] py-[var(--spacing\/10,10px)] rounded-[var(--radius\/18,18px)] top-[598px] w-[303px]" label="Entre em contato" />
+      </div>
+      <div className="absolute contents left-[932px] top-[173.82px]" data-node-id="3:25" data-name="hero-artwork">
+        <div className="absolute flex h-[584.026px] items-center justify-center left-[932px] top-[561px] w-[826.552px]" data-node-id="1:216">
+          <div className="flex-none rotate-[24.34deg]">
+            <ShaderEffect className="h-[290px] relative w-[776px]" shaders={[{ setup: setupCodeComponentId_505065ffcd2ca330e2c78951d58d5c7d9d78a08d_607, render: renderCodeComponentId_505065ffcd2ca330e2c78951d58d5c7d9d78a08d_607, params: { chromaticMode: 2, distortionStrength: 0.14000000059604645, aberrationStrength: 0.3999999761581421, centre: { x: 50, y: 50 }, quality: 1 }, manifest: manifestCodeComponentId_505065ffcd2ca330e2c78951d58d5c7d9d78a08d_607 }]}>
+              <div className="h-[290px] relative w-[776px]" data-name="hero-artwork-gradient-glow">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgHeroArtworkGradientGlow} />
+              </div>
+            </ShaderEffect>
+          </div>
+        </div>
+        <div className="absolute flex h-[299.386px] items-center justify-center left-[1280.99px] top-[511.08px] w-[585.571px]" data-node-id="1:217">
+          <div className="flex-none rotate-[10.19deg]">
+            <div className="bg-[var(--color\/illustration\/cream-light,#f3ebd2)] h-[203.811px] relative rounded-[7.804px] shadow-[-11px_18px_20.3px_-8px_rgba(0,0,0,0.25)] w-[558.317px]" data-name="hero-artwork-panel-secondary" />
+          </div>
+        </div>
+        <div className="absolute flex h-[109.16px] items-center justify-center left-[1382.56px] top-[606px] w-[384.384px]" data-node-id="13:11">
+          <div className="flex-none rotate-[10.2deg]">
+            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] not-italic relative text-[35.046px] text-[color:var(--color\/text\/primary,black)] whitespace-nowrap">
+              <span className="font-['Inter:Semi_Bold'] font-semibold leading-[normal] text-black">AI FIRST</span>
+              <span className="leading-[normal] text-black">{` AI TOGETHER`}</span>
+            </p>
+          </div>
+        </div>
+        <div className="absolute flex h-[395.354px] items-center justify-center left-[1140.32px] top-[173.82px] w-[564.257px]" data-node-id="1:218">
+          <div className="flex-none rotate-[-8.1deg]">
+            <div className="bg-[var(--color\/illustration\/cream,#ece5c8)] h-[324.838px] relative rounded-[7.804px] shadow-[2px_17px_18.5px_0px_rgba(0,0,0,0.25)] w-[523.732px]" data-name="hero-artwork-browser-surface" />
+          </div>
+        </div>
+        <div className="absolute flex h-[139.638px] items-center justify-center left-[1140.32px] top-[173.82px] w-[527.884px]" data-node-id="1:219">
+          <div className="flex-none rotate-[-8.1deg]">
+            <div className="bg-[var(--color\/illustration\/blue,#4c8edc)] h-[66.548px] relative w-[523.732px]" data-name="hero-artwork-browser-toolbar" />
+          </div>
+        </div>
+        <div className="absolute contents h-[181.53px] left-[1205.96px] top-[285.82px] w-[445.869px]" data-node-id="17:17" data-name="hero-artwork-steps">
+          <div className="absolute flex h-[36.165px] items-center justify-center left-[1218.97px] top-[418.56px] w-[138.488px]" data-node-id="14:17">
+            <div className="flex-none rotate-[-6.41deg]">
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative text-[17px] text-[color:var(--color\/text\/primary,black)] whitespace-pre">{`Sua necessidade    `}</p>
+            </div>
+          </div>
+          <div className="absolute flex h-[35.83px] items-center justify-center left-[1515.71px] top-[385.55px] w-[135.507px]" data-node-id="15:32">
+            <div className="flex-none rotate-[-6.41deg]">
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative text-[17px] text-[color:var(--color\/text\/primary,black)] whitespace-nowrap">Projeto entregue</p>
+            </div>
+          </div>
+          <div className="absolute flex h-[34.043px] items-center justify-center left-[1379.74px] top-[402.61px] w-[119.607px]" data-node-id="15:30">
+            <div className="flex-none rotate-[-6.41deg]">
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative text-[17px] text-[color:var(--color\/text\/primary,black)] whitespace-nowrap">Nossa solução</p>
+            </div>
+          </div>
+          <div className="absolute flex items-center justify-center left-[1235.77px] size-[89.684px] top-[333.53px]" data-node-id="14:19">
+            <div className="flex-none rotate-[-6.41deg]">
+              <div className="relative size-[81.133px]">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute flex items-center justify-center left-[1395.36px] size-[89.684px] top-[315px]" data-node-id="15:20">
+            <div className="flex-none rotate-[-6.41deg]">
+              <div className="relative size-[81.133px]">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute flex items-center justify-center left-[1531.5px] size-[89.684px] top-[299.83px]" data-node-id="15:22">
+            <div className="flex-none rotate-[-6.41deg]">
+              <div className="relative size-[81.133px]">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse3} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute flex items-center justify-center left-[1259.12px] size-[42.985px] top-[356.88px]" data-node-id="17:2">
+            <div className="flex-none rotate-[-6.41deg]">
+              <div className="relative size-[38.886px]" data-name="heroicons-outline/clipboard-document-list">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgHeroiconsOutlineClipboardDocumentList} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute flex items-center justify-center left-[1418.27px] size-[41.641px] top-[339.22px]" data-node-id="17:7">
+            <div className="flex-none rotate-[-6.41deg]">
+              <div className="relative size-[37.671px]" data-name="heroicons-outline/puzzle-piece">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgHeroiconsOutlinePuzzlePiece} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute flex items-center justify-center left-[1556.44px] size-[39.626px] top-[324.78px]" data-node-id="17:12">
+            <div className="flex-none rotate-[-6.41deg]">
+              <div className="relative size-[35.848px]" data-name="heroicons-outline/check">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgHeroiconsOutlineCheck} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute flex h-[14.09px] items-center justify-center left-[1314.42px] top-[366px] w-[99.002px]" data-node-id="19:148">
+            <div className="flex-none rotate-[-8.1deg]">
+              <div className="h-0 relative w-[100px]">
+                <div className="absolute inset-[-9px_0_0_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgLine4} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute flex h-[6.904px] items-center justify-center left-[1483.71px] top-[356.16px] w-[48.511px]" data-node-id="26:149">
+            <div className="flex-none rotate-[-8.1deg]">
+              <div className="h-0 relative w-[49px]">
+                <div className="absolute inset-[-9px_0_0_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgLine5} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute flex h-[73.656px] items-center justify-center left-[1604.2px] top-[173.82px] w-[64.004px]" data-node-id="19:18">
+          <div className="flex-none rotate-[-8.1deg]">
+            <div className="bg-[var(--color\/illustration\/blue-light,#92c2f9)] h-[66.548px] relative w-[55.183px]" data-name="hero-artwork-browser-toolbar" />
+          </div>
+        </div>
+        <div className="absolute flex h-[27.667px] items-center justify-center left-[1621px] top-[196px] w-[29.527px]" data-node-id="19:27">
+          <div className="flex-none rotate-[-7.72deg]">
+            <div className="h-[24.327px] relative w-[26.499px]" data-name="x-button-artwork">
+              <div className="absolute inset-[0_0_-8.93%_0]">
+                <img alt="" className="block max-w-none size-full" src={imgXButtonArtwork} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute flex h-[123.319px] items-center justify-center left-[1079px] top-[468px] w-[297.883px]" data-node-id="1:220">
+          <div className="flex-none rotate-[-5.98deg]">
+            <div className="bg-[var(--color\/surface\/plain,white)] border border-[var(--color\/border\/default,black)] border-solid h-[93.647px] relative rounded-[7.804px] shadow-[9px_7px_15.8px_0px_rgba(0,0,0,0.25)] w-[289.704px]" data-name="hero-artwork-panel-floating" />
+          </div>
+        </div>
+        <div className="absolute flex h-[30.738px] items-center justify-center left-[1170px] top-[513.61px] w-[122.278px]" data-node-id="19:28">
+          <div className="flex-none rotate-[-5.61deg]">
+            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative text-[16px] text-[color:var(--color\/text\/primary,black)] whitespace-nowrap">Faça acontecer.</p>
+          </div>
+        </div>
+        <div className="absolute flex h-[134.625px] items-center justify-center left-[1251.77px] top-[753.08px] w-[309.5px]" data-node-id="1:221">
+          <div className="flex-none rotate-[-5.11deg]">
+            <div className="border-2 border-[var(--color\/surface\/control,#d9d9d9)] border-solid h-[108.254px] pointer-events-none relative rounded-[7.804px] w-[301.058px]" data-name="hero-artwork-panel-accent">
+              <div aria-hidden className="absolute bg-[var(--color\/brand\/primary,#4a36eb)] inset-0 rounded-[7.804px]" />
+              <div className="absolute inset-0 rounded-[inherit] shadow-[inset_50px_-64px_17.8px_-25px_rgba(0,0,0,0.25)]" />
+            </div>
+          </div>
+        </div>
+        <div className="absolute flex items-center justify-center left-[1144.11px] size-[113.779px] top-[616.11px]" data-node-id="1:222">
+          <div className="flex-none rotate-[-10.18deg]">
+            <div className="relative size-[98px]" data-name="hero-artwork-starburst">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgHeroArtworkStarburst} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute left-[1690px] size-[40px] top-[500px]" data-node-id="1:223" data-name="hero-artwork-dot-right">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgHeroArtworkDotRight} />
+        </div>
+        <div className="absolute left-[1488px] size-[24px] top-[922px]" data-node-id="1:224" data-name="hero-artwork-dot-bottom">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgHeroArtworkDotBottom} />
+        </div>
+        <div className="absolute left-[1181px] size-[59px] top-[174px]" data-node-id="1:225" data-name="hero-artwork-dot-top">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgHeroArtworkDotTop} />
+        </div>
+        <BrandLogoMonogram className="absolute flex h-[84.01px] items-center justify-center left-[1454.24px] top-[772.26px] w-[87.853px]" />
+        <div className="absolute flex h-[38.553px] items-center justify-center left-[1331px] top-[804px] w-[111.142px]" data-node-id="19:30">
+          <div className="flex-none rotate-[-5.09deg]">
+            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative text-[24px] text-[color:var(--color\/text\/inverse,white)] whitespace-nowrap">Gabinário</p>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[29px] items-center justify-center left-[1377px] top-[627px] w-[155px]" data-node-id="13:12">
+        <div className="flex-none rotate-[10.6deg]">
+          <div className="h-0 relative w-[157.69px]">
+            <div className="absolute inset-[-3px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine1} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Typography/Navigation/Label: Font(family: "Inter", style: Regular, size: 22, weight: 400, lineHeight: 100, letterSpacing: 0), Typography/Body/Default: Font(family: "Inter", style: Regular, size: 24, weight: 400, lineHeight: 100, letterSpacing: 0), Typography/Label/Helper: Font(family: "Inter", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0), Typography/Action/Default: Font(family: "Inter", style: Medium, size: 32, weight: 500, lineHeight: 100, letterSpacing: 0), Typography/Label/Illustration: Font(family: "Inter", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Navigation/Site header
+**Node ID:** 25:55
+
+Desktop website header. One shared master for all seven sections. Nested Brand/Logo/Wordmark and Navigation/Primary keep branding and navigation synchronized. Desktop reference width 1920; no mobile behavior is implied.
+
+## Brand/Logo/Wordmark
+**Node ID:** 25:15
+
+GABiSOU website local asset. Edit this main component to update all linked instances. Preserve semantic layer names; customize instance content using properties. Original raster wordmark; do not stretch its aspect ratio.
+
+## Navigation/Primary
+**Node ID:** 25:44
+
+GABiSOU website local asset. Edit this main component to update all linked instances. Preserve semantic layer names; customize instance content using properties.
+
+## Navigation/Link
+**Node ID:** 25:42
+
+GABiSOU website local asset. Edit this main component to update all linked instances. Preserve semantic layer names; customize instance content using properties.
+
+## Style=Secondary, Size=Compact
+**Node ID:** 25:33
+
+GABiSOU website local asset. Edit this main component to update all linked instances. Preserve semantic layer names; customize instance content using properties.
+
+## Actions/Button
+**Node ID:** 25:35
+
+Shared website action. Style selects emphasis; Size selects the existing compact, default or large treatment. Label is editable per instance. Do not create variants for copy. Visual assets only; no interactions are added.
+
+## Style=Primary, Size=Default
+**Node ID:** 25:27
+
+GABiSOU website local asset. Edit this main component to update all linked instances. Preserve semantic layer names; customize instance content using properties.
+
+## Brand/Logo/Monogram
+**Node ID:** 25:17
+
+GABiSOU website local asset. Edit this main component to update all linked instances. Preserve semantic layer names; customize instance content using properties.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.
+
+IMPORTANT: This design contains authored shader fills and/or effects. Implementing these shaders is part of the requested task, including static, subtle, and decorative shaders. Do NOT omit them, approximate them with CSS or other techniques, or ask whether the user wants them implemented later.
+
+The <ShaderEffect> and <ShaderFill> components require the Figma shader runtime library. Before implementing the shader-backed elements:
+1. Read the shader-runtime-index MCP resource at file://shader-runtime-index.json/.
+2. For EVERY filename returned, read file:///shader-runtime/{filename} using the shader-runtime-file MCP resource template. Preserve the THREE slashes after file:. Example: file:///shader-runtime/components/ShaderFill.tsx. shader-runtime-file is a template name, NOT a URI path.
+3. Copy the runtime and each of the following design-specific shader source files VERBATIM, preserving their paths and resolving all imports.
+4. Keep <ShaderFill> and <ShaderEffect> connected to the rendered component, preserving shader parameters, opacity, and effect order.
+
+If a resource read fails, rediscover its exact URI with resources/list or resources/templates/list and retry. Do NOT infer that resource reads are unsupported from a failed request to a guessed URI. If a required file remains unavailable, report the exact blocked resource without substituting an approximation.
+
+HTML-in-Canvas is a browser API that lets a canvas capture rendered DOM elements as input to graphics rendering. The supplied <ShaderEffect> runtime uses it to apply WebGPU shaders to HTML content. <ShaderFill> renders a shader-generated fill using WebGPU and does NOT require HTML-in-Canvas. The supplied runtime already implements the integration: copy it verbatim and use the provided components; you do not need to recreate it. API specification: https://github.com/WICG/html-in-canvas. If the target browser lacks a required API, preserve the shader implementation and explain the compatibility limitation. Do NOT replace it with CSS or omit it.
+
+Before declaring completion, verify that the provided runtime and shader modules exist, are imported, and are used by the rendered component.
+
+// lib/custom-effects/CodeComponentId_505065ffcd2ca330e2c78951d58d5c7d9d78a08d_607.ts
+// @ts-nocheck
+
+// Property metadata is only used in Figma Design, so this is a no-op.
+function defineProperties(
+  _component: unknown,
+  _properties: unknown,
+): void {}
+
+export default function Effect() { }
+function finiteNumber(value, fallback) {
+    const num = Number(value);
+    return Number.isFinite(num) ? num : fallback;
+}
+function numberParam(params, name, fallback) {
+    return finiteNumber(params[name], fallback);
+}
+function pointParam(params, name, fallback) {
+    const value = (params[name] || {});
+    return [
+        finiteNumber(value.x, fallback[0]),
+        finiteNumber(value.y, fallback[1]),
+    ];
+}
+function qualityParam(params) {
+    return Math.max(0, Math.min(2, Math.round(numberParam(params, "quality", 1))));
+}
+function chromaticModeParam(params) {
+    return Math.max(0, Math.min(2, Math.round(Number(params["chromaticMode"] ?? 0))));
+}
+function aberrationBucketForStrength(aberrationStrength) {
+    if (aberrationStrength <= 0.001)
+        return 0;
+    if (aberrationStrength < 0.08)
+        return 1;
+    if (aberrationStrength < 0.18)
+        return 2;
+    if (aberrationStrength < 0.35)
+        return 3;
+    return 4;
+}
+function kernelScaleForAberrationBucket(aberrationBucket) {
+    if (aberrationBucket <= 0)
+        return 0.0;
+    if (aberrationBucket === 1)
+        return 0.25;
+    if (aberrationBucket === 2)
+        return 0.5;
+    if (aberrationBucket === 3)
+        return 0.75;
+    return 1.0;
+}
+function kernelDataForQuality(quality, aberrationBucket) {
+    const baseKernelSize = 64.0 / (quality + 1.0);
+    const kernelScale = kernelScaleForAberrationBucket(aberrationBucket);
+    const kernelSize = kernelScale === 0.0 ? 3.0 : Math.max(3.0, baseKernelSize * kernelScale);
+    const kernelTaps = Math.ceil(kernelSize);
+    const invKernelSize = 1.0 / Math.max(kernelSize - 1.0, 1.0);
+    let weightSum = 0.0;
+    for (let i = 0; i < kernelTaps; i += 1) {
+        const fi = i * invKernelSize - 0.5;
+        weightSum += 1.0 - Math.abs(fi * 2.0);
+    }
+    return { kernelTaps, invKernelSize, weightSum };
+}
+function shaderForMode(chromaticMode) {
+    if (chromaticMode === 1) {
+        return `
+      // Longitudinal: same distortion amount, positional offset along radial direction.
+      redSample   = sampleInputPremultLinearZero(lensDistort(tapPos + radialDir * (fi + 0.5) * chroma * u.radiusData.x * 0.15, amount));
+      greenSample = sampleInputPremultLinearZero(lensDistort(tapPos + radialDir * fi * chroma * u.radiusData.x * 0.15, amount));
+      blueSample  = sampleInputPremultLinearZero(lensDistort(tapPos + radialDir * (fi - 0.5) * chroma * u.radiusData.x * 0.15, amount));
+`;
+    }
+    if (chromaticMode === 2) {
+        return `
+      // Anamorphic: chromatic tap offset along X axis only.
+      redSample   = sampleInputPremultLinearZero(lensDistort(tapPos + vec2f((fi + 0.5) * chroma * u.frameData.y * 0.15, 0.0), amount));
+      greenSample = sampleInputPremultLinearZero(lensDistort(tapPos + vec2f(fi * chroma * u.frameData.y * 0.15, 0.0), amount));
+      blueSample  = sampleInputPremultLinearZero(lensDistort(tapPos + vec2f((fi - 0.5) * chroma * u.frameData.y * 0.15, 0.0), amount));
+`;
+    }
+    return `
+      // Lateral (default): chromatic split via distortion amount variation.
+      redSample   = getDistortedTex2D(tapPos, amount + (fi + 0.5) * chroma);
+      greenSample = getDistortedTex2D(tapPos, amount + fi * chroma);
+      blueSample  = getDistortedTex2D(tapPos, amount + (fi - 0.5) * chroma);
+`;
+}
+function buildShaderCode(quality, chromaticMode, aberrationBucket) {
+    const kernel = kernelDataForQuality(quality, aberrationBucket);
+    const radialSetup = chromaticMode === 1
+        ? `
+    let center = u.centerPos.xy;
+    let radialVec = tapPos - center;
+    let radialLen = length(radialVec);
+    let radialDir = select(vec2f(1.0, 0.0), radialVec / radialLen, radialLen >= 0.001);
+`
+        : "";
+    const radialPlaceholder = "    // __RADIAL_SETUP__\n";
+    const modePlaceholder = `      // __SHADER_FOR_MODE_START__
+      // Lateral defaults keep the static WGSL template valid before substitution.
+      redSample   = getDistortedTex2D(tapPos, amount + (fi + 0.5) * chroma);
+      greenSample = getDistortedTex2D(tapPos, amount + fi * chroma);
+      blueSample  = getDistortedTex2D(tapPos, amount + (fi - 0.5) * chroma);
+      // __SHADER_FOR_MODE_END__
+`;
+    const shader = `
+diagnostic(off,derivative_uniformity);
+struct Uniforms {
+  frameData:  vec4f, // x=time, y=width, z=height, w=quality
+  distortion: vec4f, // x=distortionStrength, y=aberrationStrength, z=chromaticMode(0=lateral,1=longitudinal,2=anamorphic), w=unused
+  centerPos:  vec4f, // xy=centre in pixel space, zw=unused
+  radiusData: vec4f, // x=radius (half-diagonal), yzw=unused
+  spreadData: vec4f, // x=sampleSpread, y=sampleCount, zw=unused
+};
+@group(0) @binding(0) var<uniform> u: Uniforms;
+@group(0) @binding(1) var samp: sampler;
+@group(0) @binding(2) var inputTex: texture_2d<f32>;
+
+const KERNEL_TAPS: i32 = 1;
+const INV_KERNEL_SIZE: f32 = 1.000000000;
+const KERNEL_WEIGHT_SUM: f32 = 1.000000000;
+const ABERRATION_BUCKET: i32 = 0;
+const SAMPLE_TAPS: i32 = 4;
+
+// Halton(2,3)-derived 4-tap jitter offsets (normalized to [-0.5, 0.5])
+const JITTER: array<vec2f, 4> = array<vec2f, 4>(
+  vec2f( 0.0,       0.0      ),
+  vec2f( 0.5,      -0.333333 ),
+  vec2f(-0.25,      0.333333 ),
+  vec2f( 0.25,     -0.111111 )  // was 0.777778 -> wrap to -0.111111
+);
+
+struct VsIn {
+  @location(0) pos: vec2f,
+  @location(1) uv: vec2f,
+};
+struct VsOut {
+  @builtin(position) position: vec4f,
+  @location(0) uv: vec2f,
+};
+
+fn sampleInputPremultLinearZero(localPos: vec2f) -> vec4f {
+  let dims = u.frameData.yz;
+  let uv = localPos / dims;
+  let inBounds = uv.x >= 0.0 && uv.x <= 1.0 && uv.y >= 0.0 && uv.y <= 1.0;
+  let clamped = clamp(uv, vec2f(0.0), vec2f(1.0));
+  let col = textureSampleLevel(inputTex, samp, clamped, 0.0);
+  return select(vec4f(0.0), col, inBounds);
+}
+
+fn lensDistort(localPos: vec2f, amount: f32) -> vec2f {
+  let center = u.centerPos.xy;
+  let centeredPos = localPos - center;
+  let normPos = centeredPos / u.radiusData.x;
+  let dist2 = dot(normPos, normPos);
+  let distortion = 1.0 + amount * (dist2 + dist2 * dist2);
+  return centeredPos * distortion + center;
+}
+
+fn getDistortedTex2D(localPos: vec2f, amount: f32) -> vec4f {
+  let p = lensDistort(localPos, amount);
+  return sampleInputPremultLinearZero(p);
+}
+
+@vertex fn vs_main(in: VsIn) -> VsOut {
+  var out: VsOut;
+  out.position = vec4f(in.pos, 0.0, 1.0);
+  out.uv = in.uv;
+  return out;
+}
+
+@fragment fn fs_main(@location(0) uv: vec2f) -> @location(0) vec4f {
+  let dims = max(u.frameData.yz, vec2f(1.0));
+  let localPos = uv * dims;
+
+  let amount = u.distortion.x;
+  let chromaParam = u.distortion.y;
+  let chroma = (1.0 + abs(amount)) * chromaParam;
+  let spread = u.spreadData.x;
+
+  if (ABERRATION_BUCKET == 0) {
+    var fastAccumColor: vec4f = vec4f(0.0);
+
+    for (var j: i32 = 0; j < SAMPLE_TAPS; j += 1) {
+      let tapPos = localPos + JITTER[j] * spread;
+      let sample = getDistortedTex2D(tapPos, amount);
+      let r_s = select(1.0, sample.r / max(0.001, sample.a), sample.a > 0.01);
+      let g_s = select(1.0, sample.g / max(0.001, sample.a), sample.a > 0.01);
+      let b_s = select(1.0, sample.b / max(0.001, sample.a), sample.a > 0.01);
+      fastAccumColor += vec4f(r_s * sample.a, g_s * sample.a, b_s * sample.a, sample.a);
+    }
+
+    return fastAccumColor / f32(SAMPLE_TAPS);
+  }
+
+  var accumColor: vec4f = vec4f(0.0);
+
+  for (var j: i32 = 0; j < SAMPLE_TAPS; j += 1) {
+    let tapPos = localPos + JITTER[j] * spread;
+    // __RADIAL_SETUP__
+    var tapColor = vec4f(0.0, 0.0, 0.0, 0.0);
+
+    for (var i: i32 = 0; i < KERNEL_TAPS; i += 1) {
+      let fi = f32(i) * INV_KERNEL_SIZE - 0.5;
+      let window = 1.0 - abs(fi * 2.0);
+
+      var redSample:   vec4f;
+      var greenSample: vec4f;
+      var blueSample:  vec4f;
+      // __SHADER_FOR_MODE_START__
+      // Lateral defaults keep the static WGSL template valid before substitution.
+      redSample   = getDistortedTex2D(tapPos, amount + (fi + 0.5) * chroma);
+      greenSample = getDistortedTex2D(tapPos, amount + fi * chroma);
+      blueSample  = getDistortedTex2D(tapPos, amount + (fi - 0.5) * chroma);
+      // __SHADER_FOR_MODE_END__
+      let r_s = select(1.0, redSample.r   / max(0.001, redSample.a),   redSample.a   > 0.01);
+      let g_s = select(1.0, greenSample.g / max(0.001, greenSample.a), greenSample.a > 0.01);
+      let b_s = select(1.0, blueSample.b  / max(0.001, blueSample.a),  blueSample.a  > 0.01);
+      let alpha = max(max(redSample.a, greenSample.a), blueSample.a);
+      tapColor += vec4f(r_s * alpha, g_s * alpha, b_s * alpha, alpha) * window;
+    }
+
+    tapColor = tapColor / max(KERNEL_WEIGHT_SUM, 0.0001);
+    accumColor += tapColor;
+  }
+
+  // Average premultiplied accumulation - output is premultiplied
+  return accumColor / f32(SAMPLE_TAPS);
+}
+`;
+    return shader
+        .replace("const KERNEL_TAPS: i32 = 1;", `const KERNEL_TAPS: i32 = ${kernel.kernelTaps};`)
+        .replace("const INV_KERNEL_SIZE: f32 = 1.000000000;", `const INV_KERNEL_SIZE: f32 = ${kernel.invKernelSize.toFixed(9)};`)
+        .replace("const KERNEL_WEIGHT_SUM: f32 = 1.000000000;", `const KERNEL_WEIGHT_SUM: f32 = ${kernel.weightSum.toFixed(9)};`)
+        .replace("const ABERRATION_BUCKET: i32 = 0;", `const ABERRATION_BUCKET: i32 = ${aberrationBucket};`)
+        .replace(radialPlaceholder, radialSetup)
+        .replace(modePlaceholder, shaderForMode(chromaticMode));
+}
+export function setup(device, frame) {
+    frame.state.pipelineCache = {};
+    frame.state.quad = device.createBuffer({
+        size: 6 * 4 * 4,
+        usage: GPUBufferUsage.VERTEX,
+        mappedAtCreation: true,
+    });
+    new Float32Array(frame.state.quad.getMappedRange()).set([
+        -1, -1, 0, 1,
+        1, -1, 1, 1,
+        -1, 1, 0, 0,
+        -1, 1, 0, 0,
+        1, -1, 1, 1,
+        1, 1, 1, 0,
+    ]);
+    frame.state.quad.unmap();
+    frame.state.uniformBuf = device.createBuffer({
+        size: 80,
+        usage: GPUBufferUsage.UNIFORM | GPUBufferUsage.COPY_DST,
+    });
+    frame.state.sampler = device.createSampler({
+        magFilter: 'linear',
+        minFilter: 'linear',
+        addressModeU: 'clamp-to-edge',
+        addressModeV: 'clamp-to-edge',
+    });
+    frame.state.placeholder = device.createTexture({
+        size: [1, 1, 1],
+        format: 'rgba8unorm',
+        usage: GPUTextureUsage.TEXTURE_BINDING | GPUTextureUsage.COPY_DST,
+    });
+    device.queue.writeTexture({ texture: frame.state.placeholder }, new Uint8Array([0, 0, 0, 0]), { bytesPerRow: 4 }, { width: 1, height: 1, depthOrArrayLayers: 1 });
+}
+export function render(device, frame) {
+    const params = frame.params || {};
+    const output = frame.output || {};
+    const width = Math.max(1, finiteNumber(output.width, 1));
+    const height = Math.max(1, finiteNumber(output.height, 1));
+    const radius = Math.sqrt(width * width + height * height) * 0.5;
+    const distortionStrength = numberParam(params, "distortionStrength", 0.5);
+    const aberrationStrength = numberParam(params, "aberrationStrength", 0.2);
+    const quality = qualityParam(params);
+    const aberrationBucket = aberrationBucketForStrength(aberrationStrength);
+    const centrePercent = pointParam(params, "centre", [50, 50]);
+    const centreX = centrePercent[0] / 100.0 * width;
+    const centreY = centrePercent[1] / 100.0 * height;
+    const sampleSpread = 1.4;
+    const sampleCount = 4;
+    const chromaticModeIndex = chromaticModeParam(params);
+    device.queue.writeBuffer(frame.state.uniformBuf, 0, new Float32Array([
+        0, width, height, quality,
+        distortionStrength, aberrationStrength, chromaticModeIndex, 0,
+        centreX, centreY, 0, 0,
+        radius, 0, 0, 0,
+        sampleSpread, sampleCount, 0, 0,
+    ]));
+    const inputView = frame.input != null
+        ? frame.input.createView()
+        : frame.state.placeholder.createView();
+    const outputFormat = frame.output.format;
+    const pipelineKey = `${outputFormat}:q${quality}:mode${chromaticModeIndex}:ab${aberrationBucket}`;
+    let cached = frame.state.pipelineCache[pipelineKey];
+    if (cached == null) {
+        const module = device.createShaderModule({
+            code: buildShaderCode(quality, chromaticModeIndex, aberrationBucket),
+        });
+        cached = {
+            module,
+            pipeline: device.createRenderPipeline({
+                layout: 'auto',
+                vertex: {
+                    module,
+                    entryPoint: 'vs_main',
+                    buffers: [{
+                            arrayStride: 16,
+                            attributes: [
+                                { shaderLocation: 0, format: 'float32x2', offset: 0 },
+                                { shaderLocation: 1, format: 'float32x2', offset: 8 },
+                            ],
+                        }],
+                },
+                fragment: {
+                    module,
+                    entryPoint: 'fs_main',
+                    targets: [{ format: outputFormat }],
+                },
+                primitive: { topology: 'triangle-list' },
+            }),
+        };
+        frame.state.pipelineCache[pipelineKey] = cached;
+    }
+    const bindGroup = device.createBindGroup({
+        layout: cached.pipeline.getBindGroupLayout(0),
+        entries: [
+            { binding: 0, resource: { buffer: frame.state.uniformBuf } },
+            { binding: 1, resource: frame.state.sampler },
+            { binding: 2, resource: inputView },
+        ],
+    });
+    const encoder = device.createCommandEncoder();
+    const pass = encoder.beginRenderPass({
+        colorAttachments: [{
+                view: frame.output.createView(),
+                loadOp: 'clear',
+                clearValue: { r: 0, g: 0, b: 0, a: 0 },
+                storeOp: 'store',
+            }],
+    });
+    pass.setPipeline(cached.pipeline);
+    pass.setBindGroup(0, bindGroup);
+    pass.setVertexBuffer(0, frame.state.quad);
+    pass.draw(6);
+    pass.end();
+    device.queue.submit([encoder.finish()]);
+}
+defineProperties(Effect, {
+    "distortionStrength": {
+        type: "number",
+        label: "Distortion",
+        defaultValue: 0.5,
+        control: "slider",
+        min: 0,
+        max: 1,
+        step: 0.01,
+    },
+    "aberrationStrength": {
+        type: "number",
+        label: "Aberration",
+        defaultValue: 0.2,
+        control: "slider",
+        min: 0,
+        max: 1,
+        step: 0.01,
+    },
+    "centre": {
+        type: "point",
+        label: "Center point",
+        defaultValue: { x: 50, y: 50 },
+        control: "point",
+        mode: "canvas_and_ui",
+        unit: "%",
+    },
+    "chromaticMode": {
+        type: "number",
+        label: "Mode",
+        defaultValue: 0,
+        control: "select",
+        options: [
+            { value: 0, label: "Lateral" },
+            { value: 1, label: "Longitudinal" },
+            { value: 2, label: "Anamorphic" },
+        ],
+    },
+    "quality": {
+        type: "number",
+        label: "Quality",
+        defaultValue: 1,
+        control: "select",
+        options: [
+            { value: 2, label: "Low" },
+            { value: 1, label: "Medium" },
+            { value: 0, label: "High" },
+        ],
+    },
+});
+
+export const manifest = {
+  "name": "Lens distortion",
+  "version": 2,
+  "isAnimated": false,
+  "usesMouse": false
+}
+

@@ -1,0 +1,4727 @@
+[
+  {
+    "label": "fresh-1536",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 352,
+          "height": 479.71875,
+          "scrollWidth": 352,
+          "width": 352.21875,
+          "x": 74.671875,
+          "y": 2016.140625
+        },
+        "media": {
+          "clientWidth": 352,
+          "height": 173.71875,
+          "scrollWidth": 352,
+          "width": 352.21875,
+          "x": 74.671875,
+          "y": 2016.140625
+        },
+        "summary": {
+          "clientWidth": 324,
+          "height": 31,
+          "scrollWidth": 324,
+          "width": 324.21875,
+          "x": 88.671875,
+          "y": 2209.859375
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 93.671875,
+            "y": 2429.859375
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 248.625,
+            "y": 2429.859375
+          }
+        ],
+        "title": {
+          "clientWidth": 338,
+          "height": 31,
+          "scrollWidth": 338,
+          "width": 338.21875,
+          "x": 81.671875,
+          "y": 2031.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 352,
+          "height": 479.71875,
+          "scrollWidth": 352,
+          "width": 352.21875,
+          "x": 456.390625,
+          "y": 2016.140625
+        },
+        "media": {
+          "clientWidth": 352,
+          "height": 173.71875,
+          "scrollWidth": 352,
+          "width": 352.21875,
+          "x": 456.390625,
+          "y": 2016.140625
+        },
+        "summary": {
+          "clientWidth": 324,
+          "height": 31,
+          "scrollWidth": 324,
+          "width": 324.21875,
+          "x": 470.390625,
+          "y": 2209.859375
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 475.390625,
+            "y": 2429.859375
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 630.34375,
+            "y": 2429.859375
+          }
+        ],
+        "title": {
+          "clientWidth": 338,
+          "height": 31,
+          "scrollWidth": 338,
+          "width": 338.21875,
+          "x": 463.390625,
+          "y": 2031.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 352,
+          "height": 479.71875,
+          "scrollWidth": 352,
+          "width": 352.21875,
+          "x": 838.109375,
+          "y": 2016.140625
+        },
+        "media": {
+          "clientWidth": 352,
+          "height": 173.71875,
+          "scrollWidth": 352,
+          "width": 352.21875,
+          "x": 838.109375,
+          "y": 2016.140625
+        },
+        "summary": {
+          "clientWidth": 324,
+          "height": 31,
+          "scrollWidth": 324,
+          "width": 324.21875,
+          "x": 852.109375,
+          "y": 2209.859375
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 857.109375,
+            "y": 2429.859375
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 1012.0625,
+            "y": 2429.859375
+          }
+        ],
+        "title": {
+          "clientWidth": 338,
+          "height": 31,
+          "scrollWidth": 338,
+          "width": 338.21875,
+          "x": 845.109375,
+          "y": 2031.140625
+        }
+      }
+    ],
+    "documentWidth": 1265,
+    "focus": {
+      "id": "",
+      "tag": "BODY",
+      "text": "Pular para o conteúdo\n  \n    \n      \n        "
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 1263,
+      "height": 125,
+      "scrollWidth": 1263,
+      "width": 1265,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "clientWidth": 1116,
+      "height": 31,
+      "scrollWidth": 1116,
+      "width": 1115.65625,
+      "x": 74.671875,
+      "y": 1923.140625
+    },
+    "logo": {
+      "clientWidth": 260,
+      "height": 77,
+      "scrollWidth": 260,
+      "width": 260,
+      "x": 26.59375,
+      "y": 24
+    },
+    "menu": {
+      "expanded": "false",
+      "hidden": false,
+      "navHidden": true,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 288,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 288,
+      "width": 288,
+      "x": 488.5,
+      "y": 2573.859375
+    },
+    "overflows": [],
+    "scrollY": 0,
+    "section": {
+      "clientWidth": 1265,
+      "height": 873.71875,
+      "scrollWidth": 1265,
+      "width": 1265,
+      "x": 0,
+      "y": 1890.140625
+    },
+    "url": "http://localhost:8000/",
+    "viewport": {
+      "clientWidth": 1265,
+      "dpr": 1,
+      "height": 720,
+      "visualScale": 1,
+      "width": 1280
+    }
+  },
+  {
+    "label": "fresh-1537",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 428,
+          "height": 517.046875,
+          "scrollWidth": 428,
+          "width": 427.890625,
+          "x": 89.65625,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 428,
+          "height": 211.046875,
+          "scrollWidth": 428,
+          "width": 427.890625,
+          "x": 89.65625,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 400,
+          "height": 31,
+          "scrollWidth": 400,
+          "width": 399.890625,
+          "x": 103.65625,
+          "y": 2254.1875
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 108.65625,
+            "y": 2474.1875
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 263.609375,
+            "y": 2474.1875
+          }
+        ],
+        "title": {
+          "clientWidth": 414,
+          "height": 31,
+          "scrollWidth": 414,
+          "width": 413.890625,
+          "x": 96.65625,
+          "y": 2038.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 428,
+          "height": 517.046875,
+          "scrollWidth": 428,
+          "width": 427.890625,
+          "x": 547.046875,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 428,
+          "height": 211.046875,
+          "scrollWidth": 428,
+          "width": 427.890625,
+          "x": 547.046875,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 400,
+          "height": 31,
+          "scrollWidth": 400,
+          "width": 399.890625,
+          "x": 561.046875,
+          "y": 2254.1875
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 566.046875,
+            "y": 2474.1875
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 721,
+            "y": 2474.1875
+          }
+        ],
+        "title": {
+          "clientWidth": 414,
+          "height": 31,
+          "scrollWidth": 414,
+          "width": 413.890625,
+          "x": 554.046875,
+          "y": 2038.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 428,
+          "height": 517.046875,
+          "scrollWidth": 428,
+          "width": 427.890625,
+          "x": 1004.4375,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 428,
+          "height": 211.046875,
+          "scrollWidth": 428,
+          "width": 427.890625,
+          "x": 1004.4375,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 400,
+          "height": 31,
+          "scrollWidth": 400,
+          "width": 399.890625,
+          "x": 1018.4375,
+          "y": 2254.1875
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 1023.4375,
+            "y": 2474.1875
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 1178.390625,
+            "y": 2474.1875
+          }
+        ],
+        "title": {
+          "clientWidth": 414,
+          "height": 31,
+          "scrollWidth": 414,
+          "width": 413.890625,
+          "x": 1011.4375,
+          "y": 2038.140625
+        }
+      }
+    ],
+    "documentWidth": 1522,
+    "focus": {
+      "id": "",
+      "tag": "A",
+      "text": "QUEM SOMOS"
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 1520,
+      "height": 125,
+      "scrollWidth": 1520,
+      "width": 1522,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "clientWidth": 1343,
+      "height": 31,
+      "scrollWidth": 1343,
+      "width": 1342.671875,
+      "x": 89.65625,
+      "y": 1930.140625
+    },
+    "logo": {
+      "clientWidth": 260,
+      "height": 77,
+      "scrollWidth": 260,
+      "width": 260,
+      "x": 30,
+      "y": 24
+    },
+    "menu": {
+      "expanded": "false",
+      "hidden": true,
+      "navHidden": false,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 288,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 288,
+      "width": 288,
+      "x": 616.984375,
+      "y": 2618.1875
+    },
+    "overflows": [],
+    "scrollY": 0,
+    "section": {
+      "clientWidth": 1522,
+      "height": 911.046875,
+      "scrollWidth": 1522,
+      "width": 1522,
+      "x": 0,
+      "y": 1897.140625
+    },
+    "url": "http://localhost:8000/",
+    "viewport": {
+      "clientWidth": 1522,
+      "dpr": 1,
+      "height": 900,
+      "visualScale": 1,
+      "width": 1537
+    }
+  },
+  {
+    "label": "fresh-1537-focus",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 428,
+          "height": 517.046875,
+          "scrollWidth": 428,
+          "width": 427.890625,
+          "x": 89.65625,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 428,
+          "height": 211.046875,
+          "scrollWidth": 428,
+          "width": 427.890625,
+          "x": 89.65625,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 400,
+          "height": 31,
+          "scrollWidth": 400,
+          "width": 399.890625,
+          "x": 103.65625,
+          "y": 2254.1875
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 108.65625,
+            "y": 2474.1875
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 263.609375,
+            "y": 2474.1875
+          }
+        ],
+        "title": {
+          "clientWidth": 414,
+          "height": 31,
+          "scrollWidth": 414,
+          "width": 413.890625,
+          "x": 96.65625,
+          "y": 2038.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 428,
+          "height": 517.046875,
+          "scrollWidth": 428,
+          "width": 427.890625,
+          "x": 547.046875,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 428,
+          "height": 211.046875,
+          "scrollWidth": 428,
+          "width": 427.890625,
+          "x": 547.046875,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 400,
+          "height": 31,
+          "scrollWidth": 400,
+          "width": 399.890625,
+          "x": 561.046875,
+          "y": 2254.1875
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 566.046875,
+            "y": 2474.1875
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 721,
+            "y": 2474.1875
+          }
+        ],
+        "title": {
+          "clientWidth": 414,
+          "height": 31,
+          "scrollWidth": 414,
+          "width": 413.890625,
+          "x": 554.046875,
+          "y": 2038.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 428,
+          "height": 517.046875,
+          "scrollWidth": 428,
+          "width": 427.890625,
+          "x": 1004.4375,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 428,
+          "height": 211.046875,
+          "scrollWidth": 428,
+          "width": 427.890625,
+          "x": 1004.4375,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 400,
+          "height": 31,
+          "scrollWidth": 400,
+          "width": 399.890625,
+          "x": 1018.4375,
+          "y": 2254.1875
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 1023.4375,
+            "y": 2474.1875
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 1178.390625,
+            "y": 2474.1875
+          }
+        ],
+        "title": {
+          "clientWidth": 414,
+          "height": 31,
+          "scrollWidth": 414,
+          "width": 413.890625,
+          "x": 1011.4375,
+          "y": 2038.140625
+        }
+      }
+    ],
+    "documentWidth": 1522,
+    "focus": {
+      "id": "",
+      "tag": "A",
+      "text": "QUEM SOMOS"
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 1520,
+      "height": 125,
+      "scrollWidth": 1520,
+      "width": 1522,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "clientWidth": 1343,
+      "height": 31,
+      "scrollWidth": 1343,
+      "width": 1342.671875,
+      "x": 89.65625,
+      "y": 1930.140625
+    },
+    "logo": {
+      "clientWidth": 260,
+      "height": 77,
+      "scrollWidth": 260,
+      "width": 260,
+      "x": 30,
+      "y": 24
+    },
+    "menu": {
+      "expanded": "false",
+      "hidden": true,
+      "navHidden": false,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 288,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 288,
+      "width": 288,
+      "x": 616.984375,
+      "y": 2618.1875
+    },
+    "overflows": [],
+    "scrollY": 0,
+    "section": {
+      "clientWidth": 1522,
+      "height": 911.046875,
+      "scrollWidth": 1522,
+      "width": 1522,
+      "x": 0,
+      "y": 1897.140625
+    },
+    "url": "http://localhost:8000/",
+    "viewport": {
+      "clientWidth": 1522,
+      "dpr": 1,
+      "height": 900,
+      "visualScale": 1,
+      "width": 1537
+    }
+  },
+  {
+    "label": "fresh-1536-return",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 428,
+          "height": 516.90625,
+          "scrollWidth": 428,
+          "width": 427.59375,
+          "x": 89.59375,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 428,
+          "height": 210.890625,
+          "scrollWidth": 428,
+          "width": 427.59375,
+          "x": 89.59375,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 400,
+          "height": 31,
+          "scrollWidth": 400,
+          "width": 399.59375,
+          "x": 103.59375,
+          "y": 2254.03125
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 108.59375,
+            "y": 2474.046875
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 263.546875,
+            "y": 2474.046875
+          }
+        ],
+        "title": {
+          "clientWidth": 414,
+          "height": 31,
+          "scrollWidth": 414,
+          "width": 413.59375,
+          "x": 96.59375,
+          "y": 2038.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 428,
+          "height": 516.90625,
+          "scrollWidth": 428,
+          "width": 427.59375,
+          "x": 546.6875,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 428,
+          "height": 210.890625,
+          "scrollWidth": 428,
+          "width": 427.59375,
+          "x": 546.6875,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 400,
+          "height": 31,
+          "scrollWidth": 400,
+          "width": 399.59375,
+          "x": 560.6875,
+          "y": 2254.03125
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 565.6875,
+            "y": 2474.046875
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 720.640625,
+            "y": 2474.046875
+          }
+        ],
+        "title": {
+          "clientWidth": 414,
+          "height": 31,
+          "scrollWidth": 414,
+          "width": 413.59375,
+          "x": 553.6875,
+          "y": 2038.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 428,
+          "height": 516.90625,
+          "scrollWidth": 428,
+          "width": 427.609375,
+          "x": 1003.78125,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 428,
+          "height": 210.90625,
+          "scrollWidth": 428,
+          "width": 427.609375,
+          "x": 1003.78125,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 400,
+          "height": 31,
+          "scrollWidth": 400,
+          "width": 399.609375,
+          "x": 1017.78125,
+          "y": 2254.046875
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 1022.78125,
+            "y": 2474.046875
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 1177.734375,
+            "y": 2474.046875
+          }
+        ],
+        "title": {
+          "clientWidth": 414,
+          "height": 31,
+          "scrollWidth": 414,
+          "width": 413.609375,
+          "x": 1010.78125,
+          "y": 2038.140625
+        }
+      }
+    ],
+    "documentWidth": 1521,
+    "focus": {
+      "id": "",
+      "tag": "BUTTON",
+      "text": "Menu"
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 1519,
+      "height": 125,
+      "scrollWidth": 1519,
+      "width": 1521,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "clientWidth": 1342,
+      "height": 31,
+      "scrollWidth": 1342,
+      "width": 1341.796875,
+      "x": 89.59375,
+      "y": 1930.140625
+    },
+    "logo": {
+      "clientWidth": 260,
+      "height": 77,
+      "scrollWidth": 260,
+      "width": 260,
+      "x": 30,
+      "y": 24
+    },
+    "menu": {
+      "expanded": "false",
+      "hidden": false,
+      "navHidden": true,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 288,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 288,
+      "width": 288,
+      "x": 616.484375,
+      "y": 2618.046875
+    },
+    "overflows": [],
+    "scrollY": 0,
+    "section": {
+      "clientWidth": 1521,
+      "height": 910.90625,
+      "scrollWidth": 1521,
+      "width": 1521,
+      "x": 0,
+      "y": 1897.140625
+    },
+    "url": "http://localhost:8000/",
+    "viewport": {
+      "clientWidth": 1521,
+      "dpr": 1,
+      "height": 900,
+      "visualScale": 1,
+      "width": 1536
+    }
+  },
+  {
+    "label": "fresh-1536-return-focus",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 428,
+          "height": 516.90625,
+          "scrollWidth": 428,
+          "width": 427.59375,
+          "x": 89.59375,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 428,
+          "height": 210.890625,
+          "scrollWidth": 428,
+          "width": 427.59375,
+          "x": 89.59375,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 400,
+          "height": 31,
+          "scrollWidth": 400,
+          "width": 399.59375,
+          "x": 103.59375,
+          "y": 2254.03125
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 108.59375,
+            "y": 2474.046875
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 263.546875,
+            "y": 2474.046875
+          }
+        ],
+        "title": {
+          "clientWidth": 414,
+          "height": 31,
+          "scrollWidth": 414,
+          "width": 413.59375,
+          "x": 96.59375,
+          "y": 2038.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 428,
+          "height": 516.90625,
+          "scrollWidth": 428,
+          "width": 427.59375,
+          "x": 546.6875,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 428,
+          "height": 210.890625,
+          "scrollWidth": 428,
+          "width": 427.59375,
+          "x": 546.6875,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 400,
+          "height": 31,
+          "scrollWidth": 400,
+          "width": 399.59375,
+          "x": 560.6875,
+          "y": 2254.03125
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 565.6875,
+            "y": 2474.046875
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 720.640625,
+            "y": 2474.046875
+          }
+        ],
+        "title": {
+          "clientWidth": 414,
+          "height": 31,
+          "scrollWidth": 414,
+          "width": 413.59375,
+          "x": 553.6875,
+          "y": 2038.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 428,
+          "height": 516.90625,
+          "scrollWidth": 428,
+          "width": 427.609375,
+          "x": 1003.78125,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 428,
+          "height": 210.90625,
+          "scrollWidth": 428,
+          "width": 427.609375,
+          "x": 1003.78125,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 400,
+          "height": 31,
+          "scrollWidth": 400,
+          "width": 399.609375,
+          "x": 1017.78125,
+          "y": 2254.046875
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 1022.78125,
+            "y": 2474.046875
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 1177.734375,
+            "y": 2474.046875
+          }
+        ],
+        "title": {
+          "clientWidth": 414,
+          "height": 31,
+          "scrollWidth": 414,
+          "width": 413.609375,
+          "x": 1010.78125,
+          "y": 2038.140625
+        }
+      }
+    ],
+    "documentWidth": 1521,
+    "focus": {
+      "id": "",
+      "tag": "BUTTON",
+      "text": "Menu"
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 1519,
+      "height": 125,
+      "scrollWidth": 1519,
+      "width": 1521,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "clientWidth": 1342,
+      "height": 31,
+      "scrollWidth": 1342,
+      "width": 1341.796875,
+      "x": 89.59375,
+      "y": 1930.140625
+    },
+    "logo": {
+      "clientWidth": 260,
+      "height": 77,
+      "scrollWidth": 260,
+      "width": 260,
+      "x": 30,
+      "y": 24
+    },
+    "menu": {
+      "expanded": "false",
+      "hidden": false,
+      "navHidden": true,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 288,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 288,
+      "width": 288,
+      "x": 616.484375,
+      "y": 2618.046875
+    },
+    "overflows": [],
+    "scrollY": 0,
+    "section": {
+      "clientWidth": 1521,
+      "height": 910.90625,
+      "scrollWidth": 1521,
+      "width": 1521,
+      "x": 0,
+      "y": 1897.140625
+    },
+    "url": "http://localhost:8000/",
+    "viewport": {
+      "clientWidth": 1521,
+      "dpr": 1,
+      "height": 900,
+      "visualScale": 1,
+      "width": 1536
+    }
+  },
+  {
+    "label": "fresh-final-1920x1080-closed",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 517,
+          "height": 561,
+          "scrollWidth": 517,
+          "width": 517,
+          "x": 147.5,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 517,
+          "height": 255,
+          "scrollWidth": 517,
+          "width": 517,
+          "x": 147.5,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 489,
+          "height": 31,
+          "scrollWidth": 489,
+          "width": 489,
+          "x": 161.5,
+          "y": 2298.140625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 166.5,
+            "y": 2518.140625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 321.453125,
+            "y": 2518.140625
+          }
+        ],
+        "title": {
+          "clientWidth": 503,
+          "height": 31,
+          "scrollWidth": 503,
+          "width": 503,
+          "x": 154.5,
+          "y": 2038.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 517,
+          "height": 561,
+          "scrollWidth": 517,
+          "width": 517,
+          "x": 694,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 517,
+          "height": 255,
+          "scrollWidth": 517,
+          "width": 517,
+          "x": 694,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 489,
+          "height": 31,
+          "scrollWidth": 489,
+          "width": 489,
+          "x": 708,
+          "y": 2298.140625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 713,
+            "y": 2518.140625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 867.953125,
+            "y": 2518.140625
+          }
+        ],
+        "title": {
+          "clientWidth": 503,
+          "height": 31,
+          "scrollWidth": 503,
+          "width": 503,
+          "x": 701,
+          "y": 2038.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 517,
+          "height": 561,
+          "scrollWidth": 517,
+          "width": 517,
+          "x": 1240.5,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 517,
+          "height": 255,
+          "scrollWidth": 517,
+          "width": 517,
+          "x": 1240.5,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 489,
+          "height": 31,
+          "scrollWidth": 489,
+          "width": 489,
+          "x": 1254.5,
+          "y": 2298.140625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 1259.5,
+            "y": 2518.140625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 1414.453125,
+            "y": 2518.140625
+          }
+        ],
+        "title": {
+          "clientWidth": 503,
+          "height": 31,
+          "scrollWidth": 503,
+          "width": 503,
+          "x": 1247.5,
+          "y": 2038.140625
+        }
+      }
+    ],
+    "documentWidth": 1905,
+    "focus": {
+      "id": "",
+      "tag": "A",
+      "text": "QUEM SOMOS"
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 1903,
+      "height": 125,
+      "scrollWidth": 1903,
+      "width": 1905,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "clientWidth": 1681,
+      "height": 31,
+      "scrollWidth": 1681,
+      "width": 1681,
+      "x": 112,
+      "y": 1930.140625
+    },
+    "logo": {
+      "clientWidth": 260,
+      "height": 77,
+      "scrollWidth": 260,
+      "width": 260,
+      "x": 30,
+      "y": 24
+    },
+    "menu": {
+      "expanded": "false",
+      "hidden": true,
+      "navHidden": false,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 288,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 288,
+      "width": 288,
+      "x": 808.5,
+      "y": 2662.140625
+    },
+    "overflows": [],
+    "scrollY": 0,
+    "section": {
+      "clientWidth": 1905,
+      "height": 955,
+      "scrollWidth": 1905,
+      "width": 1905,
+      "x": 0,
+      "y": 1897.140625
+    },
+    "url": "http://localhost:8000/",
+    "viewport": {
+      "clientWidth": 1905,
+      "dpr": 1,
+      "height": 1080,
+      "visualScale": 1,
+      "width": 1920
+    }
+  },
+  {
+    "label": "fresh-final-1440x900-closed",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 399,
+          "height": 502.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 84,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 399,
+          "height": 196.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 84,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 371,
+          "height": 31,
+          "scrollWidth": 371,
+          "width": 371.328125,
+          "x": 98,
+          "y": 2240.09375
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 103,
+            "y": 2460.09375
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 257.953125,
+            "y": 2460.09375
+          }
+        ],
+        "title": {
+          "clientWidth": 385,
+          "height": 31,
+          "scrollWidth": 385,
+          "width": 385.328125,
+          "x": 91,
+          "y": 2038.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 399,
+          "height": 502.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 512.828125,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 399,
+          "height": 196.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 512.828125,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 371,
+          "height": 31,
+          "scrollWidth": 371,
+          "width": 371.328125,
+          "x": 526.828125,
+          "y": 2240.09375
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 531.828125,
+            "y": 2460.09375
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 686.78125,
+            "y": 2460.09375
+          }
+        ],
+        "title": {
+          "clientWidth": 385,
+          "height": 31,
+          "scrollWidth": 385,
+          "width": 385.328125,
+          "x": 519.828125,
+          "y": 2038.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 399,
+          "height": 502.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 941.65625,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 399,
+          "height": 196.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 941.65625,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 371,
+          "height": 31,
+          "scrollWidth": 371,
+          "width": 371.328125,
+          "x": 955.65625,
+          "y": 2240.09375
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 960.65625,
+            "y": 2460.09375
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 1115.609375,
+            "y": 2460.09375
+          }
+        ],
+        "title": {
+          "clientWidth": 385,
+          "height": 31,
+          "scrollWidth": 385,
+          "width": 385.328125,
+          "x": 948.65625,
+          "y": 2038.140625
+        }
+      }
+    ],
+    "documentWidth": 1425,
+    "focus": {
+      "id": "",
+      "tag": "BUTTON",
+      "text": "Menu"
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 1423,
+      "height": 125,
+      "scrollWidth": 1423,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "clientWidth": 1257,
+      "height": 31,
+      "scrollWidth": 1257,
+      "width": 1256.984375,
+      "x": 84,
+      "y": 1930.140625
+    },
+    "logo": {
+      "clientWidth": 260,
+      "height": 77,
+      "scrollWidth": 260,
+      "width": 260,
+      "x": 29.796875,
+      "y": 24
+    },
+    "menu": {
+      "expanded": "false",
+      "hidden": false,
+      "navHidden": true,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 288,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 288,
+      "width": 288,
+      "x": 568.484375,
+      "y": 2604.09375
+    },
+    "overflows": [],
+    "scrollY": 0,
+    "section": {
+      "clientWidth": 1425,
+      "height": 896.953125,
+      "scrollWidth": 1425,
+      "width": 1425,
+      "x": 0,
+      "y": 1897.140625
+    },
+    "url": "http://localhost:8000/",
+    "viewport": {
+      "clientWidth": 1425,
+      "dpr": 1,
+      "height": 900,
+      "visualScale": 1,
+      "width": 1440
+    }
+  },
+  {
+    "label": "fresh-final-1440x900-open",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 399,
+          "height": 502.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 84,
+          "y": 2091.140625
+        },
+        "media": {
+          "clientWidth": 399,
+          "height": 196.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 84,
+          "y": 2091.140625
+        },
+        "summary": {
+          "clientWidth": 371,
+          "height": 31,
+          "scrollWidth": 371,
+          "width": 371.328125,
+          "x": 98,
+          "y": 2308.09375
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 103,
+            "y": 2528.09375
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 257.953125,
+            "y": 2528.09375
+          }
+        ],
+        "title": {
+          "clientWidth": 385,
+          "height": 31,
+          "scrollWidth": 385,
+          "width": 385.328125,
+          "x": 91,
+          "y": 2106.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 399,
+          "height": 502.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 512.828125,
+          "y": 2091.140625
+        },
+        "media": {
+          "clientWidth": 399,
+          "height": 196.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 512.828125,
+          "y": 2091.140625
+        },
+        "summary": {
+          "clientWidth": 371,
+          "height": 31,
+          "scrollWidth": 371,
+          "width": 371.328125,
+          "x": 526.828125,
+          "y": 2308.09375
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 531.828125,
+            "y": 2528.09375
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 686.78125,
+            "y": 2528.09375
+          }
+        ],
+        "title": {
+          "clientWidth": 385,
+          "height": 31,
+          "scrollWidth": 385,
+          "width": 385.328125,
+          "x": 519.828125,
+          "y": 2106.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 399,
+          "height": 502.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 941.65625,
+          "y": 2091.140625
+        },
+        "media": {
+          "clientWidth": 399,
+          "height": 196.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 941.65625,
+          "y": 2091.140625
+        },
+        "summary": {
+          "clientWidth": 371,
+          "height": 31,
+          "scrollWidth": 371,
+          "width": 371.328125,
+          "x": 955.65625,
+          "y": 2308.09375
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 960.65625,
+            "y": 2528.09375
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 1115.609375,
+            "y": 2528.09375
+          }
+        ],
+        "title": {
+          "clientWidth": 385,
+          "height": 31,
+          "scrollWidth": 385,
+          "width": 385.328125,
+          "x": 948.65625,
+          "y": 2106.140625
+        }
+      }
+    ],
+    "documentWidth": 1425,
+    "focus": {
+      "id": "",
+      "tag": "BUTTON",
+      "text": "Menu"
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 1423,
+      "height": 193,
+      "scrollWidth": 1423,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "clientWidth": 1257,
+      "height": 31,
+      "scrollWidth": 1257,
+      "width": 1256.984375,
+      "x": 84,
+      "y": 1998.140625
+    },
+    "logo": {
+      "clientWidth": 260,
+      "height": 77,
+      "scrollWidth": 260,
+      "width": 260,
+      "x": 29.796875,
+      "y": 24
+    },
+    "menu": {
+      "expanded": "true",
+      "hidden": false,
+      "navHidden": false,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 288,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 288,
+      "width": 288,
+      "x": 568.484375,
+      "y": 2672.09375
+    },
+    "overflows": [],
+    "scrollY": 0,
+    "section": {
+      "clientWidth": 1425,
+      "height": 896.953125,
+      "scrollWidth": 1425,
+      "width": 1425,
+      "x": 0,
+      "y": 1965.140625
+    },
+    "url": "http://localhost:8000/",
+    "viewport": {
+      "clientWidth": 1425,
+      "dpr": 1,
+      "height": 900,
+      "visualScale": 1,
+      "width": 1440
+    }
+  },
+  {
+    "label": "fresh-final-768x1024-closed",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 663,
+          "height": 468.203125,
+          "scrollWidth": 663,
+          "width": 663.390625,
+          "x": 44.796875,
+          "y": 2632.90625
+        },
+        "media": {
+          "clientWidth": 663,
+          "height": 327.203125,
+          "scrollWidth": 663,
+          "width": 663.390625,
+          "x": 44.796875,
+          "y": 2632.90625
+        },
+        "summary": {
+          "clientWidth": 635,
+          "height": 31,
+          "scrollWidth": 635,
+          "width": 635.390625,
+          "x": 58.796875,
+          "y": 2980.109375
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 63.796875,
+            "y": 3035.109375
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 218.75,
+            "y": 3035.109375
+          }
+        ],
+        "title": {
+          "clientWidth": 649,
+          "height": 31,
+          "scrollWidth": 649,
+          "width": 649.390625,
+          "x": 51.796875,
+          "y": 2647.90625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 663,
+          "height": 468.203125,
+          "scrollWidth": 663,
+          "width": 663.390625,
+          "x": 44.796875,
+          "y": 3130.609375
+        },
+        "media": {
+          "clientWidth": 663,
+          "height": 327.203125,
+          "scrollWidth": 663,
+          "width": 663.390625,
+          "x": 44.796875,
+          "y": 3130.609375
+        },
+        "summary": {
+          "clientWidth": 635,
+          "height": 31,
+          "scrollWidth": 635,
+          "width": 635.390625,
+          "x": 58.796875,
+          "y": 3477.8125
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 63.796875,
+            "y": 3532.8125
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 218.75,
+            "y": 3532.8125
+          }
+        ],
+        "title": {
+          "clientWidth": 649,
+          "height": 31,
+          "scrollWidth": 649,
+          "width": 649.390625,
+          "x": 51.796875,
+          "y": 3145.609375
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 663,
+          "height": 468.203125,
+          "scrollWidth": 663,
+          "width": 663.390625,
+          "x": 44.796875,
+          "y": 3628.3125
+        },
+        "media": {
+          "clientWidth": 663,
+          "height": 327.203125,
+          "scrollWidth": 663,
+          "width": 663.390625,
+          "x": 44.796875,
+          "y": 3628.3125
+        },
+        "summary": {
+          "clientWidth": 635,
+          "height": 31,
+          "scrollWidth": 635,
+          "width": 635.390625,
+          "x": 58.796875,
+          "y": 3975.515625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 63.796875,
+            "y": 4030.515625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 218.75,
+            "y": 4030.515625
+          }
+        ],
+        "title": {
+          "clientWidth": 649,
+          "height": 31,
+          "scrollWidth": 649,
+          "width": 649.390625,
+          "x": 51.796875,
+          "y": 3643.3125
+        }
+      }
+    ],
+    "documentWidth": 753,
+    "focus": {
+      "id": "",
+      "tag": "BUTTON",
+      "text": "Menu"
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 751,
+      "height": 125,
+      "scrollWidth": 751,
+      "width": 753,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "clientWidth": 663,
+      "height": 31,
+      "scrollWidth": 663,
+      "width": 663.390625,
+      "x": 44.796875,
+      "y": 2561.90625
+    },
+    "logo": {
+      "clientWidth": 260,
+      "height": 77,
+      "scrollWidth": 260,
+      "width": 260,
+      "x": 17,
+      "y": 24
+    },
+    "menu": {
+      "expanded": "false",
+      "hidden": false,
+      "navHidden": true,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 288,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 288,
+      "width": 288,
+      "x": 232.484375,
+      "y": 4136.515625
+    },
+    "overflows": [],
+    "scrollY": 0,
+    "section": {
+      "clientWidth": 753,
+      "height": 1728.609375,
+      "scrollWidth": 753,
+      "width": 753,
+      "x": 0,
+      "y": 2528.90625
+    },
+    "url": "http://localhost:8000/",
+    "viewport": {
+      "clientWidth": 753,
+      "dpr": 1,
+      "height": 1024,
+      "visualScale": 1,
+      "width": 768
+    }
+  },
+  {
+    "label": "fresh-final-768x1024-open",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 663,
+          "height": 468.203125,
+          "scrollWidth": 663,
+          "width": 663.390625,
+          "x": 44.796875,
+          "y": 2780.90625
+        },
+        "media": {
+          "clientWidth": 663,
+          "height": 327.203125,
+          "scrollWidth": 663,
+          "width": 663.390625,
+          "x": 44.796875,
+          "y": 2780.90625
+        },
+        "summary": {
+          "clientWidth": 635,
+          "height": 31,
+          "scrollWidth": 635,
+          "width": 635.390625,
+          "x": 58.796875,
+          "y": 3128.109375
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 63.796875,
+            "y": 3183.109375
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 218.75,
+            "y": 3183.109375
+          }
+        ],
+        "title": {
+          "clientWidth": 649,
+          "height": 31,
+          "scrollWidth": 649,
+          "width": 649.390625,
+          "x": 51.796875,
+          "y": 2795.90625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 663,
+          "height": 468.203125,
+          "scrollWidth": 663,
+          "width": 663.390625,
+          "x": 44.796875,
+          "y": 3278.609375
+        },
+        "media": {
+          "clientWidth": 663,
+          "height": 327.203125,
+          "scrollWidth": 663,
+          "width": 663.390625,
+          "x": 44.796875,
+          "y": 3278.609375
+        },
+        "summary": {
+          "clientWidth": 635,
+          "height": 31,
+          "scrollWidth": 635,
+          "width": 635.390625,
+          "x": 58.796875,
+          "y": 3625.8125
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 63.796875,
+            "y": 3680.8125
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 218.75,
+            "y": 3680.8125
+          }
+        ],
+        "title": {
+          "clientWidth": 649,
+          "height": 31,
+          "scrollWidth": 649,
+          "width": 649.390625,
+          "x": 51.796875,
+          "y": 3293.609375
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 663,
+          "height": 468.203125,
+          "scrollWidth": 663,
+          "width": 663.390625,
+          "x": 44.796875,
+          "y": 3776.3125
+        },
+        "media": {
+          "clientWidth": 663,
+          "height": 327.203125,
+          "scrollWidth": 663,
+          "width": 663.390625,
+          "x": 44.796875,
+          "y": 3776.3125
+        },
+        "summary": {
+          "clientWidth": 635,
+          "height": 31,
+          "scrollWidth": 635,
+          "width": 635.390625,
+          "x": 58.796875,
+          "y": 4123.515625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 63.796875,
+            "y": 4178.515625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 218.75,
+            "y": 4178.515625
+          }
+        ],
+        "title": {
+          "clientWidth": 649,
+          "height": 31,
+          "scrollWidth": 649,
+          "width": 649.390625,
+          "x": 51.796875,
+          "y": 3791.3125
+        }
+      }
+    ],
+    "documentWidth": 753,
+    "focus": {
+      "id": "",
+      "tag": "BUTTON",
+      "text": "Menu"
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 751,
+      "height": 273,
+      "scrollWidth": 751,
+      "width": 753,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "clientWidth": 663,
+      "height": 31,
+      "scrollWidth": 663,
+      "width": 663.390625,
+      "x": 44.796875,
+      "y": 2709.90625
+    },
+    "logo": {
+      "clientWidth": 260,
+      "height": 77,
+      "scrollWidth": 260,
+      "width": 260,
+      "x": 17,
+      "y": 24
+    },
+    "menu": {
+      "expanded": "true",
+      "hidden": false,
+      "navHidden": false,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 288,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 288,
+      "width": 288,
+      "x": 232.484375,
+      "y": 4284.515625
+    },
+    "overflows": [],
+    "scrollY": 0,
+    "section": {
+      "clientWidth": 753,
+      "height": 1728.609375,
+      "scrollWidth": 753,
+      "width": 753,
+      "x": 0,
+      "y": 2676.90625
+    },
+    "url": "http://localhost:8000/",
+    "viewport": {
+      "clientWidth": 753,
+      "dpr": 1,
+      "height": 1024,
+      "visualScale": 1,
+      "width": 768
+    }
+  },
+  {
+    "label": "fresh-final-390x844-closed",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 329,
+          "height": 357.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 2962.40625
+        },
+        "media": {
+          "clientWidth": 329,
+          "height": 162.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 2962.40625
+        },
+        "summary": {
+          "clientWidth": 301,
+          "height": 31,
+          "scrollWidth": 301,
+          "width": 301.484375,
+          "x": 36.75,
+          "y": 3144.90625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3199.90625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3253.90625
+          }
+        ],
+        "title": {
+          "clientWidth": 315,
+          "height": 31,
+          "scrollWidth": 315,
+          "width": 315.484375,
+          "x": 29.75,
+          "y": 2977.40625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 329,
+          "height": 357.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 3349.40625
+        },
+        "media": {
+          "clientWidth": 329,
+          "height": 162.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 3349.40625
+        },
+        "summary": {
+          "clientWidth": 301,
+          "height": 31,
+          "scrollWidth": 301,
+          "width": 301.484375,
+          "x": 36.75,
+          "y": 3531.90625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3586.90625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3640.90625
+          }
+        ],
+        "title": {
+          "clientWidth": 315,
+          "height": 31,
+          "scrollWidth": 315,
+          "width": 315.484375,
+          "x": 29.75,
+          "y": 3364.40625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 329,
+          "height": 357.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 3736.40625
+        },
+        "media": {
+          "clientWidth": 329,
+          "height": 162.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 3736.40625
+        },
+        "summary": {
+          "clientWidth": 301,
+          "height": 31,
+          "scrollWidth": 301,
+          "width": 301.484375,
+          "x": 36.75,
+          "y": 3918.90625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3973.90625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 4027.90625
+          }
+        ],
+        "title": {
+          "clientWidth": 315,
+          "height": 31,
+          "scrollWidth": 315,
+          "width": 315.484375,
+          "x": 29.75,
+          "y": 3751.40625
+        }
+      }
+    ],
+    "documentWidth": 375,
+    "focus": {
+      "id": "",
+      "tag": "BUTTON",
+      "text": "Menu"
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 373,
+      "height": 119.6875,
+      "scrollWidth": 373,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "clientWidth": 329,
+      "height": 31,
+      "scrollWidth": 329,
+      "width": 329.484375,
+      "x": 22.75,
+      "y": 2891.40625
+    },
+    "logo": {
+      "clientWidth": 242,
+      "height": 71.6875,
+      "scrollWidth": 242,
+      "width": 242.0625,
+      "x": 17,
+      "y": 24
+    },
+    "menu": {
+      "expanded": "false",
+      "hidden": false,
+      "navHidden": true,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 288,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 288,
+      "width": 288,
+      "x": 43.484375,
+      "y": 4133.90625
+    },
+    "overflows": [],
+    "scrollY": 0,
+    "section": {
+      "clientWidth": 375,
+      "height": 1396.5,
+      "scrollWidth": 375,
+      "width": 375,
+      "x": 0,
+      "y": 2858.40625
+    },
+    "url": "http://localhost:8000/",
+    "viewport": {
+      "clientWidth": 375,
+      "dpr": 1,
+      "height": 844,
+      "visualScale": 1,
+      "width": 390
+    }
+  },
+  {
+    "label": "fresh-final-390x844-open",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 329,
+          "height": 357.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 3246.40625
+        },
+        "media": {
+          "clientWidth": 329,
+          "height": 162.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 3246.40625
+        },
+        "summary": {
+          "clientWidth": 301,
+          "height": 31,
+          "scrollWidth": 301,
+          "width": 301.484375,
+          "x": 36.75,
+          "y": 3428.90625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3483.90625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3537.90625
+          }
+        ],
+        "title": {
+          "clientWidth": 315,
+          "height": 31,
+          "scrollWidth": 315,
+          "width": 315.484375,
+          "x": 29.75,
+          "y": 3261.40625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 329,
+          "height": 357.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 3633.40625
+        },
+        "media": {
+          "clientWidth": 329,
+          "height": 162.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 3633.40625
+        },
+        "summary": {
+          "clientWidth": 301,
+          "height": 31,
+          "scrollWidth": 301,
+          "width": 301.484375,
+          "x": 36.75,
+          "y": 3815.90625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3870.90625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3924.90625
+          }
+        ],
+        "title": {
+          "clientWidth": 315,
+          "height": 31,
+          "scrollWidth": 315,
+          "width": 315.484375,
+          "x": 29.75,
+          "y": 3648.40625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 329,
+          "height": 357.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 4020.40625
+        },
+        "media": {
+          "clientWidth": 329,
+          "height": 162.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 4020.40625
+        },
+        "summary": {
+          "clientWidth": 301,
+          "height": 31,
+          "scrollWidth": 301,
+          "width": 301.484375,
+          "x": 36.75,
+          "y": 4202.90625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 4257.90625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 4311.90625
+          }
+        ],
+        "title": {
+          "clientWidth": 315,
+          "height": 31,
+          "scrollWidth": 315,
+          "width": 315.484375,
+          "x": 29.75,
+          "y": 4035.40625
+        }
+      }
+    ],
+    "documentWidth": 375,
+    "focus": {
+      "id": "",
+      "tag": "BUTTON",
+      "text": "Menu"
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 373,
+      "height": 403.6875,
+      "scrollWidth": 373,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "clientWidth": 329,
+      "height": 31,
+      "scrollWidth": 329,
+      "width": 329.484375,
+      "x": 22.75,
+      "y": 3175.40625
+    },
+    "logo": {
+      "clientWidth": 242,
+      "height": 71.6875,
+      "scrollWidth": 242,
+      "width": 242.0625,
+      "x": 17,
+      "y": 24
+    },
+    "menu": {
+      "expanded": "true",
+      "hidden": false,
+      "navHidden": false,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 288,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 288,
+      "width": 288,
+      "x": 43.484375,
+      "y": 4417.90625
+    },
+    "overflows": [],
+    "scrollY": 0,
+    "section": {
+      "clientWidth": 375,
+      "height": 1396.5,
+      "scrollWidth": 375,
+      "width": 375,
+      "x": 0,
+      "y": 3142.40625
+    },
+    "url": "http://localhost:8000/",
+    "viewport": {
+      "clientWidth": 375,
+      "dpr": 1,
+      "height": 844,
+      "visualScale": 1,
+      "width": 390
+    }
+  },
+  {
+    "label": "fresh-final-320x740-closed",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 268,
+          "height": 358.015625,
+          "scrollWidth": 268,
+          "width": 267.65625,
+          "x": 18.671875,
+          "y": 3386.6875
+        },
+        "media": {
+          "clientWidth": 268,
+          "height": 132.015625,
+          "scrollWidth": 268,
+          "width": 267.65625,
+          "x": 18.671875,
+          "y": 3386.6875
+        },
+        "summary": {
+          "clientWidth": 240,
+          "height": 62,
+          "scrollWidth": 240,
+          "width": 239.65625,
+          "x": 32.671875,
+          "y": 3538.703125
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 37.671875,
+            "y": 3624.703125
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 37.671875,
+            "y": 3678.703125
+          }
+        ],
+        "title": {
+          "clientWidth": 254,
+          "height": 31,
+          "scrollWidth": 254,
+          "width": 253.65625,
+          "x": 25.671875,
+          "y": 3401.6875
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 268,
+          "height": 358.015625,
+          "scrollWidth": 268,
+          "width": 267.65625,
+          "x": 18.671875,
+          "y": 3774.203125
+        },
+        "media": {
+          "clientWidth": 268,
+          "height": 132.015625,
+          "scrollWidth": 268,
+          "width": 267.65625,
+          "x": 18.671875,
+          "y": 3774.203125
+        },
+        "summary": {
+          "clientWidth": 240,
+          "height": 62,
+          "scrollWidth": 240,
+          "width": 239.65625,
+          "x": 32.671875,
+          "y": 3926.21875
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 37.671875,
+            "y": 4012.21875
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 37.671875,
+            "y": 4066.21875
+          }
+        ],
+        "title": {
+          "clientWidth": 254,
+          "height": 31,
+          "scrollWidth": 254,
+          "width": 253.65625,
+          "x": 25.671875,
+          "y": 3789.203125
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 268,
+          "height": 358.015625,
+          "scrollWidth": 268,
+          "width": 267.65625,
+          "x": 18.671875,
+          "y": 4161.71875
+        },
+        "media": {
+          "clientWidth": 268,
+          "height": 132.015625,
+          "scrollWidth": 268,
+          "width": 267.65625,
+          "x": 18.671875,
+          "y": 4161.71875
+        },
+        "summary": {
+          "clientWidth": 240,
+          "height": 62,
+          "scrollWidth": 240,
+          "width": 239.65625,
+          "x": 32.671875,
+          "y": 4313.734375
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 37.671875,
+            "y": 4399.734375
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 37.671875,
+            "y": 4453.734375
+          }
+        ],
+        "title": {
+          "clientWidth": 254,
+          "height": 31,
+          "scrollWidth": 254,
+          "width": 253.65625,
+          "x": 25.671875,
+          "y": 4176.71875
+        }
+      }
+    ],
+    "documentWidth": 305,
+    "focus": {
+      "id": "",
+      "tag": "BUTTON",
+      "text": "Menu"
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 303,
+      "height": 98.953125,
+      "scrollWidth": 303,
+      "width": 305,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "clientWidth": 268,
+      "height": 31,
+      "scrollWidth": 268,
+      "width": 267.65625,
+      "x": 18.671875,
+      "y": 3315.6875
+    },
+    "logo": {
+      "clientWidth": 172,
+      "height": 50.953125,
+      "scrollWidth": 172,
+      "width": 172.0625,
+      "x": 17,
+      "y": 24
+    },
+    "menu": {
+      "expanded": "false",
+      "hidden": false,
+      "navHidden": true,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 268,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 268,
+      "width": 267.65625,
+      "x": 18.671875,
+      "y": 4559.734375
+    },
+    "overflows": [],
+    "scrollY": 0,
+    "section": {
+      "clientWidth": 305,
+      "height": 1398.046875,
+      "scrollWidth": 305,
+      "width": 305,
+      "x": 0,
+      "y": 3282.6875
+    },
+    "url": "http://localhost:8000/",
+    "viewport": {
+      "clientWidth": 305,
+      "dpr": 1,
+      "height": 740,
+      "visualScale": 1,
+      "width": 320
+    }
+  },
+  {
+    "label": "fresh-final-320x740-open",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 268,
+          "height": 358.015625,
+          "scrollWidth": 268,
+          "width": 267.65625,
+          "x": 18.671875,
+          "y": 3670.6875
+        },
+        "media": {
+          "clientWidth": 268,
+          "height": 132.015625,
+          "scrollWidth": 268,
+          "width": 267.65625,
+          "x": 18.671875,
+          "y": 3670.6875
+        },
+        "summary": {
+          "clientWidth": 240,
+          "height": 62,
+          "scrollWidth": 240,
+          "width": 239.65625,
+          "x": 32.671875,
+          "y": 3822.703125
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 37.671875,
+            "y": 3908.703125
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 37.671875,
+            "y": 3962.703125
+          }
+        ],
+        "title": {
+          "clientWidth": 254,
+          "height": 31,
+          "scrollWidth": 254,
+          "width": 253.65625,
+          "x": 25.671875,
+          "y": 3685.6875
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 268,
+          "height": 358.015625,
+          "scrollWidth": 268,
+          "width": 267.65625,
+          "x": 18.671875,
+          "y": 4058.203125
+        },
+        "media": {
+          "clientWidth": 268,
+          "height": 132.015625,
+          "scrollWidth": 268,
+          "width": 267.65625,
+          "x": 18.671875,
+          "y": 4058.203125
+        },
+        "summary": {
+          "clientWidth": 240,
+          "height": 62,
+          "scrollWidth": 240,
+          "width": 239.65625,
+          "x": 32.671875,
+          "y": 4210.21875
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 37.671875,
+            "y": 4296.21875
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 37.671875,
+            "y": 4350.21875
+          }
+        ],
+        "title": {
+          "clientWidth": 254,
+          "height": 31,
+          "scrollWidth": 254,
+          "width": 253.65625,
+          "x": 25.671875,
+          "y": 4073.203125
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 268,
+          "height": 358.015625,
+          "scrollWidth": 268,
+          "width": 267.65625,
+          "x": 18.671875,
+          "y": 4445.71875
+        },
+        "media": {
+          "clientWidth": 268,
+          "height": 132.015625,
+          "scrollWidth": 268,
+          "width": 267.65625,
+          "x": 18.671875,
+          "y": 4445.71875
+        },
+        "summary": {
+          "clientWidth": 240,
+          "height": 62,
+          "scrollWidth": 240,
+          "width": 239.65625,
+          "x": 32.671875,
+          "y": 4597.734375
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 37.671875,
+            "y": 4683.734375
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 37.671875,
+            "y": 4737.734375
+          }
+        ],
+        "title": {
+          "clientWidth": 254,
+          "height": 31,
+          "scrollWidth": 254,
+          "width": 253.65625,
+          "x": 25.671875,
+          "y": 4460.71875
+        }
+      }
+    ],
+    "documentWidth": 305,
+    "focus": {
+      "id": "",
+      "tag": "BUTTON",
+      "text": "Menu"
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 303,
+      "height": 382.953125,
+      "scrollWidth": 303,
+      "width": 305,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "clientWidth": 268,
+      "height": 31,
+      "scrollWidth": 268,
+      "width": 267.65625,
+      "x": 18.671875,
+      "y": 3599.6875
+    },
+    "logo": {
+      "clientWidth": 172,
+      "height": 50.953125,
+      "scrollWidth": 172,
+      "width": 172.0625,
+      "x": 17,
+      "y": 24
+    },
+    "menu": {
+      "expanded": "true",
+      "hidden": false,
+      "navHidden": false,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 268,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 268,
+      "width": 267.65625,
+      "x": 18.671875,
+      "y": 4843.734375
+    },
+    "overflows": [],
+    "scrollY": 0,
+    "section": {
+      "clientWidth": 305,
+      "height": 1398.046875,
+      "scrollWidth": 305,
+      "width": 305,
+      "x": 0,
+      "y": 3566.6875
+    },
+    "url": "http://localhost:8000/",
+    "viewport": {
+      "clientWidth": 305,
+      "dpr": 1,
+      "height": 740,
+      "visualScale": 1,
+      "width": 320
+    }
+  },
+  {
+    "label": "fresh-final-1440x600-closed",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 399,
+          "height": 502.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 84,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 399,
+          "height": 196.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 84,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 371,
+          "height": 31,
+          "scrollWidth": 371,
+          "width": 371.328125,
+          "x": 98,
+          "y": 2240.09375
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 103,
+            "y": 2460.09375
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 257.953125,
+            "y": 2460.09375
+          }
+        ],
+        "title": {
+          "clientWidth": 385,
+          "height": 31,
+          "scrollWidth": 385,
+          "width": 385.328125,
+          "x": 91,
+          "y": 2038.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 399,
+          "height": 502.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 512.828125,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 399,
+          "height": 196.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 512.828125,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 371,
+          "height": 31,
+          "scrollWidth": 371,
+          "width": 371.328125,
+          "x": 526.828125,
+          "y": 2240.09375
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 531.828125,
+            "y": 2460.09375
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 686.78125,
+            "y": 2460.09375
+          }
+        ],
+        "title": {
+          "clientWidth": 385,
+          "height": 31,
+          "scrollWidth": 385,
+          "width": 385.328125,
+          "x": 519.828125,
+          "y": 2038.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 399,
+          "height": 502.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 941.65625,
+          "y": 2023.140625
+        },
+        "media": {
+          "clientWidth": 399,
+          "height": 196.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 941.65625,
+          "y": 2023.140625
+        },
+        "summary": {
+          "clientWidth": 371,
+          "height": 31,
+          "scrollWidth": 371,
+          "width": 371.328125,
+          "x": 955.65625,
+          "y": 2240.09375
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 960.65625,
+            "y": 2460.09375
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 1115.609375,
+            "y": 2460.09375
+          }
+        ],
+        "title": {
+          "clientWidth": 385,
+          "height": 31,
+          "scrollWidth": 385,
+          "width": 385.328125,
+          "x": 948.65625,
+          "y": 2038.140625
+        }
+      }
+    ],
+    "documentWidth": 1425,
+    "focus": {
+      "id": "",
+      "tag": "BUTTON",
+      "text": "Menu"
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 1423,
+      "height": 125,
+      "scrollWidth": 1423,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "clientWidth": 1257,
+      "height": 31,
+      "scrollWidth": 1257,
+      "width": 1256.984375,
+      "x": 84,
+      "y": 1930.140625
+    },
+    "logo": {
+      "clientWidth": 260,
+      "height": 77,
+      "scrollWidth": 260,
+      "width": 260,
+      "x": 29.796875,
+      "y": 24
+    },
+    "menu": {
+      "expanded": "false",
+      "hidden": false,
+      "navHidden": true,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 288,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 288,
+      "width": 288,
+      "x": 568.484375,
+      "y": 2604.09375
+    },
+    "overflows": [],
+    "scrollY": 0,
+    "section": {
+      "clientWidth": 1425,
+      "height": 896.953125,
+      "scrollWidth": 1425,
+      "width": 1425,
+      "x": 0,
+      "y": 1897.140625
+    },
+    "url": "http://localhost:8000/",
+    "viewport": {
+      "clientWidth": 1425,
+      "dpr": 1,
+      "height": 600,
+      "visualScale": 1,
+      "width": 1440
+    }
+  },
+  {
+    "label": "fresh-final-1440x600-open",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 399,
+          "height": 502.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 84,
+          "y": 2091.140625
+        },
+        "media": {
+          "clientWidth": 399,
+          "height": 196.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 84,
+          "y": 2091.140625
+        },
+        "summary": {
+          "clientWidth": 371,
+          "height": 31,
+          "scrollWidth": 371,
+          "width": 371.328125,
+          "x": 98,
+          "y": 2308.09375
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 103,
+            "y": 2528.09375
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 257.953125,
+            "y": 2528.09375
+          }
+        ],
+        "title": {
+          "clientWidth": 385,
+          "height": 31,
+          "scrollWidth": 385,
+          "width": 385.328125,
+          "x": 91,
+          "y": 2106.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 399,
+          "height": 502.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 512.828125,
+          "y": 2091.140625
+        },
+        "media": {
+          "clientWidth": 399,
+          "height": 196.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 512.828125,
+          "y": 2091.140625
+        },
+        "summary": {
+          "clientWidth": 371,
+          "height": 31,
+          "scrollWidth": 371,
+          "width": 371.328125,
+          "x": 526.828125,
+          "y": 2308.09375
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 531.828125,
+            "y": 2528.09375
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 686.78125,
+            "y": 2528.09375
+          }
+        ],
+        "title": {
+          "clientWidth": 385,
+          "height": 31,
+          "scrollWidth": 385,
+          "width": 385.328125,
+          "x": 519.828125,
+          "y": 2106.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 399,
+          "height": 502.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 941.65625,
+          "y": 2091.140625
+        },
+        "media": {
+          "clientWidth": 399,
+          "height": 196.953125,
+          "scrollWidth": 399,
+          "width": 399.328125,
+          "x": 941.65625,
+          "y": 2091.140625
+        },
+        "summary": {
+          "clientWidth": 371,
+          "height": 31,
+          "scrollWidth": 371,
+          "width": 371.328125,
+          "x": 955.65625,
+          "y": 2308.09375
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 960.65625,
+            "y": 2528.09375
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 1115.609375,
+            "y": 2528.09375
+          }
+        ],
+        "title": {
+          "clientWidth": 385,
+          "height": 31,
+          "scrollWidth": 385,
+          "width": 385.328125,
+          "x": 948.65625,
+          "y": 2106.140625
+        }
+      }
+    ],
+    "documentWidth": 1425,
+    "focus": {
+      "id": "",
+      "tag": "BUTTON",
+      "text": "Menu"
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 1423,
+      "height": 193,
+      "scrollWidth": 1423,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "clientWidth": 1257,
+      "height": 31,
+      "scrollWidth": 1257,
+      "width": 1256.984375,
+      "x": 84,
+      "y": 1998.140625
+    },
+    "logo": {
+      "clientWidth": 260,
+      "height": 77,
+      "scrollWidth": 260,
+      "width": 260,
+      "x": 29.796875,
+      "y": 24
+    },
+    "menu": {
+      "expanded": "true",
+      "hidden": false,
+      "navHidden": false,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 288,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 288,
+      "width": 288,
+      "x": 568.484375,
+      "y": 2672.09375
+    },
+    "overflows": [],
+    "scrollY": 0,
+    "section": {
+      "clientWidth": 1425,
+      "height": 896.953125,
+      "scrollWidth": 1425,
+      "width": 1425,
+      "x": 0,
+      "y": 1965.140625
+    },
+    "url": "http://localhost:8000/",
+    "viewport": {
+      "clientWidth": 1425,
+      "dpr": 1,
+      "height": 600,
+      "visualScale": 1,
+      "width": 1440
+    }
+  },
+  {
+    "label": "fresh-final-844x390-closed",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 351,
+          "height": 478.875,
+          "scrollWidth": 351,
+          "width": 350.515625,
+          "x": 49.234375,
+          "y": 2118.140625
+        },
+        "media": {
+          "clientWidth": 351,
+          "height": 172.875,
+          "scrollWidth": 351,
+          "width": 350.515625,
+          "x": 49.234375,
+          "y": 2118.140625
+        },
+        "summary": {
+          "clientWidth": 323,
+          "height": 31,
+          "scrollWidth": 323,
+          "width": 322.515625,
+          "x": 63.234375,
+          "y": 2311.015625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 68.234375,
+            "y": 2531.015625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 223.1875,
+            "y": 2531.015625
+          }
+        ],
+        "title": {
+          "clientWidth": 337,
+          "height": 31,
+          "scrollWidth": 337,
+          "width": 336.515625,
+          "x": 56.234375,
+          "y": 2133.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 351,
+          "height": 478.875,
+          "scrollWidth": 351,
+          "width": 350.515625,
+          "x": 429.25,
+          "y": 2118.140625
+        },
+        "media": {
+          "clientWidth": 351,
+          "height": 172.875,
+          "scrollWidth": 351,
+          "width": 350.515625,
+          "x": 429.25,
+          "y": 2118.140625
+        },
+        "summary": {
+          "clientWidth": 323,
+          "height": 31,
+          "scrollWidth": 323,
+          "width": 322.515625,
+          "x": 443.25,
+          "y": 2311.015625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 448.25,
+            "y": 2531.015625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 603.203125,
+            "y": 2531.015625
+          }
+        ],
+        "title": {
+          "clientWidth": 337,
+          "height": 31,
+          "scrollWidth": 337,
+          "width": 336.515625,
+          "x": 436.25,
+          "y": 2133.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 351,
+          "height": 478.875,
+          "scrollWidth": 351,
+          "width": 350.515625,
+          "x": 49.234375,
+          "y": 2626.515625
+        },
+        "media": {
+          "clientWidth": 351,
+          "height": 172.875,
+          "scrollWidth": 351,
+          "width": 350.515625,
+          "x": 49.234375,
+          "y": 2626.515625
+        },
+        "summary": {
+          "clientWidth": 323,
+          "height": 31,
+          "scrollWidth": 323,
+          "width": 322.515625,
+          "x": 63.234375,
+          "y": 2819.390625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 68.234375,
+            "y": 3039.390625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 223.1875,
+            "y": 3039.390625
+          }
+        ],
+        "title": {
+          "clientWidth": 337,
+          "height": 31,
+          "scrollWidth": 337,
+          "width": 336.515625,
+          "x": 56.234375,
+          "y": 2641.515625
+        }
+      }
+    ],
+    "documentWidth": 829,
+    "focus": {
+      "id": "",
+      "tag": "BUTTON",
+      "text": "Menu"
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 827,
+      "height": 125,
+      "scrollWidth": 827,
+      "width": 829,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "clientWidth": 731,
+      "height": 31,
+      "scrollWidth": 731,
+      "width": 730.53125,
+      "x": 49.234375,
+      "y": 2025.140625
+    },
+    "logo": {
+      "clientWidth": 260,
+      "height": 77,
+      "scrollWidth": 260,
+      "width": 260,
+      "x": 17.875,
+      "y": 24
+    },
+    "menu": {
+      "expanded": "false",
+      "hidden": false,
+      "navHidden": true,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 288,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 288,
+      "width": 288,
+      "x": 270.5,
+      "y": 3183.390625
+    },
+    "overflows": [],
+    "scrollY": 0,
+    "section": {
+      "clientWidth": 829,
+      "height": 1381.25,
+      "scrollWidth": 829,
+      "width": 829,
+      "x": 0,
+      "y": 1992.140625
+    },
+    "url": "http://localhost:8000/",
+    "viewport": {
+      "clientWidth": 829,
+      "dpr": 1,
+      "height": 390,
+      "visualScale": 1,
+      "width": 844
+    }
+  },
+  {
+    "label": "fresh-final-844x390-open",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 351,
+          "height": 478.875,
+          "scrollWidth": 351,
+          "width": 350.515625,
+          "x": 49.234375,
+          "y": 2240.140625
+        },
+        "media": {
+          "clientWidth": 351,
+          "height": 172.875,
+          "scrollWidth": 351,
+          "width": 350.515625,
+          "x": 49.234375,
+          "y": 2240.140625
+        },
+        "summary": {
+          "clientWidth": 323,
+          "height": 31,
+          "scrollWidth": 323,
+          "width": 322.515625,
+          "x": 63.234375,
+          "y": 2433.015625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 68.234375,
+            "y": 2653.015625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 223.1875,
+            "y": 2653.015625
+          }
+        ],
+        "title": {
+          "clientWidth": 337,
+          "height": 31,
+          "scrollWidth": 337,
+          "width": 336.515625,
+          "x": 56.234375,
+          "y": 2255.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 351,
+          "height": 478.875,
+          "scrollWidth": 351,
+          "width": 350.515625,
+          "x": 429.25,
+          "y": 2240.140625
+        },
+        "media": {
+          "clientWidth": 351,
+          "height": 172.875,
+          "scrollWidth": 351,
+          "width": 350.515625,
+          "x": 429.25,
+          "y": 2240.140625
+        },
+        "summary": {
+          "clientWidth": 323,
+          "height": 31,
+          "scrollWidth": 323,
+          "width": 322.515625,
+          "x": 443.25,
+          "y": 2433.015625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 448.25,
+            "y": 2653.015625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 603.203125,
+            "y": 2653.015625
+          }
+        ],
+        "title": {
+          "clientWidth": 337,
+          "height": 31,
+          "scrollWidth": 337,
+          "width": 336.515625,
+          "x": 436.25,
+          "y": 2255.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 351,
+          "height": 478.875,
+          "scrollWidth": 351,
+          "width": 350.515625,
+          "x": 49.234375,
+          "y": 2748.515625
+        },
+        "media": {
+          "clientWidth": 351,
+          "height": 172.875,
+          "scrollWidth": 351,
+          "width": 350.515625,
+          "x": 49.234375,
+          "y": 2748.515625
+        },
+        "summary": {
+          "clientWidth": 323,
+          "height": 31,
+          "scrollWidth": 323,
+          "width": 322.515625,
+          "x": 63.234375,
+          "y": 2941.390625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 68.234375,
+            "y": 3161.390625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 223.1875,
+            "y": 3161.390625
+          }
+        ],
+        "title": {
+          "clientWidth": 337,
+          "height": 31,
+          "scrollWidth": 337,
+          "width": 336.515625,
+          "x": 56.234375,
+          "y": 2763.515625
+        }
+      }
+    ],
+    "documentWidth": 829,
+    "focus": {
+      "id": "",
+      "tag": "BUTTON",
+      "text": "Menu"
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 827,
+      "height": 247,
+      "scrollWidth": 827,
+      "width": 829,
+      "x": 0,
+      "y": 0
+    },
+    "heading": {
+      "clientWidth": 731,
+      "height": 31,
+      "scrollWidth": 731,
+      "width": 730.53125,
+      "x": 49.234375,
+      "y": 2147.140625
+    },
+    "logo": {
+      "clientWidth": 260,
+      "height": 77,
+      "scrollWidth": 260,
+      "width": 260,
+      "x": 17.875,
+      "y": 24
+    },
+    "menu": {
+      "expanded": "true",
+      "hidden": false,
+      "navHidden": false,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 288,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 288,
+      "width": 288,
+      "x": 270.5,
+      "y": 3305.390625
+    },
+    "overflows": [],
+    "scrollY": 0,
+    "section": {
+      "clientWidth": 829,
+      "height": 1381.25,
+      "scrollWidth": 829,
+      "width": 829,
+      "x": 0,
+      "y": 2114.140625
+    },
+    "url": "http://localhost:8000/",
+    "viewport": {
+      "clientWidth": 829,
+      "dpr": 1,
+      "height": 390,
+      "visualScale": 1,
+      "width": 844
+    }
+  },
+  {
+    "label": "fresh-desktop-anchor",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 517,
+          "height": 561,
+          "scrollWidth": 517,
+          "width": 517,
+          "x": 147.5,
+          "y": 2001.140625
+        },
+        "media": {
+          "clientWidth": 517,
+          "height": 255,
+          "scrollWidth": 517,
+          "width": 517,
+          "x": 147.5,
+          "y": 2001.140625
+        },
+        "summary": {
+          "clientWidth": 489,
+          "height": 31,
+          "scrollWidth": 489,
+          "width": 489,
+          "x": 161.5,
+          "y": 2276.140625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 166.5,
+            "y": 2496.140625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 321.453125,
+            "y": 2496.140625
+          }
+        ],
+        "title": {
+          "clientWidth": 503,
+          "height": 31,
+          "scrollWidth": 503,
+          "width": 503,
+          "x": 154.5,
+          "y": 2016.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 517,
+          "height": 561,
+          "scrollWidth": 517,
+          "width": 517,
+          "x": 694,
+          "y": 2001.140625
+        },
+        "media": {
+          "clientWidth": 517,
+          "height": 255,
+          "scrollWidth": 517,
+          "width": 517,
+          "x": 694,
+          "y": 2001.140625
+        },
+        "summary": {
+          "clientWidth": 489,
+          "height": 31,
+          "scrollWidth": 489,
+          "width": 489,
+          "x": 708,
+          "y": 2276.140625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 713,
+            "y": 2496.140625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 867.953125,
+            "y": 2496.140625
+          }
+        ],
+        "title": {
+          "clientWidth": 503,
+          "height": 31,
+          "scrollWidth": 503,
+          "width": 503,
+          "x": 701,
+          "y": 2016.140625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 517,
+          "height": 561,
+          "scrollWidth": 517,
+          "width": 517,
+          "x": 1240.5,
+          "y": 2001.140625
+        },
+        "media": {
+          "clientWidth": 517,
+          "height": 255,
+          "scrollWidth": 517,
+          "width": 517,
+          "x": 1240.5,
+          "y": 2001.140625
+        },
+        "summary": {
+          "clientWidth": 489,
+          "height": 31,
+          "scrollWidth": 489,
+          "width": 489,
+          "x": 1254.5,
+          "y": 2276.140625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 1259.5,
+            "y": 2496.140625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 1414.453125,
+            "y": 2496.140625
+          }
+        ],
+        "title": {
+          "clientWidth": 503,
+          "height": 31,
+          "scrollWidth": 503,
+          "width": 503,
+          "x": 1247.5,
+          "y": 2016.140625
+        }
+      }
+    ],
+    "documentWidth": 1905,
+    "focus": {
+      "id": "projetos",
+      "tag": "SECTION",
+      "text": "Projetos\n        \n          \n            \n   "
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 1903,
+      "height": 125,
+      "scrollWidth": 1903,
+      "width": 1905,
+      "x": 0,
+      "y": -22
+    },
+    "heading": {
+      "clientWidth": 1681,
+      "height": 31,
+      "scrollWidth": 1681,
+      "width": 1681,
+      "x": 112,
+      "y": 1908.140625
+    },
+    "logo": {
+      "clientWidth": 260,
+      "height": 77,
+      "scrollWidth": 260,
+      "width": 260,
+      "x": 30,
+      "y": 2
+    },
+    "menu": {
+      "expanded": "false",
+      "hidden": true,
+      "navHidden": false,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 288,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 288,
+      "width": 288,
+      "x": 808.5,
+      "y": 2640.140625
+    },
+    "overflows": [],
+    "scrollY": 22,
+    "section": {
+      "clientWidth": 1905,
+      "height": 955,
+      "scrollWidth": 1905,
+      "width": 1905,
+      "x": 0,
+      "y": 1875.140625
+    },
+    "url": "http://localhost:8000/#projetos",
+    "viewport": {
+      "clientWidth": 1905,
+      "dpr": 1,
+      "height": 1080,
+      "visualScale": 1,
+      "width": 1920
+    }
+  },
+  {
+    "label": "fresh-mobile-anchor",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 329,
+          "height": 357.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 2941.40625
+        },
+        "media": {
+          "clientWidth": 329,
+          "height": 162.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 2941.40625
+        },
+        "summary": {
+          "clientWidth": 301,
+          "height": 31,
+          "scrollWidth": 301,
+          "width": 301.484375,
+          "x": 36.75,
+          "y": 3123.90625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3178.90625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3232.90625
+          }
+        ],
+        "title": {
+          "clientWidth": 315,
+          "height": 31,
+          "scrollWidth": 315,
+          "width": 315.484375,
+          "x": 29.75,
+          "y": 2956.40625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 329,
+          "height": 357.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 3328.40625
+        },
+        "media": {
+          "clientWidth": 329,
+          "height": 162.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 3328.40625
+        },
+        "summary": {
+          "clientWidth": 301,
+          "height": 31,
+          "scrollWidth": 301,
+          "width": 301.484375,
+          "x": 36.75,
+          "y": 3510.90625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3565.90625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3619.90625
+          }
+        ],
+        "title": {
+          "clientWidth": 315,
+          "height": 31,
+          "scrollWidth": 315,
+          "width": 315.484375,
+          "x": 29.75,
+          "y": 3343.40625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 329,
+          "height": 357.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 3715.40625
+        },
+        "media": {
+          "clientWidth": 329,
+          "height": 162.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 3715.40625
+        },
+        "summary": {
+          "clientWidth": 301,
+          "height": 31,
+          "scrollWidth": 301,
+          "width": 301.484375,
+          "x": 36.75,
+          "y": 3897.90625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3952.90625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 4006.90625
+          }
+        ],
+        "title": {
+          "clientWidth": 315,
+          "height": 31,
+          "scrollWidth": 315,
+          "width": 315.484375,
+          "x": 29.75,
+          "y": 3730.40625
+        }
+      }
+    ],
+    "documentWidth": 375,
+    "focus": {
+      "id": "projetos",
+      "tag": "SECTION",
+      "text": "Projetos\n        \n          \n            \n   "
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 373,
+      "height": 119.6875,
+      "scrollWidth": 373,
+      "width": 375,
+      "x": 0,
+      "y": -21
+    },
+    "heading": {
+      "clientWidth": 329,
+      "height": 31,
+      "scrollWidth": 329,
+      "width": 329.484375,
+      "x": 22.75,
+      "y": 2870.40625
+    },
+    "logo": {
+      "clientWidth": 242,
+      "height": 71.6875,
+      "scrollWidth": 242,
+      "width": 242.0625,
+      "x": 17,
+      "y": 3
+    },
+    "menu": {
+      "expanded": "false",
+      "hidden": false,
+      "navHidden": true,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 288,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 288,
+      "width": 288,
+      "x": 43.484375,
+      "y": 4112.90625
+    },
+    "overflows": [],
+    "scrollY": 21,
+    "section": {
+      "clientWidth": 375,
+      "height": 1396.5,
+      "scrollWidth": 375,
+      "width": 375,
+      "x": 0,
+      "y": 2837.40625
+    },
+    "url": "http://localhost:8000/#projetos",
+    "viewport": {
+      "clientWidth": 375,
+      "dpr": 1,
+      "height": 844,
+      "visualScale": 1,
+      "width": 390
+    }
+  },
+  {
+    "label": "fresh-mobile-anchor-state",
+    "cards": [
+      {
+        "box": {
+          "clientWidth": 329,
+          "height": 357.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 2934.40625
+        },
+        "media": {
+          "clientWidth": 329,
+          "height": 162.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 2934.40625
+        },
+        "summary": {
+          "clientWidth": 301,
+          "height": 31,
+          "scrollWidth": 301,
+          "width": 301.484375,
+          "x": 36.75,
+          "y": 3116.90625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3171.90625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3225.90625
+          }
+        ],
+        "title": {
+          "clientWidth": 315,
+          "height": 31,
+          "scrollWidth": 315,
+          "width": 315.484375,
+          "x": 29.75,
+          "y": 2949.40625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 329,
+          "height": 357.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 3321.40625
+        },
+        "media": {
+          "clientWidth": 329,
+          "height": 162.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 3321.40625
+        },
+        "summary": {
+          "clientWidth": 301,
+          "height": 31,
+          "scrollWidth": 301,
+          "width": 301.484375,
+          "x": 36.75,
+          "y": 3503.90625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3558.90625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3612.90625
+          }
+        ],
+        "title": {
+          "clientWidth": 315,
+          "height": 31,
+          "scrollWidth": 315,
+          "width": 315.484375,
+          "x": 29.75,
+          "y": 3336.40625
+        }
+      },
+      {
+        "box": {
+          "clientWidth": 329,
+          "height": 357.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 3708.40625
+        },
+        "media": {
+          "clientWidth": 329,
+          "height": 162.5,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 3708.40625
+        },
+        "summary": {
+          "clientWidth": 301,
+          "height": 31,
+          "scrollWidth": 301,
+          "width": 301.484375,
+          "x": 36.75,
+          "y": 3890.90625
+        },
+        "tags": [
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3945.90625
+          },
+          {
+            "clientWidth": 147,
+            "height": 46,
+            "scrollWidth": 147,
+            "width": 146.953125,
+            "x": 41.75,
+            "y": 3999.90625
+          }
+        ],
+        "title": {
+          "clientWidth": 315,
+          "height": 31,
+          "scrollWidth": 315,
+          "width": 315.484375,
+          "x": 29.75,
+          "y": 3723.40625
+        }
+      }
+    ],
+    "documentWidth": 375,
+    "focus": {
+      "id": "projetos",
+      "tag": "SECTION",
+      "text": "Projetos\n        \n          \n            \n   "
+    },
+    "fontStatus": "loaded",
+    "header": {
+      "clientWidth": 373,
+      "height": 119.6875,
+      "scrollWidth": 373,
+      "width": 375,
+      "x": 0,
+      "y": -28
+    },
+    "heading": {
+      "clientWidth": 329,
+      "height": 31,
+      "scrollWidth": 329,
+      "width": 329.484375,
+      "x": 22.75,
+      "y": 2863.40625
+    },
+    "logo": {
+      "clientWidth": 242,
+      "height": 71.6875,
+      "scrollWidth": 242,
+      "width": 242.0625,
+      "x": 17,
+      "y": -4
+    },
+    "menu": {
+      "expanded": "false",
+      "hidden": false,
+      "navHidden": true,
+      "ready": true
+    },
+    "more": {
+      "clientWidth": 288,
+      "disabled": true,
+      "height": 73,
+      "scrollWidth": 288,
+      "width": 288,
+      "x": 43.484375,
+      "y": 4105.90625
+    },
+    "overflows": [],
+    "scrollY": 28,
+    "section": {
+      "clientWidth": 375,
+      "height": 1396.5,
+      "scrollWidth": 375,
+      "width": 375,
+      "x": 0,
+      "y": 2830.40625
+    },
+    "url": "http://localhost:8000/#projetos",
+    "viewport": {
+      "clientWidth": 375,
+      "dpr": 1,
+      "height": 844,
+      "visualScale": 1,
+      "width": 390
+    }
+  }
+]

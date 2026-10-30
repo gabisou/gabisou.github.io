@@ -5,16 +5,16 @@
   const navigation = header?.querySelector('.header-navigation');
   if (!button || !navigation) return;
 
-  const compact = window.matchMedia('(max-width: 95em)');
+  const compact = window.matchMedia('(width < 810px)');
   let expanded = false;
 
-  function render() {
+  function render(moveFocus = true) {
     const mobile = compact.matches;
     // Reveal the destination before moving focus and hiding its former owner.
     if (mobile) button.hidden = false;
     else navigation.hidden = false;
-    if (mobile && !expanded && navigation.contains(document.activeElement)) button.focus();
-    if (!mobile && document.activeElement === button) navigation.querySelector('a').focus();
+    if (moveFocus && mobile && !expanded && navigation.contains(document.activeElement)) button.focus();
+    if (moveFocus && !mobile && document.activeElement === button) navigation.querySelector('a').focus();
     button.hidden = !mobile;
     button.setAttribute('aria-expanded', String(mobile && expanded));
     navigation.hidden = mobile && !expanded;
@@ -23,7 +23,7 @@
   function close(returnFocus = false) {
     expanded = false;
     if (returnFocus) button.focus();
-    render();
+    render(returnFocus);
   }
 
   header.setAttribute('data-menu-ready', '');
@@ -35,7 +35,8 @@
     }
   });
   navigation.addEventListener('click', (event) => {
-    if (compact.matches && event.target.closest('a[href^="#"]')) close(true);
+    // Let the native anchor move focus/scroll to its destination, not the Menu button.
+    if (compact.matches && event.target.closest('a[href^="#"]')) close();
   });
   compact.addEventListener('change', () => { expanded = false; render(); });
   render();

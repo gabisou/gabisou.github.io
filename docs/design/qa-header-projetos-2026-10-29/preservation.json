@@ -1,0 +1,108 @@
+{
+  "base_sha": "eaa38db79d388901e273abb4d54ad6fa8703158d",
+  "scope": "Independent source verification; no browser controls or production writes",
+  "comparison_method": "Exact checkout bytes compared against git cat-file --filters eaa38db79d388901e273abb4d54ad6fa8703158d:path. HEAD blobs are LF, existing Windows checkout CRLF.",
+  "diagnostics_resolved": [
+    "Initial raw-blob comparison detected only expected LF vs CRLF.",
+    "Shared .brand extraction has two occurrences, primary and footer; both compared unchanged."
+  ],
+  "checks": {
+    "html_hero": {
+      "equal_checkout_bytes": true,
+      "bytes": 3254,
+      "sha256": "86bfbe434f1dab6bafdde57b4b0415729e05395e50a32848ee5a277eb1fff6ff"
+    },
+    "html_solutions": {
+      "equal_checkout_bytes": true,
+      "bytes": 2782,
+      "sha256": "c96e32bba85efdbb3be0139fa558cfc6ae17dc85cb7dcf5910547564384d99ee"
+    },
+    "html_about": {
+      "equal_checkout_bytes": true,
+      "bytes": 1114,
+      "sha256": "5a4a93c2dd7c81f9a009460152fbe28cadfac13d069ec4d99e37a9064a35cd25"
+    },
+    "html_process": {
+      "equal_checkout_bytes": true,
+      "bytes": 1229,
+      "sha256": "5bd16f6edf9ad5309d17994f175fdb269d4763976dffd75e7f15174ed9cfccee"
+    },
+    "html_contact": {
+      "equal_checkout_bytes": true,
+      "bytes": 939,
+      "sha256": "87a6d7c888ab8dd0ee71d71fbbe6d23797cb992b27360934118c41910851833e"
+    },
+    "html_footer": {
+      "equal_checkout_bytes": true,
+      "bytes": 1246,
+      "sha256": "9aae7bf493b9c6e6c24d19c8b41df606ebd14788ec65ea37adfb0460bcb8feaa"
+    },
+    "css_outside_header_projects": {
+      "equal_checkout_bytes": true,
+      "bytes": 13310,
+      "sha256": "3aa44f5f5399f1ba423d33da0df2cbbe6e8418f0f630987a928f206d8a32ee52"
+    },
+    "css_shared_@font-face": {
+      "equal_checkout_bytes": true,
+      "matched_rules": 1
+    },
+    "css_shared_.brand": {
+      "equal_checkout_bytes": true,
+      "matched_rules": 2
+    },
+    "dist/assets/favicon.svg": {
+      "equal_checkout_bytes": true,
+      "sha256": "67b6512ef6fbde5d194b6dc032199548f1d564e7cb2994abc8f3206b428457bb"
+    },
+    "dist/assets/figma/gabisou-wordmark.png": {
+      "equal_checkout_bytes": true,
+      "sha256": "3f9a7085a065125fb5227989445d0c0f67d512ccaffef13349198f71670242e6"
+    },
+    "dist/assets/figma/hero-artwork.png": {
+      "equal_checkout_bytes": true,
+      "sha256": "33024284ccfeed9ecaf19323c693ac2a79e6262648c1239674ab6c849071953c"
+    },
+    "dist/assets/fonts/Inter-LICENSE.txt": {
+      "equal_checkout_bytes": true,
+      "sha256": "b3195af0fb14368d1b3b10fb9d3fe503b7163ea083859d2ee553bc74da07c320"
+    },
+    "dist/assets/fonts/InterVariable.woff2": {
+      "equal_checkout_bytes": true,
+      "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3"
+    },
+    "dist/assets/logo.png": {
+      "equal_checkout_bytes": true,
+      "sha256": "b9bebe53ab19b6e42078d3f4fa54e58c2588d36169a2d809c9a93657db2e4c43"
+    },
+    "scripts/check.py": {
+      "equal_checkout_bytes": true,
+      "sha256": "d4101da994dc7f6634c165f807e40cec9a80f3c9544a72480b6f515feda4b39a"
+    }
+  },
+  "tracked_asset_count": 6,
+  "asset_and_check_status_clean": true,
+  "markup_contract_checks": "PASS",
+  "js_static_checks": "PASS",
+  "node_check_exit": 0,
+  "working_source_sha256": {
+    "dist/index.html": "f66b2b618f940ec363b419202b2e2bbc633d2b9944104eece660ab8fb4a0003a",
+    "dist/styles.css": "8d38ee8d616cc1d2bcb0dbf5ee4ae4ea5d26e213cde7041aeec30d7a4dbf9f05",
+    "dist/header.js": "98370d2e34b8f5aa090fcc5f7f6eb8bdf2fa31fd8fb649c5a417ff4033a03f7a"
+  },
+  "final_review": {
+    "date": "2026-10-29",
+    "timezone": "America/Sao_Paulo",
+    "base_sha": "eaa38db79d388901e273abb4d54ad6fa8703158d",
+    "status": "PASS",
+    "type": "Independent static review and source-preservation verification",
+    "reviewed_changes": [
+      "header-controls uses wrapping Flexbox within header Grid; brand maintains its proportion and bounds",
+      "project-card has minmax(0,1fr); media width is 100%, min-width 0 and aspect-ratio is preferred while content remains visible",
+      "render(moveFocus) and close(returnFocus) distinguish anchor navigation from Escape and breakpoint focus transfers",
+      "CSS and JavaScript both use a 96em compact breakpoint"
+    ],
+    "limits": [
+      "Browser behavior, rendered comparison, text enlargement and final focus results are recorded separately by the primary executor; this report does not independently claim those browser tests."
+    ]
+  }
+}

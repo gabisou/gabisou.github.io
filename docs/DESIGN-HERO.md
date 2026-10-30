@@ -2,7 +2,26 @@
 
 Extração em 28/10/2026, pelo MCP oficial, sem alterar o arquivo. Esta extração é compartilhada por duas entregas separadas: etapa 1 (header) e etapa 2 (hero). Consultar ARQUITETURA-E-ETAPAS.md antes de implementar; não executar ambos numa única tarefa.
 
-## Header atual aprovado — etapa 1
+## Header vigente — geometria Mirai e identidade GABiSOU, 30/10/2026
+
+Gabriel substituiu as dimensões e os breakpoints anteriores do header pela coleta de HTML/CSS e DOM de [Studio Mirai](https://studiomirai.com.br/) fornecida nesta sessão. Coleta da referência informada por Gabriel, sem nova pesquisa nesta rodada. Identidade mantida do Figma 25:55: asset original proporcional, Inter local, textos/destinos, fundo #F7F7F0, Contato #C6D2CC e raio existente. Os 260px/22px/gaps 185/56px abaixo são histórico, não requisitos vigentes.
+
+| Região | ≥1440px | 810px a <1440px | <810px |
+| --- | --- | --- | --- |
+| Wrapper centralizado | largura 100%, máximo 1440px | igual | igual |
+| Padding externo horizontal | 108px | 28px | 20px |
+| Container centralizado | máximo 1226px | máximo 1226px | máximo 580px |
+| Padding interno horizontal | 20px | 16px | 8px |
+| Marca GABiSOU | 162px × altura automática (~47,98px) | 130px × altura automática (38,5px) | 128px × altura automática (~37,91px) |
+
+- Altura fechada nominal 80px incluindo bordas: container mínimo 78px, padding vertical 10px e alinhamento central. Altura cresce com conteúdo/expansão; a marca usa sua proporção 260:77, não as alturas da Mirai. Bordas laterais visuais em inset preservam a largura útil dos containers.
+- Inter 400, .875rem (14px na raiz de 16px), line-height 1.7, letter-spacing -.03em. Gaps dos quatro links até 24px, flexibilizados até 12px perto de 810px. Contato com largura nominal independente 154,3px e altura mínima 40px; não depende do tamanho do rótulo.
+- Grid externo distribui marca/restante; Grid aninhado no nav distribui coluna central `minmax(0,1fr)`/Contato automático. Flex centraliza os quatro links na coluna intermediária. Contato permanece no mesmo nav, separado da lista, para manter destino e comportamento da expansão.
+- Abaixo de 810px, Menu expande o nav na linha seguinte, no fluxo; Contato ocupa a largura da expansão e tem altura mínima 44px. CSS e matchMedia usam a mesma condição `(width < 810px)`; em 810px a navegação permanece completa.
+- **Calculado pelo CSS, não medido no browser desta rodada:** largura útil 950px → marca x44 e borda direita do Contato x906; largura útil 1348px → container x61/largura1226, marca x77 e Contato x1116,7/largura154,3. Com largura útil 1920px, wrapper x240, marca x368 e Contato termina em x1552; barra de rolagem reduz a largura útil e desloca a centralização.
+- Implementado; comparação renderizada pendente. Captura em segundo plano não exposta nesta rodada; nenhum controle de mouse/teclado ou navegador visível. Conferir somente header em ~950/1920px, limite 810px e Menu em 390px antes de aceitar.
+
+## Histórico — header Figma aprovado em 28/10/2026, etapa 1
 
 Gabriel confirmou em 28/10/2026 o componente [Navigation/Site header 25:55](https://www.figma.com/design/XYP2AAZXyTlLTNvY2OphZX/GABiSOU-Site?node-id=25-55), incluindo Contato em **#C6D2CC**. Esta seção substitui a especificação anterior do header 3:4. O código do hero permanece fora do escopo.
 
