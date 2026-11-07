@@ -2,6 +2,16 @@
 
 Extração em 28/10/2026, pelo MCP oficial, sem alterar o arquivo. Esta extração é compartilhada por duas entregas separadas: etapa 1 (header) e etapa 2 (hero). Consultar ARQUITETURA-E-ETAPAS.md antes de implementar; não executar ambos numa única tarefa.
 
+## Hero vigente — entrega parcial de texto/CTA, 30/10/2026
+
+Contrato atual: [HERO-ETAPA-1.md](design/HERO-ETAPA-1.md), com [contexto MCP](design/hero-1-200-contexto-mcp.txt) e [referência original1024×576](design/hero-1-200-referencia.png) fornecidos por Gabriel. Reutilizados sem nova extração. A imagem reduzida é referência visual, nunca asset do site; as coordenadas do contrato referem-se ao frame1920×1080.
+
+Texto/CTA implementados com Grid e Flex local, fonte local e dimensões pelo conteúdo. Em1920px, margem84px, topo do título171px após o header aprovado (~y251 com header80), título máximo721px/40px, descrição máxima909px/24px, CTA303×99px/32px e gaps máximos90/58/16px. Fundo #F5F7F0. Não deslocar o header para obter o y296 antigo.
+
+Correção de contrato fornecida por Gabriel em30/10: entre810 e1439px, Grid `minmax(0,600px) 425px`, column-gap8px, justify-content:center, align-items:center, padding lateral40px e vertical24px, substituindo a antiga recomendação de empilhar até90em. Título/descrição com gap24px e bloco/ações44px; fonte GABiSOU preservada, trecho azul inline para quebra natural. Slot425×525px, futuro img com object-fit:contain, altura do conjunto pelo maior conteúdo. Abaixo de810px, empilhar com gap32px, slot proporcional limitado à largura disponível; até40em, manter título mínimo28px, descrição18px e CTA20px/altura mínima64px. A partir de1440px, composição ampla anterior preservada. Captura de950px e validação de encaixe/overflow permanecem pendentes; não são medidas renderizadas nesta sessão.
+
+WhatsApp ausente na cópia local: #contato e “Fale diretamente com a equipe.” são provisórios autorizados. Arte anterior saiu da composição; slot contém apenas “Ilustração em preparação”. Asset estático oficial deve incluir efeito de lente e risco de AI FIRST, pendentes de exportação. Header e demais seções preservados. Implementado; comparação renderizada pendente por indisponibilidade de captura em segundo plano nesta sessão.
+
 ## Header vigente — geometria Mirai e identidade GABiSOU, 30/10/2026
 
 Gabriel substituiu as dimensões e os breakpoints anteriores do header pela coleta de HTML/CSS e DOM de [Studio Mirai](https://studiomirai.com.br/) fornecida nesta sessão. Coleta da referência informada por Gabriel, sem nova pesquisa nesta rodada. Identidade mantida do Figma 25:55: asset original proporcional, Inter local, textos/destinos, fundo #F7F7F0, Contato #C6D2CC e raio existente. Os 260px/22px/gaps 185/56px abaixo são histórico, não requisitos vigentes.

@@ -1,6 +1,68 @@
 # GABiSOU — continuidade do site
 
-## Foco atual — header com geometria Mirai, 30/10/2026 (Brasília)
+## Checkpoint remoto — 07/11/2026
+
+- Branch de trabalho: `codex/figma-redesign`; stack HTML/CSS/JS nativo, fontes editáveis em `dist/index.html`, `dist/styles.css`, `dist/header.js` e assets em `dist/assets/`. Verificação: `python -X utf8 scripts/check.py`; prévia: `python -m http.server 8000 --bind 127.0.0.1 --directory dist`.
+- Implementado no checkout: header, hero textual/CTAs, Serviços, Projetos de prévia, Quem somos, Como trabalhamos com quatro etapas e FAQ integrado, Contato e footer. FAQ está abaixo das etapas e “Antes de começar” foi removido. Cargos atuais: Gabriel `Desenvolvedor Fullstack`; Carol `Designer UX/UI`. Quem somos usa círculos no lugar de fotos. Projetos permanece uma etapa posterior.
+- Verificado tecnicamente nesta preparação: checks Python e `git diff --check`; aprovação visual do usuário: nenhuma das seções novas está declarada aprovada. A última captura do footer foi rejeitada; depois houve correção estrutural para Grid de cinco áreas, identidade agrupada e SVGs reconhecíveis, ainda aguardando aceite visual.
+- Pendências: comparação visual final de todas as seções; exportações Figma originais das quatro ilustrações de Como trabalhamos; vetores oficiais de Instagram, LinkedIn, retorno e copyright do footer; retratos de Quem somos. O footer usa `assets/figma/gabisou-wordmark.png` e SVGs locais fallback para os ícones, documentados como pendência.
+- Destinos efetivos: CTA Contato preserva `mailto:gabisoudev@gmail.com` com assunto/corpo; Instagram `https://www.instagram.com/gabisoudev/`; LinkedIn `https://www.linkedin.com/in/gabrieldevsouza/`; logo/retorno `#inicio`.
+- Próxima tarefa concreta: revisar visualmente o footer corrigido em 1920/1440/390px e substituir os SVGs fallback pelos vetores oficiais quando forem disponibilizados, sem avançar para publicação.
+
+## Serviços — JSON_REST_V1 aplicado, 05/11/2026
+
+- Conteúdo e estilos da seção foram substituídos pelo JSON transcrito do frame `02-services-desktop`/nó `1:417`: textos exatos, nove tags, cores, tipografia, raios e ordem interna. Tags agora ficam abaixo da descrição; o chevron foi removido por decisão de revisão e não deve voltar nesta etapa.
+- Mantidos `#solucoes`, header, hero, CTAs, Projetos e demais seções. Em mobile, a numeração passa acima do card para preservar leitura; decisão inferida porque o JSON é desktop.
+- Check Python e `git diff --check` desta rodada ainda pendentes. Captura original para comparação visual continua ausente.
+
+## Serviços — diagnóstico e ajuste horizontal, 05/11/2026
+
+- A porta 8000 servia uma cópia antiga; a inspeção real foi feita em `http://127.0.0.1:8001/`, servindo explicitamente `C:\Repos\gabisou.github.io\dist`. O DOM confirmou os textos JSON e a estrutura correta.
+- Estilos computados em 1920 CSS px: container x112/1681px; lista x121/1663px; número 72×74px; card x246/1538×217.98px. O chevron medido anteriormente foi removido por decisão de revisão.
+- Em 390px, linhas de 335px e scrollWidth 375px; sem transbordamento. Check Python PASS (19 links, 14 IDs, 2 imagens) e `git diff --check` PASS. Captura Figma original ainda pendente.
+
+## Serviços — correção ao Figma bloqueada pela quota, 30/10/2026
+
+- Branch `codex/figma-redesign`, HEAD `edd390691800cacbae84cc1044d7ce28a95b10f4`; alterações locais anteriores preservadas. Gabriel revogou a liberdade de inferir acabamento/textos de Serviços. A versão atual não é aprovada e não deve servir de referência visual.
+- Cache local sem contexto completo/captura original de1:417. Uma chamada get_design_context com screenshot, após leitura da skill aplicável, retornou limite de chamadas do Figma MCP no plano Starter; nenhum contexto recebido. Sem repetição, exportação ou contorno por outra ferramenta. HTML/CSS não alterados nesta rodada.
+- Insumo necessário: propriedades textuais completas e captura do frame1:417, incluindo textos/numeração/tags, cores/bordas, fontes/entrelinhas, raios/padding/gaps/alinhamentos e ícones/estados. Não é necessária arte exportada. [Referência e bloqueio](DESIGN-SERVICOS.md).
+- Correção confirmada para a próxima implementação: tags abaixo da descrição em sua própria linha, alinhadas à direita no desktop; a coluna lateral da versão inferida está incorreta. Aguardar referência antes de editar um card e comparar. Header/hero/botões/Projetos e demais seções preservados. Sem fidelidade comprovada, push/publicação ou avanço para outra seção.
+
+## Histórico — implementação inferida de Serviços, substituída pela exigência acima
+
+- Branch `codex/figma-redesign`, HEAD `edd390691800cacbae84cc1044d7ce28a95b10f4`; alterações locais anteriores preservadas. Seção mantém #solucoes e o título introdutório. Categorias, descrições e nove tags existentes reaproveitadas na ordem sites → sistemas/aplicativos/integrações → automações/IA; sem novas promessas ou tecnologias.
+- **Confirmado pela coleta informada por Gabriel:** frame1:417, introdução3:43 acima da lista3:42, três itens3:39/3:40/3:41, número fora da superfície, tags à direita no desktop, gap vertical aproximadamente32px, introdução próxima de x112 e cards aproximadamente1530×219. Não há extração visual detalhada local desta seção; nenhuma chamada nova ao Figma.
+- Implementado section/h2 associado e lista ordenada com três linhas Grid `auto minmax(0,1fr)`, cada uma com número e article/h3/descrição/tags informativas. Container máximo1696px e lista1600px aproximam a composição ampla; altura dos cards pelo conteúdo, sem fixar219px. Setas antigas removidas: cards são estáticos, sem controles de expansão ou conteúdo oculto; interação futura depende de contrato.
+- **Inferências a revisar:** fundo #F7F7F0, superfície #E9EFEC/raio22px e tags #C6D2CC/raio9px reutilizam componentes locais; roxo #4A36EB e Inter local preservam identidade. Títulos de card26px, corpo/tags16px e padding32px são decisões desta adaptação, não valores extraídos de Serviços. Grid interno texto/tags e Flex com quebra nas tags; min-width0 e quebra de texto nos filhos.
+- Responsividade inferida pelo encaixe estimado: até70em (1120px), tags abaixo do texto/alinhadas ao início e padding24px; até40em (640px), número acima do card, padding20px, gap entre linhas24px. Fontes dos cards mantidas; espaços cedem primeiro. Nenhum overflow escondido ou escala artificial. Revisar encaixe em1920/950/390px; não afirmar fidelidade visual sem contexto/captura detalhados.
+- Check Python PASS (19 links, 14 IDs, 2 imagens). Conferência estática confirmou header/hero/botões/Projetos e HTML/CSS externo a Serviços intactos, incluindo header.js e documentos anteriores. Servidor existente entrega HTML atualizado em `http://127.0.0.1:8000/#solucoes` (HTTP200 não comprova renderização). Captura em segundo plano não disponível pelas ferramentas desta sessão; pendentes visual/overflow/zoom e acionamento das âncoras no browser. Diff da etapa: `artifacts/servicos-2026-10-30/servicos.patch`. Parar para revisão humana, sem push/publicação ou alterações em Projetos; ilustração do hero continua pendente.
+
+## Contrato vigente — duas ações do hero, 30/10/2026
+
+- Substitui integralmente CTA/auxiliar anteriores: “Conheça mais” → #solucoes; “Conte o seu desafio” + seta decorativa → #contato. IDs existentes confirmados. Mesma ordem no HTML e na tabulação; sem JavaScript novo.
+- ≥1440px: grupo Flex lado a lado, alinhado ao início, largura por conteúdo/padding; 810–1439px: coluna, width100%/max-width300px; <810px: coluna preenchendo a largura disponível, sem limite300px. Gap12px em todas as faixas, sem alterar o Grid texto/arte ou seus breakpoints.
+- Acabamento corrigido: Inter local declarada explicitamente nos links, peso500/16px, linha1.4 e letter-spacing:normal; padding8px 23px, borda0 e mínimo38,4px, com crescimento por texto. Primário #4A36EB/branco/raio7px; secundário #C6D2CC/preto/raio7,4px. Raios são adaptações proporcionais (18×38,4/99 e 10×38,4/52), não novos valores extraídos do Figma. Texto/seta centralizados como conjunto, gap10px; SVG decorativo20×20/desenho12×12 preservado. Foco usa a mesma variável de raio e sobrepõe o arredondamento global de3px; sem regra999px, sombra ou gradiente no grupo. HTML, destinos e responsividade intactos; comparação visual ampla/intermediária pendente por falta de captura em segundo plano nesta sessão.
+- Branch `codex/figma-redesign`, HEAD `edd390691800cacbae84cc1044d7ce28a95b10f4`; trabalho local anterior preservado. Somente grupo HTML, suas regras CSS e este registro alterados. Captura em segundo plano não exposta nesta sessão; validação renderizada do grupo em1920/950/390px e interação/foco permanece pendente. Parar para revisão humana, sem push/publicação.
+
+- Checks desta rodada: Python PASS (19 links, 14 IDs, 2 imagens) e `git diff --check` aprovado. Conferência estática do diff confirmou HTML/CSS externos ao grupo e header.js intactos. Diff delimitado: `artifacts/hero-acoes-2026-10-30/acoes-do-hero.patch`.
+
+## Correção vigente — responsividade intermediária do hero, 30/10/2026
+
+- Branch `codex/figma-redesign`, HEAD `edd390691800cacbae84cc1044d7ce28a95b10f4`; trabalho local da entrega parcial preservado. A antiga media query `max-width:90em` causava empilhamento até1440px. Substituída pela faixa810–1439px com Grid `minmax(0,600px) 425px`, gap8px, centralização horizontal/vertical e padding24px 40px, sem somar a margem anterior.
+- Nessa faixa, título/descrição separados por24px e CTA/auxiliar por44px do bloco anterior. Fonte preservada; trecho azul inline permite quebra natural. Texto com mínimo0; slot de arte425×525px e futuro img com object-fit:contain. O conjunto cresce se o texto ultrapassar525px. Abaixo de810px, uma coluna/gap32px e arte proporcional limitada ao container; a partir de1440px, composição ampla anterior preservada.
+- HTML, destinos, header.js, header/Projetos e demais seções não alterados nesta correção. Sem captura em segundo plano disponível: evidência renderizada em950px pendente, assim como conferir810/390px e ausência de overflow. Valores derivados do CSS, não medidos no browser: com largura útil950px, 870px internos = texto437 + gap8 + arte425; com largura útil810px, texto297 + gap8 + arte425. Barra vertical reduz a largura útil e a coluna de texto.
+- `git diff --check` aprovado; check de links não repetido, pois HTML intacto. Conferência estática confirmou header/JS, demais seções e regras base amplas preservados. Diff desta correção: `artifacts/hero-responsivo-2026-10-30/correcao-responsiva.patch`. Contrato atualizado também em DESIGN-HERO.md; parar para revisão humana, sem commit/push ou publicação.
+
+## Histórico — hero, entrega parcial de texto/CTA, 30/10/2026 (Brasília)
+
+- Pacote de Gabriel extraído em docs/design: HERO-ETAPA-1.md, contexto MCP e PNG de referência 1024×576; nenhum arquivo existente sobrescrito e nenhuma consulta nova ao Figma. Checkpoint local **edd390691800cacbae84cc1044d7ce28a95b10f4** preserva as alterações anteriores de header/ordem do menu/Projetos, documentação/evidências e os três arquivos recebidos. Sem temporários/ZIPs ou push; implementação do hero segue sem commit.
+- Novo hero: título em duas partes 40px/500 e 40px/700 azul #4A36EB; descrição24px; CTA “Entre em contato”, nominal303×99/32px, fundo #4A36EB; fundo da seção #F5F7F0. Inter local restrita ao componente. Grid texto/arte, altura pelo conteúdo; margem84px e título171px abaixo do fim do header na referência1920px, sem restaurar header antigo. Gaps90/58/16px são limites desktop fluidos.
+- Adaptação inferida: empilhar a composição até90em; título móvel mínimo28px, corpo18px, CTA20px e altura mínima64px. Espaços diminuem antes da tipografia. Região da arte fica abaixo do texto/ação no mobile. Sem escala artificial ou ocultação de conteúdo.
+- Sem WhatsApp confirmado no HTML/documentação local: CTA provisório #contato, auxiliar “Fale diretamente com a equipe.” conforme contrato. Arte V3 removida da composição; somente “Ilustração em preparação” no slot reservado. Exportação estática oficial, efeito de lente e risco sobre AI FIRST ainda pendentes; não usar a captura como asset nem a exportação histórica incompleta.
+- Header aprovado, header.js, Projetos e outras seções devem permanecer iguais ao checkpoint. Comparação visual pendente em1920/390px e uma largura intermediária, foco e destino do CTA: captura em segundo plano não exposta nesta sessão; não controlar a interface nem instalar ferramentas. Aguardar revisão humana desta parte antes de importar a arte ou iniciar Serviços. Resultados dos checks direcionados em VERIFICACAO.md.
+- Verificação concluída: header/JS, HTML externo ao hero e regras CSS das demais seções iguais ao checkpoint; Python PASS (18 links, 14 IDs, 2 imagens) e diff-check sem erros. A redução de19 para18 links decorre da remoção do link auxiliar legado “Encontre seu ponto de partida” junto da composição antiga. Servidor existente entrega o HTML atual em `http://127.0.0.1:8000/`; isso não comprova renderização. Diff desta parte em `artifacts/hero-etapa-1/hero-etapa-1.patch`.
+
+## Histórico — header com geometria Mirai, 30/10/2026 (Brasília)
 
 - Ordem do menu alinhada às seções reais do main: SERVIÇOS (#solucoes) → PROJETOS (#projetos) → QUEM SOMOS (#sobre) → COMO TRABALHAMOS (#como-trabalhamos) → CONTATO (#contato). Somente links reordenados no HTML compartilhado por desktop/mobile; textos, destinos, CSS/JS e seções preservados. Leitura, visual e tabulação seguem essa mesma ordem do DOM. Check de links e diff-check integram esta rodada; parar para revisão humana.
 - Nova orientação de Gabriel substitui as dimensões/breakpoints anteriores. Base real `eaa38db79d388901e273abb4d54ad6fa8703158d`, branch `codex/figma-redesign`; trabalho local anterior preservado. Somente header, referência em DESIGN-HERO.md e estas linhas alterados nesta rodada.
@@ -140,3 +202,29 @@ Registrar manualmente data, empresa/referência, origem declarada, necessidade, 
 ## Fontes
 
 Briefing de Gabriel nesta conversa; cinco wireframes anexados; site atual inspecionado; repositório existente; referências oficiais W3C/Google listadas no relatório de verificação. O site atual confirma contatos e identidade, não comprova contratos ou resultados comerciais.
+## Quem somos — referência 05-about-desktop aplicada, 05/11/2026
+
+- Seção `#sobre` substituída pela introdução e pelos perfis de Gabriel de Souza e Carol Faustino conforme JSON anexado. Desktop usa dois cards em Grid; adaptação mobile empilha perfis e move o retrato para cima abaixo de 480px.
+- Retratos oficiais não existem nos assets locais; foram reservados espaços neutros 161×166px, sem fotos substitutas. Link LinkedIn de Gabriel preservado; Carol permanece sem link por falta de destino confirmado.
+- Check Python PASS (19 links, 14 IDs, 2 imagens) e `git diff --check` PASS. Comparação visual final e troca dos retratos aguardam revisão humana.
+## Como trabalhamos — referência 04-process-desktop aplicada, 07/11/2026
+
+- Seção `#como-trabalhamos` substituída pelo conteúdo exato fornecido: introdução e quatro etapas numeradas 1–4. CSS isolado em `process-*`, com Inter local, fundo `#F7F7F0`, traços internos nos números e sem caixas/interações.
+- Desktop usa container próprio e quatro trilhas de 420px com os deslocamentos do JSON; abaixo de 1450px duas colunas e abaixo de 700px uma coluna. Ilustrações reservadas em 208×135px, sem assets substitutos.
+- Cargos aprovados de Quem somos permanecem `Desenvolvedor Fullstack` e `Designer UX/UI`, registrados também em `DESIGN-QUEM-SOMOS.md`.
+- Comparação visual com o frame e exportação das quatro ilustrações pendentes. Check Python PASS (19 links, 14 IDs, 2 imagens) e `git diff --check` PASS. Renderização computada confirmou Inter 24px/29.0455px nas descrições, quatro etapas em desktop e uma coluna em 390px sem overflow.
+## FAQ integrado a Como trabalhamos — referência 06-faq-desktop, 07/11/2026
+
+- FAQ inserido abaixo das quatro etapas, na mesma section `#como-trabalhamos`; removido somente o antigo `Antes de começar`. Perguntas exatas mantidas, inclusive `Voces` sem acento.
+- Lista sem respostas/interação: perguntas são texto e os sinais de mais têm `aria-hidden`. Grid desktop com introdução/lista; adaptação mobile empilha regiões e usa 64px de junção. O intervalo de 120px no desktop é decisão de integração.
+- Check e comparação visual serão registrados após a rodada; captura do frame não está disponível nesta sessão.
+## Contato — referência 07-contact-desktop aplicada, 07/11/2026
+
+- Seção `#contato` mantém o título sem acento em `voce`, frase de apoio e CTA `Entre em contato`; o rótulo superior `Contato` foi removido por decisão de revisão.
+- CTA preserva o `mailto` existente com assunto/corpo; não há seta, formulário, telefone ou endereço adicional. Estilos isolados em `contact-*`, com Grid desktop e empilhamento abaixo de 700px.
+- Referência e decisões registradas em `DESIGN-CONTATO.md`. Comparação visual com captura e conferência computada após renderização permanecem pendentes nesta rodada.
+## Footer — referência 08-footer-desktop aplicada, 07/11/2026
+
+- Footer antigo substituído pela composição JSON: wordmark e frase no mesmo agrupamento `identity`, retorno, localização, Instagram, LinkedIn, copyright 2026. Camada oculta `Projetos` não foi representada.
+- Wordmark usa asset Figma local; destinos Instagram e LinkedIn confirmados preservados. Vetores oficiais não estão nos assets; SVGs locais reconhecíveis substituem os círculos/quadrados rejeitados, com a pendência documentada em `DESIGN-FOOTER.md`.
+- Grid desktop com altura mínima de referência 448px; abaixo de 900px reorganiza regiões e abaixo de 520px empilha. Comparação visual e medidas computadas aguardam revisão.

@@ -1,4 +1,18 @@
-# Verificação — header e Projetos
+# Verificação — hero, etapa 1 parcial
+
+30/10/2026, Brasília. **Texto/CTA e estrutura implementados; revisão técnica e visual humana pendente. Hero incompleto, arte ainda não importada.**
+
+- Branch `codex/figma-redesign`. Checkpoint local anterior à implementação: `edd390691800cacbae84cc1044d7ce28a95b10f4`; preserva trabalho anterior de header, ordem dos links, Projetos, documentação/evidências e os três arquivos do pacote recebido. Temporários/ZIPs não incluídos. Nenhum push. Alterações do hero seguem sem commit para revisão.
+- Arquivos do pacote conferidos antes de extrair: três destinos ausentes, sem sobrescrita. Extração/captura anexadas reutilizadas; nenhuma chamada ao Figma. A verificação do checkpoint apontou linha em branco no EOF do contexto MCP recebido; arquivo original mantido como fonte de referência, sem executar seus imports/código.
+- `python -X utf8 scripts/check.py`: **PASS — 18 links, 14 IDs únicos, 2 imagens**, assets, contato, metadados/indexação; 10 arquivos estáticos, 842.058 bytes, estimativa gzip810.505 bytes (não transferência medida). Um link legado do rodapé do hero foi removido com a composição antiga; os destinos atuais existem. `git diff --check` sem erros. Header.js não mudou e não foi retestado.
+- Conferência direcionada de escopo contra o checkpoint: header e demais regiões HTML idênticos; header.js preservado; regras CSS externas ao hero, inclusive globais/botões compartilhados e Projetos, preservadas. CTA é link normal `#contato`; foco visível definido no componente. Isso é inspeção estática, não teste de interação no navegador.
+- Servidor existente reutilizado em `http://127.0.0.1:8000/`; GET200 e igualdade dos bytes servidos com o HTML atual. Captura em segundo plano não exposta nesta sessão; nenhum mouse/teclado ou navegador visível controlado. Sem evidência renderizada nova, sem alegação de fidelidade visual/ausência de overflow comprovada no browser.
+- **Revisão manual pendente:** em1920px, conferir título40px/500+700, descrição24px, CTA303×99/32px, gaps90/58/16 e título171px após o header80px; referência1920 reduzida para1024×576 no PNG não serve para sobreposição direta. Em390px, conferir título mínimo28px, descrição18px, CTA legível, texto→ação→slot da arte em coluna e ausência de cortes/rolagem horizontal. Conferir também uma largura intermediária, Tab/Enter, foco e chegada ao #contato.
+- **Pendências:** destino WhatsApp confirmado (até lá #contato + “Fale diretamente com a equipe.”); exportação estática oficial da ilustração com efeito e risco de AI FIRST; composição final com a arte e aceite humano. Placeholder “Ilustração em preparação” restrito à prévia. Não usar screenshot ou asset histórico como substituto, não iniciar Serviços, não publicar.
+
+---
+
+# Histórico — verificação de header e Projetos
 
 29/10/2026, Brasília. **Implementado e verificado localmente; revisão técnica da coordenação e validação visual de Gabriel pendentes.** Hero não alterado. Sem commit/push/deploy.
 
