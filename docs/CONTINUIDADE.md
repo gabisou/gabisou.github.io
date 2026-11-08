@@ -1,5 +1,18 @@
 # GABiSOU — continuidade do site
 
+## Produção autorizada em gabisou.com — 08/11/2026
+
+- Gabriel considerou o visual atual suficiente e autorizou publicar a versão como está para a designer testar e orientar as próximas etapas. Isso substitui a pausa de publicação do checkpoint anterior; não criar outra hospedagem ou domínio de revisão.
+- Destino autorizado: projeto Netlify existente `gabisou-landing-page`, domínio `https://gabisou.com`. Fonte do redesign: `gabisou/gabisou.github.io`, branch `codex/figma-redesign`, base `e9bdcd8f14decd9bf3c5af068c74bc448ef58ca7`. Layout e conteúdo preservados.
+- `netlify.toml` preparado: checks antes de cada build; produção limpa somente a saída gerada `build/`, executa `prepare_release.py --origin https://gabisou.com --output build` e valida `check.py build --public`. Fontes permanecem em `dist/`. Python 3.12; Node usado apenas no check de sintaxe do JS.
+- Validação local da configuração: comando completo de produção PASS (15 links, 15 IDs, 2 imagens); sintaxe JS e TOML válidas; saída antiga de build removida no teste. Nenhuma instalação ou mudança de layout. Build remoto do Netlify ainda não executado.
+- Integração pendente: conferir/revincular o projeto existente ao repositório acima e escolher a branch de produção; usar `codex/figma-redesign` permite publicar cada push das próximas etapas diretamente, conforme a prioridade expressa por Gabriel. Confirmar builds ativos, primeira execução e resposta de `gabisou.com`; alterações locais sem push não são publicadas.
+- O screenshot mostra deploy antigo `main@41e0720`, enquanto `main` do repositório indicado está em `12a9196889ef93bf3597765daa360a286bb5e761`: não presumir que a integração já aponta para este repositório.
+- Acesso: GitHub autenticado no navegador como `gabisoudev`. Netlify respondeu que a conta com o mesmo e-mail já existe e solicita acesso pelo método cadastrado; login Netlify ainda não concluído. Não alterar credenciais nem criar nova conta.
+- A publicação feita indevidamente em outro serviço foi rejeitada por Gabriel e teve o acesso público removido. Não reutilizá-la como destino de publicação.
+- Próxima ação: autenticar na conta Netlify existente, conferir a integração e concluir o deploy de produção. Reversão após publicar: republicar o último deploy válido do mesmo projeto; o identificador deve ser registrado quando o painel estiver acessível.
+- Referências oficiais consultadas em 08/11/2026: [configuração por arquivo](https://docs.netlify.com/build/configure-builds/file-based-configuration/), [dependências de build](https://docs.netlify.com/build/configure-builds/manage-dependencies/) e [deploy de produção](https://docs.netlify.com/deploy/deploy-types/production-deploy/).
+
 ## Checkpoint remoto — 07/11/2026
 
 - Branch de trabalho: `codex/figma-redesign`; stack HTML/CSS/JS nativo, fontes editáveis em `dist/index.html`, `dist/styles.css`, `dist/header.js` e assets em `dist/assets/`. Verificação: `python -X utf8 scripts/check.py`; prévia: `python -m http.server 8000 --bind 127.0.0.1 --directory dist`.
