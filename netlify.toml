@@ -1,0 +1,12 @@
+# Static source is versioned in dist; production output is generated in build.
+[build]
+  base = "."
+  publish = "dist"
+  command = "python -X utf8 scripts/check.py && node --check dist/header.js"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"
+
+[context.production]
+  publish = "build"
+  command = "python -X utf8 scripts/check.py && node --check dist/header.js && rm -rf build && python -X utf8 scripts/prepare_release.py --origin https://gabisou.com --output build && python -X utf8 scripts/check.py build --public"

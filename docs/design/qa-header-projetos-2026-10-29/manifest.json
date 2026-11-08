@@ -1,0 +1,1519 @@
+{
+  "date": "2026-10-29",
+  "repository": "C:\\Repos\\gabisou.github.io",
+  "branch": "codex/figma-redesign",
+  "base_sha": "eaa38db79d388901e273abb4d54ad6fa8703158d",
+  "working_tree": "Implementação local sem commit",
+  "implementation_patch_sha256": "9be1076dd042a6f7c2f53f285973c082e2617bd1cd5e8c8e63e055f6ae229760",
+  "code_sha256": {
+    "dist/index.html": "f66b2b618f940ec363b419202b2e2bbc633d2b9944104eece660ab8fb4a0003a",
+    "dist/styles.css": "8d38ee8d616cc1d2bcb0dbf5ee4ae4ea5d26e213cde7041aeec30d7a4dbf9f05",
+    "dist/header.js": "98370d2e34b8f5aa090fcc5f7f6eb8bdf2fa31fd8fb649c5a417ff4033a03f7a"
+  },
+  "capture_policy": "Bytes originais retornados pela ferramenta, sem reamostragem. Viewport CSS, área útil e pixels do arquivo são grandezas distintas. Header usa recorte informado em options; demais capturas mostram viewport. Hash na URL pode permanecer após Ctrl+Home; scrollY identifica o enquadramento.",
+  "captures": [
+    {
+      "file": "header-desktop-1920.jpg",
+      "options": {
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 125
+        }
+      },
+      "metadata": {
+        "cards": [
+          {
+            "box": {
+              "clientWidth": 517,
+              "height": 561,
+              "scrollWidth": 517,
+              "width": 517,
+              "x": 147.5,
+              "y": 2023.140625
+            },
+            "media": {
+              "clientWidth": 517,
+              "height": 255,
+              "scrollWidth": 517,
+              "width": 517,
+              "x": 147.5,
+              "y": 2023.140625
+            },
+            "summary": {
+              "clientWidth": 489,
+              "height": 31,
+              "scrollWidth": 489,
+              "width": 489,
+              "x": 161.5,
+              "y": 2298.140625
+            },
+            "tags": [
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 166.5,
+                "y": 2518.140625
+              },
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 321.453125,
+                "y": 2518.140625
+              }
+            ],
+            "title": {
+              "clientWidth": 503,
+              "height": 31,
+              "scrollWidth": 503,
+              "width": 503,
+              "x": 154.5,
+              "y": 2038.140625
+            }
+          },
+          {
+            "box": {
+              "clientWidth": 517,
+              "height": 561,
+              "scrollWidth": 517,
+              "width": 517,
+              "x": 694,
+              "y": 2023.140625
+            },
+            "media": {
+              "clientWidth": 517,
+              "height": 255,
+              "scrollWidth": 517,
+              "width": 517,
+              "x": 694,
+              "y": 2023.140625
+            },
+            "summary": {
+              "clientWidth": 489,
+              "height": 31,
+              "scrollWidth": 489,
+              "width": 489,
+              "x": 708,
+              "y": 2298.140625
+            },
+            "tags": [
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 713,
+                "y": 2518.140625
+              },
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 867.953125,
+                "y": 2518.140625
+              }
+            ],
+            "title": {
+              "clientWidth": 503,
+              "height": 31,
+              "scrollWidth": 503,
+              "width": 503,
+              "x": 701,
+              "y": 2038.140625
+            }
+          },
+          {
+            "box": {
+              "clientWidth": 517,
+              "height": 561,
+              "scrollWidth": 517,
+              "width": 517,
+              "x": 1240.5,
+              "y": 2023.140625
+            },
+            "media": {
+              "clientWidth": 517,
+              "height": 255,
+              "scrollWidth": 517,
+              "width": 517,
+              "x": 1240.5,
+              "y": 2023.140625
+            },
+            "summary": {
+              "clientWidth": 489,
+              "height": 31,
+              "scrollWidth": 489,
+              "width": 489,
+              "x": 1254.5,
+              "y": 2298.140625
+            },
+            "tags": [
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 1259.5,
+                "y": 2518.140625
+              },
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 1414.453125,
+                "y": 2518.140625
+              }
+            ],
+            "title": {
+              "clientWidth": 503,
+              "height": 31,
+              "scrollWidth": 503,
+              "width": 503,
+              "x": 1247.5,
+              "y": 2038.140625
+            }
+          }
+        ],
+        "documentWidth": 1905,
+        "focus": {
+          "id": "",
+          "tag": "BODY",
+          "text": "Pular para o conteÃºdo\n  \n    \n      \n        "
+        },
+        "fontStatus": "loaded",
+        "header": {
+          "clientWidth": 1903,
+          "height": 125,
+          "scrollWidth": 1903,
+          "width": 1905,
+          "x": 0,
+          "y": 0
+        },
+        "heading": {
+          "clientWidth": 1681,
+          "height": 31,
+          "scrollWidth": 1681,
+          "width": 1681,
+          "x": 112,
+          "y": 1930.140625
+        },
+        "logo": {
+          "clientWidth": 260,
+          "height": 77,
+          "scrollWidth": 260,
+          "width": 260,
+          "x": 30,
+          "y": 24
+        },
+        "menu": {
+          "expanded": "false",
+          "hidden": true,
+          "navHidden": false,
+          "ready": true
+        },
+        "more": {
+          "clientWidth": 288,
+          "disabled": true,
+          "height": 73,
+          "scrollWidth": 288,
+          "width": 288,
+          "x": 808.5,
+          "y": 2662.140625
+        },
+        "overflows": [],
+        "scrollY": 0,
+        "section": {
+          "clientWidth": 1905,
+          "height": 955,
+          "scrollWidth": 1905,
+          "width": 1905,
+          "x": 0,
+          "y": 1897.140625
+        },
+        "url": "http://localhost:8000/",
+        "viewport": {
+          "clientWidth": 1905,
+          "dpr": 1,
+          "height": 1080,
+          "visualScale": 1,
+          "width": 1920
+        }
+      },
+      "pixels": [
+        1920,
+        125
+      ],
+      "sha256": "ec838699e599eae33775c3d09e1310b3aa979dd8616f0c512c0832e61a611baa",
+      "browser": "Codex in-app browser local",
+      "zoom": {
+        "nominal_percent": 100,
+        "verification": "DPR=1 e visualViewport.scale=1 medidos; percentual de interface não exposto pela API."
+      }
+    },
+    {
+      "file": "projetos-desktop-1920.jpg",
+      "options": {
+        "fullPage": false
+      },
+      "metadata": {
+        "cards": [
+          {
+            "box": {
+              "clientWidth": 517,
+              "height": 561,
+              "scrollWidth": 517,
+              "width": 517,
+              "x": 147.5,
+              "y": 154.140625
+            },
+            "media": {
+              "clientWidth": 517,
+              "height": 255,
+              "scrollWidth": 517,
+              "width": 517,
+              "x": 147.5,
+              "y": 154.140625
+            },
+            "summary": {
+              "clientWidth": 489,
+              "height": 31,
+              "scrollWidth": 489,
+              "width": 489,
+              "x": 161.5,
+              "y": 429.140625
+            },
+            "tags": [
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 166.5,
+                "y": 649.140625
+              },
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 321.453125,
+                "y": 649.140625
+              }
+            ],
+            "title": {
+              "clientWidth": 503,
+              "height": 31,
+              "scrollWidth": 503,
+              "width": 503,
+              "x": 154.5,
+              "y": 169.140625
+            }
+          },
+          {
+            "box": {
+              "clientWidth": 517,
+              "height": 561,
+              "scrollWidth": 517,
+              "width": 517,
+              "x": 694,
+              "y": 154.140625
+            },
+            "media": {
+              "clientWidth": 517,
+              "height": 255,
+              "scrollWidth": 517,
+              "width": 517,
+              "x": 694,
+              "y": 154.140625
+            },
+            "summary": {
+              "clientWidth": 489,
+              "height": 31,
+              "scrollWidth": 489,
+              "width": 489,
+              "x": 708,
+              "y": 429.140625
+            },
+            "tags": [
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 713,
+                "y": 649.140625
+              },
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 867.953125,
+                "y": 649.140625
+              }
+            ],
+            "title": {
+              "clientWidth": 503,
+              "height": 31,
+              "scrollWidth": 503,
+              "width": 503,
+              "x": 701,
+              "y": 169.140625
+            }
+          },
+          {
+            "box": {
+              "clientWidth": 517,
+              "height": 561,
+              "scrollWidth": 517,
+              "width": 517,
+              "x": 1240.5,
+              "y": 154.140625
+            },
+            "media": {
+              "clientWidth": 517,
+              "height": 255,
+              "scrollWidth": 517,
+              "width": 517,
+              "x": 1240.5,
+              "y": 154.140625
+            },
+            "summary": {
+              "clientWidth": 489,
+              "height": 31,
+              "scrollWidth": 489,
+              "width": 489,
+              "x": 1254.5,
+              "y": 429.140625
+            },
+            "tags": [
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 1259.5,
+                "y": 649.140625
+              },
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 1414.453125,
+                "y": 649.140625
+              }
+            ],
+            "title": {
+              "clientWidth": 503,
+              "height": 31,
+              "scrollWidth": 503,
+              "width": 503,
+              "x": 1247.5,
+              "y": 169.140625
+            }
+          }
+        ],
+        "documentWidth": 1905,
+        "focus": {
+          "id": "projetos",
+          "tag": "SECTION",
+          "text": "Projetos\n        \n          \n            \n   "
+        },
+        "fontStatus": "loaded",
+        "header": {
+          "clientWidth": 1903,
+          "height": 125,
+          "scrollWidth": 1903,
+          "width": 1905,
+          "x": 0,
+          "y": -1869
+        },
+        "heading": {
+          "clientWidth": 1681,
+          "height": 31,
+          "scrollWidth": 1681,
+          "width": 1681,
+          "x": 112,
+          "y": 61.140625
+        },
+        "logo": {
+          "clientWidth": 260,
+          "height": 77,
+          "scrollWidth": 260,
+          "width": 260,
+          "x": 30,
+          "y": -1845
+        },
+        "menu": {
+          "expanded": "false",
+          "hidden": true,
+          "navHidden": false,
+          "ready": true
+        },
+        "more": {
+          "clientWidth": 288,
+          "disabled": true,
+          "height": 73,
+          "scrollWidth": 288,
+          "width": 288,
+          "x": 808.5,
+          "y": 793.140625
+        },
+        "overflows": [],
+        "scrollY": 1869,
+        "section": {
+          "clientWidth": 1905,
+          "height": 955,
+          "scrollWidth": 1905,
+          "width": 1905,
+          "x": 0,
+          "y": 28.140625
+        },
+        "url": "http://localhost:8000/#projetos",
+        "viewport": {
+          "clientWidth": 1905,
+          "dpr": 1,
+          "height": 1080,
+          "visualScale": 1,
+          "width": 1920
+        }
+      },
+      "pixels": [
+        1905,
+        1072
+      ],
+      "sha256": "2be1a78c458d3531ed8e91c7c7a9693c2167cd9b20b1dba6b71a774cf27e1041",
+      "browser": "Codex in-app browser local",
+      "zoom": {
+        "nominal_percent": 100,
+        "verification": "DPR=1 e visualViewport.scale=1 medidos; percentual de interface não exposto pela API."
+      }
+    },
+    {
+      "file": "header-mobile-390-fechado.jpg",
+      "options": {
+        "fullPage": false
+      },
+      "metadata": {
+        "cards": [
+          {
+            "box": {
+              "clientWidth": 329,
+              "height": 357.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 2962.40625
+            },
+            "media": {
+              "clientWidth": 329,
+              "height": 162.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 2962.40625
+            },
+            "summary": {
+              "clientWidth": 301,
+              "height": 31,
+              "scrollWidth": 301,
+              "width": 301.484375,
+              "x": 36.75,
+              "y": 3144.90625
+            },
+            "tags": [
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 3199.90625
+              },
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 3253.90625
+              }
+            ],
+            "title": {
+              "clientWidth": 315,
+              "height": 31,
+              "scrollWidth": 315,
+              "width": 315.484375,
+              "x": 29.75,
+              "y": 2977.40625
+            }
+          },
+          {
+            "box": {
+              "clientWidth": 329,
+              "height": 357.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 3349.40625
+            },
+            "media": {
+              "clientWidth": 329,
+              "height": 162.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 3349.40625
+            },
+            "summary": {
+              "clientWidth": 301,
+              "height": 31,
+              "scrollWidth": 301,
+              "width": 301.484375,
+              "x": 36.75,
+              "y": 3531.90625
+            },
+            "tags": [
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 3586.90625
+              },
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 3640.90625
+              }
+            ],
+            "title": {
+              "clientWidth": 315,
+              "height": 31,
+              "scrollWidth": 315,
+              "width": 315.484375,
+              "x": 29.75,
+              "y": 3364.40625
+            }
+          },
+          {
+            "box": {
+              "clientWidth": 329,
+              "height": 357.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 3736.40625
+            },
+            "media": {
+              "clientWidth": 329,
+              "height": 162.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 3736.40625
+            },
+            "summary": {
+              "clientWidth": 301,
+              "height": 31,
+              "scrollWidth": 301,
+              "width": 301.484375,
+              "x": 36.75,
+              "y": 3918.90625
+            },
+            "tags": [
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 3973.90625
+              },
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 4027.90625
+              }
+            ],
+            "title": {
+              "clientWidth": 315,
+              "height": 31,
+              "scrollWidth": 315,
+              "width": 315.484375,
+              "x": 29.75,
+              "y": 3751.40625
+            }
+          }
+        ],
+        "documentWidth": 375,
+        "focus": {
+          "id": "projetos",
+          "tag": "SECTION",
+          "text": "Projetos\n        \n          \n            \n   "
+        },
+        "fontStatus": "loaded",
+        "header": {
+          "clientWidth": 373,
+          "height": 119.6875,
+          "scrollWidth": 373,
+          "width": 375,
+          "x": 0,
+          "y": 0
+        },
+        "heading": {
+          "clientWidth": 329,
+          "height": 31,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 2891.40625
+        },
+        "logo": {
+          "clientWidth": 242,
+          "height": 71.6875,
+          "scrollWidth": 242,
+          "width": 242.0625,
+          "x": 17,
+          "y": 24
+        },
+        "menu": {
+          "expanded": "false",
+          "hidden": false,
+          "navHidden": true,
+          "ready": true
+        },
+        "more": {
+          "clientWidth": 288,
+          "disabled": true,
+          "height": 73,
+          "scrollWidth": 288,
+          "width": 288,
+          "x": 43.484375,
+          "y": 4133.90625
+        },
+        "overflows": [],
+        "scrollY": 0,
+        "section": {
+          "clientWidth": 375,
+          "height": 1396.5,
+          "scrollWidth": 375,
+          "width": 375,
+          "x": 0,
+          "y": 2858.40625
+        },
+        "url": "http://localhost:8000/#projetos",
+        "viewport": {
+          "clientWidth": 375,
+          "dpr": 1,
+          "height": 844,
+          "visualScale": 1,
+          "width": 390
+        }
+      },
+      "pixels": [
+        375,
+        812
+      ],
+      "sha256": "f3002cb23c0fd6ab9e6cbbbfd05fa107a03d42d3cf8ebd6009e55ea098f62fa9",
+      "browser": "Codex in-app browser local",
+      "zoom": {
+        "nominal_percent": 100,
+        "verification": "DPR=1 e visualViewport.scale=1 medidos; percentual de interface não exposto pela API."
+      }
+    },
+    {
+      "file": "header-mobile-390-aberto.jpg",
+      "options": {
+        "fullPage": false
+      },
+      "metadata": {
+        "cards": [
+          {
+            "box": {
+              "clientWidth": 329,
+              "height": 357.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 3246.40625
+            },
+            "media": {
+              "clientWidth": 329,
+              "height": 162.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 3246.40625
+            },
+            "summary": {
+              "clientWidth": 301,
+              "height": 31,
+              "scrollWidth": 301,
+              "width": 301.484375,
+              "x": 36.75,
+              "y": 3428.90625
+            },
+            "tags": [
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 3483.90625
+              },
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 3537.90625
+              }
+            ],
+            "title": {
+              "clientWidth": 315,
+              "height": 31,
+              "scrollWidth": 315,
+              "width": 315.484375,
+              "x": 29.75,
+              "y": 3261.40625
+            }
+          },
+          {
+            "box": {
+              "clientWidth": 329,
+              "height": 357.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 3633.40625
+            },
+            "media": {
+              "clientWidth": 329,
+              "height": 162.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 3633.40625
+            },
+            "summary": {
+              "clientWidth": 301,
+              "height": 31,
+              "scrollWidth": 301,
+              "width": 301.484375,
+              "x": 36.75,
+              "y": 3815.90625
+            },
+            "tags": [
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 3870.90625
+              },
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 3924.90625
+              }
+            ],
+            "title": {
+              "clientWidth": 315,
+              "height": 31,
+              "scrollWidth": 315,
+              "width": 315.484375,
+              "x": 29.75,
+              "y": 3648.40625
+            }
+          },
+          {
+            "box": {
+              "clientWidth": 329,
+              "height": 357.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 4020.40625
+            },
+            "media": {
+              "clientWidth": 329,
+              "height": 162.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 4020.40625
+            },
+            "summary": {
+              "clientWidth": 301,
+              "height": 31,
+              "scrollWidth": 301,
+              "width": 301.484375,
+              "x": 36.75,
+              "y": 4202.90625
+            },
+            "tags": [
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 4257.90625
+              },
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 4311.90625
+              }
+            ],
+            "title": {
+              "clientWidth": 315,
+              "height": 31,
+              "scrollWidth": 315,
+              "width": 315.484375,
+              "x": 29.75,
+              "y": 4035.40625
+            }
+          }
+        ],
+        "documentWidth": 375,
+        "focus": {
+          "id": "",
+          "tag": "BUTTON",
+          "text": "Menu"
+        },
+        "fontStatus": "loaded",
+        "header": {
+          "clientWidth": 373,
+          "height": 403.6875,
+          "scrollWidth": 373,
+          "width": 375,
+          "x": 0,
+          "y": 0
+        },
+        "heading": {
+          "clientWidth": 329,
+          "height": 31,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 3175.40625
+        },
+        "logo": {
+          "clientWidth": 242,
+          "height": 71.6875,
+          "scrollWidth": 242,
+          "width": 242.0625,
+          "x": 17,
+          "y": 24
+        },
+        "menu": {
+          "expanded": "true",
+          "hidden": false,
+          "navHidden": false,
+          "ready": true
+        },
+        "more": {
+          "clientWidth": 288,
+          "disabled": true,
+          "height": 73,
+          "scrollWidth": 288,
+          "width": 288,
+          "x": 43.484375,
+          "y": 4417.90625
+        },
+        "overflows": [],
+        "scrollY": 0,
+        "section": {
+          "clientWidth": 375,
+          "height": 1396.5,
+          "scrollWidth": 375,
+          "width": 375,
+          "x": 0,
+          "y": 3142.40625
+        },
+        "url": "http://localhost:8000/#projetos",
+        "viewport": {
+          "clientWidth": 375,
+          "dpr": 1,
+          "height": 844,
+          "visualScale": 1,
+          "width": 390
+        }
+      },
+      "pixels": [
+        375,
+        812
+      ],
+      "sha256": "f56666a48d2a869d99926fd6604add44494bc77e758741317396dbfb804a1a59",
+      "browser": "Codex in-app browser local",
+      "zoom": {
+        "nominal_percent": 100,
+        "verification": "DPR=1 e visualViewport.scale=1 medidos; percentual de interface não exposto pela API."
+      }
+    },
+    {
+      "file": "projetos-mobile-390-inicio.jpg",
+      "options": {
+        "fullPage": false
+      },
+      "metadata": {
+        "cards": [
+          {
+            "box": {
+              "clientWidth": 329,
+              "height": 357.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 132.40625
+            },
+            "media": {
+              "clientWidth": 329,
+              "height": 162.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 132.40625
+            },
+            "summary": {
+              "clientWidth": 301,
+              "height": 31,
+              "scrollWidth": 301,
+              "width": 301.484375,
+              "x": 36.75,
+              "y": 314.90625
+            },
+            "tags": [
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 369.90625
+              },
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 423.90625
+              }
+            ],
+            "title": {
+              "clientWidth": 315,
+              "height": 31,
+              "scrollWidth": 315,
+              "width": 315.484375,
+              "x": 29.75,
+              "y": 147.40625
+            }
+          },
+          {
+            "box": {
+              "clientWidth": 329,
+              "height": 357.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 519.40625
+            },
+            "media": {
+              "clientWidth": 329,
+              "height": 162.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 519.40625
+            },
+            "summary": {
+              "clientWidth": 301,
+              "height": 31,
+              "scrollWidth": 301,
+              "width": 301.484375,
+              "x": 36.75,
+              "y": 701.90625
+            },
+            "tags": [
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 756.90625
+              },
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 810.90625
+              }
+            ],
+            "title": {
+              "clientWidth": 315,
+              "height": 31,
+              "scrollWidth": 315,
+              "width": 315.484375,
+              "x": 29.75,
+              "y": 534.40625
+            }
+          },
+          {
+            "box": {
+              "clientWidth": 329,
+              "height": 357.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 906.40625
+            },
+            "media": {
+              "clientWidth": 329,
+              "height": 162.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 906.40625
+            },
+            "summary": {
+              "clientWidth": 301,
+              "height": 31,
+              "scrollWidth": 301,
+              "width": 301.484375,
+              "x": 36.75,
+              "y": 1088.90625
+            },
+            "tags": [
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 1143.90625
+              },
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 1197.90625
+              }
+            ],
+            "title": {
+              "clientWidth": 315,
+              "height": 31,
+              "scrollWidth": 315,
+              "width": 315.484375,
+              "x": 29.75,
+              "y": 921.40625
+            }
+          }
+        ],
+        "documentWidth": 375,
+        "focus": {
+          "id": "projetos",
+          "tag": "SECTION",
+          "text": "Projetos\n        \n          \n            \n   "
+        },
+        "fontStatus": "loaded",
+        "header": {
+          "clientWidth": 373,
+          "height": 119.6875,
+          "scrollWidth": 373,
+          "width": 375,
+          "x": 0,
+          "y": -2830
+        },
+        "heading": {
+          "clientWidth": 329,
+          "height": 31,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": 61.40625
+        },
+        "logo": {
+          "clientWidth": 242,
+          "height": 71.6875,
+          "scrollWidth": 242,
+          "width": 242.0625,
+          "x": 17,
+          "y": -2806
+        },
+        "menu": {
+          "expanded": "false",
+          "hidden": false,
+          "navHidden": true,
+          "ready": true
+        },
+        "more": {
+          "clientWidth": 288,
+          "disabled": true,
+          "height": 73,
+          "scrollWidth": 288,
+          "width": 288,
+          "x": 43.484375,
+          "y": 1303.90625
+        },
+        "overflows": [],
+        "scrollY": 2830,
+        "section": {
+          "clientWidth": 375,
+          "height": 1396.5,
+          "scrollWidth": 375,
+          "width": 375,
+          "x": 0,
+          "y": 28.40625
+        },
+        "url": "http://localhost:8000/#projetos",
+        "viewport": {
+          "clientWidth": 375,
+          "dpr": 1,
+          "height": 844,
+          "visualScale": 1,
+          "width": 390
+        }
+      },
+      "pixels": [
+        375,
+        812
+      ],
+      "sha256": "d3eb2b3615c106d75f19b381f0232507a2f8304c612d3247e0c1ad731e54aecc",
+      "browser": "Codex in-app browser local",
+      "zoom": {
+        "nominal_percent": 100,
+        "verification": "DPR=1 e visualViewport.scale=1 medidos; percentual de interface não exposto pela API."
+      }
+    },
+    {
+      "file": "projetos-mobile-390-continuacao.jpg",
+      "options": {
+        "fullPage": false
+      },
+      "metadata": {
+        "cards": [
+          {
+            "box": {
+              "clientWidth": 329,
+              "height": 357.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": -581.59375
+            },
+            "media": {
+              "clientWidth": 329,
+              "height": 162.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": -581.59375
+            },
+            "summary": {
+              "clientWidth": 301,
+              "height": 31,
+              "scrollWidth": 301,
+              "width": 301.484375,
+              "x": 36.75,
+              "y": -399.09375
+            },
+            "tags": [
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": -344.09375
+              },
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": -290.09375
+              }
+            ],
+            "title": {
+              "clientWidth": 315,
+              "height": 31,
+              "scrollWidth": 315,
+              "width": 315.484375,
+              "x": 29.75,
+              "y": -566.59375
+            }
+          },
+          {
+            "box": {
+              "clientWidth": 329,
+              "height": 357.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": -194.59375
+            },
+            "media": {
+              "clientWidth": 329,
+              "height": 162.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": -194.59375
+            },
+            "summary": {
+              "clientWidth": 301,
+              "height": 31,
+              "scrollWidth": 301,
+              "width": 301.484375,
+              "x": 36.75,
+              "y": -12.09375
+            },
+            "tags": [
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 42.90625
+              },
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 96.90625
+              }
+            ],
+            "title": {
+              "clientWidth": 315,
+              "height": 31,
+              "scrollWidth": 315,
+              "width": 315.484375,
+              "x": 29.75,
+              "y": -179.59375
+            }
+          },
+          {
+            "box": {
+              "clientWidth": 329,
+              "height": 357.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 192.40625
+            },
+            "media": {
+              "clientWidth": 329,
+              "height": 162.5,
+              "scrollWidth": 329,
+              "width": 329.484375,
+              "x": 22.75,
+              "y": 192.40625
+            },
+            "summary": {
+              "clientWidth": 301,
+              "height": 31,
+              "scrollWidth": 301,
+              "width": 301.484375,
+              "x": 36.75,
+              "y": 374.90625
+            },
+            "tags": [
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 429.90625
+              },
+              {
+                "clientWidth": 147,
+                "height": 46,
+                "scrollWidth": 147,
+                "width": 146.953125,
+                "x": 41.75,
+                "y": 483.90625
+              }
+            ],
+            "title": {
+              "clientWidth": 315,
+              "height": 31,
+              "scrollWidth": 315,
+              "width": 315.484375,
+              "x": 29.75,
+              "y": 207.40625
+            }
+          }
+        ],
+        "documentWidth": 375,
+        "focus": {
+          "id": "projetos",
+          "tag": "SECTION",
+          "text": "Projetos\n        \n          \n            \n   "
+        },
+        "fontStatus": "loaded",
+        "header": {
+          "clientWidth": 373,
+          "height": 119.6875,
+          "scrollWidth": 373,
+          "width": 375,
+          "x": 0,
+          "y": -3544
+        },
+        "heading": {
+          "clientWidth": 329,
+          "height": 31,
+          "scrollWidth": 329,
+          "width": 329.484375,
+          "x": 22.75,
+          "y": -652.59375
+        },
+        "logo": {
+          "clientWidth": 242,
+          "height": 71.6875,
+          "scrollWidth": 242,
+          "width": 242.0625,
+          "x": 17,
+          "y": -3520
+        },
+        "menu": {
+          "expanded": "false",
+          "hidden": false,
+          "navHidden": true,
+          "ready": true
+        },
+        "more": {
+          "clientWidth": 288,
+          "disabled": true,
+          "height": 73,
+          "scrollWidth": 288,
+          "width": 288,
+          "x": 43.484375,
+          "y": 589.90625
+        },
+        "overflows": [],
+        "scrollY": 3544,
+        "section": {
+          "clientWidth": 375,
+          "height": 1396.5,
+          "scrollWidth": 375,
+          "width": 375,
+          "x": 0,
+          "y": -685.59375
+        },
+        "url": "http://localhost:8000/#projetos",
+        "viewport": {
+          "clientWidth": 375,
+          "dpr": 1,
+          "height": 844,
+          "visualScale": 1,
+          "width": 390
+        }
+      },
+      "pixels": [
+        375,
+        812
+      ],
+      "sha256": "cfafdd2054fe314501e67f2af0bf1ff01a77d90b7e641ac2e96fcda7270150bf",
+      "browser": "Codex in-app browser local",
+      "zoom": {
+        "nominal_percent": 100,
+        "verification": "DPR=1 e visualViewport.scale=1 medidos; percentual de interface não exposto pela API."
+      }
+    }
+  ],
+  "supplemental_zoom": [
+    {
+      "file": "zen-final-200-header.png",
+      "pixels": [
+        940,
+        713
+      ],
+      "sha256": "960bad45efded134f3481af3ae21e1711bc2c179f30960cf2bf3053684380fd2",
+      "browser": "Zen 1.23.4b",
+      "url": "http://localhost:8000/ (ou #projetos)",
+      "zoom_percent": 200,
+      "zoom_verification": "Percentual visto na interface nativa do navegador. Restaurado com Ctrl+0.",
+      "viewport_css": null,
+      "limitation": "Captura da janela nativa; viewport CSS não medido. Aparência escura aplicada pelo ambiente do navegador, sem alteração no site. Evidência suplementar de reflow, não comparação de cor/Figma."
+    },
+    {
+      "file": "zen-final-200-projetos.png",
+      "pixels": [
+        940,
+        713
+      ],
+      "sha256": "222616c3da45a37a51197d8121565e5f1ea32e71f5843896b6b4c36e1ef0d05b",
+      "browser": "Zen 1.23.4b",
+      "url": "http://localhost:8000/ (ou #projetos)",
+      "zoom_percent": 200,
+      "zoom_verification": "Percentual visto na interface nativa do navegador. Restaurado com Ctrl+0.",
+      "viewport_css": null,
+      "limitation": "Captura da janela nativa; viewport CSS não medido. Aparência escura aplicada pelo ambiente do navegador, sem alteração no site. Evidência suplementar de reflow, não comparação de cor/Figma."
+    },
+    {
+      "file": "zen-final-400-header.png",
+      "pixels": [
+        940,
+        713
+      ],
+      "sha256": "6a00faa9378c17676e090fe12af68918fb411fda575c5157f34463e057615b5f",
+      "browser": "Zen 1.23.4b",
+      "url": "http://localhost:8000/ (ou #projetos)",
+      "zoom_percent": 400,
+      "zoom_verification": "Percentual visto na interface nativa do navegador. Restaurado com Ctrl+0.",
+      "viewport_css": null,
+      "limitation": "Captura da janela nativa; viewport CSS não medido. Aparência escura aplicada pelo ambiente do navegador, sem alteração no site. Evidência suplementar de reflow, não comparação de cor/Figma."
+    },
+    {
+      "file": "zen-final-400-projetos.png",
+      "pixels": [
+        940,
+        713
+      ],
+      "sha256": "e288ac15294e6f3cc8798d7b82f3a308607346ac0dc978c9d8b688ea22169f30",
+      "browser": "Zen 1.23.4b",
+      "url": "http://localhost:8000/ (ou #projetos)",
+      "zoom_percent": 400,
+      "zoom_verification": "Percentual visto na interface nativa do navegador. Restaurado com Ctrl+0.",
+      "viewport_css": null,
+      "limitation": "Captura da janela nativa; viewport CSS não medido. Aparência escura aplicada pelo ambiente do navegador, sem alteração no site. Evidência suplementar de reflow, não comparação de cor/Figma."
+    }
+  ]
+}

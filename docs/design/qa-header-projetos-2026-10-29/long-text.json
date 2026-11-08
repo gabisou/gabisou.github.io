@@ -1,0 +1,110 @@
+[
+  {
+    "viewport": {
+      "clientWidth": 1905,
+      "dpr": 1,
+      "height": 1080,
+      "visualScale": 1,
+      "width": 1920
+    },
+    "header": 160,
+    "overflow": [],
+    "cards": [
+      {
+        "width": 517,
+        "height": 561,
+        "mediaHeight": 255,
+        "titleHeight": 62
+      },
+      {
+        "width": 517,
+        "height": 561,
+        "mediaHeight": 255,
+        "titleHeight": 62
+      },
+      {
+        "width": 517,
+        "height": 561,
+        "mediaHeight": 255,
+        "titleHeight": 62
+      }
+    ],
+    "overlap": [
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "viewport": {
+      "clientWidth": 753,
+      "dpr": 1,
+      "height": 1024,
+      "visualScale": 1,
+      "width": 768
+    },
+    "header": 325,
+    "overflow": [],
+    "cards": [
+      {
+        "width": 663.390625,
+        "height": 584.203125,
+        "mediaHeight": 327.203125,
+        "titleHeight": 62
+      },
+      {
+        "width": 663.390625,
+        "height": 584.203125,
+        "mediaHeight": 327.203125,
+        "titleHeight": 62
+      },
+      {
+        "width": 663.390625,
+        "height": 584.203125,
+        "mediaHeight": 327.203125,
+        "titleHeight": 62
+      }
+    ],
+    "overlap": [
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "viewport": {
+      "clientWidth": 305,
+      "dpr": 1,
+      "height": 740,
+      "visualScale": 1,
+      "width": 320
+    },
+    "header": 460.953125,
+    "overflow": [],
+    "cards": [
+      {
+        "width": 267.65625,
+        "height": 652,
+        "mediaHeight": 210,
+        "titleHeight": 124
+      },
+      {
+        "width": 267.65625,
+        "height": 652,
+        "mediaHeight": 210,
+        "titleHeight": 124
+      },
+      {
+        "width": 267.65625,
+        "height": 652,
+        "mediaHeight": 210,
+        "titleHeight": 124
+      }
+    ],
+    "overlap": [
+      false,
+      false,
+      false
+    ]
+  }
+]

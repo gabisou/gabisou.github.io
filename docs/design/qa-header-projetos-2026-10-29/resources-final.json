@@ -1,0 +1,37 @@
+{
+  "resources": {
+    "font": "\"Gabisou Header Inter\", \"Segoe UI\", Arial, sans-serif",
+    "fonts": "loaded",
+    "images": [
+      {
+        "complete": true,
+        "natural": [
+          260,
+          77
+        ],
+        "src": "assets/figma/gabisou-wordmark.png"
+      },
+      {
+        "complete": true,
+        "natural": [
+          1920,
+          600
+        ],
+        "src": "assets/logo.png"
+      }
+    ],
+    "scripts": [
+      {
+        "defer": true,
+        "src": "header.js"
+      }
+    ],
+    "styles": [
+      {
+        "href": "http://localhost:8000/styles.css",
+        "rules": 150
+      }
+    ]
+  },
+  "console": []
+}
