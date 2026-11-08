@@ -1,3 +1,21 @@
+# Revisão visual/responsiva local — 08/11/2026
+
+Implementado; validação técnica e inspeção renderizada realizadas; aceite visual humano pendente. Branch `codex/visual-responsivo`, base e HEAD `1b6fd9758300220411df87ee3f9a96e0d28ebc9b`, alterações sem commit. Arquivos: dist/index.html, dist/styles.css, este registro e CONTINUIDADE.md.
+
+- `python -X utf8 scripts/check.py`, com Python 3.12.14 já existente no runtime local: PASS, 15 links, 15 IDs, 2 imagens, destinatário/assets/metadados/indexação. Executável: `C:\Users\gabisou\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe`.
+- `node --check dist/header.js`: PASS, Node 24.13.0; nenhum outro JS de produção alterado. `git diff --check`: PASS (somente aviso Git de conversão LF/CRLF). Comparação programática: header/footer HTML, mailto inteiro e três parágrafos de Serviços idênticos à base. header.js e assets sem diff.
+- Navegador integrado: 1363×900, 1703×1000, 390×844, 320×740 e 844×390 CSS px observados em capturas novas. Medidos também 479/481, 699/701, 767/769, 899/901, 999/1001 e 1099/1101px. Todos sem overflow horizontal; fonte local loaded. Diferença de 15px entre viewport e clientWidth corresponde à barra vertical.
+- Três serviços, quatro tags no terceiro, três projetos provisórios, Ver mais disabled, biografias completas, nenhum link em Carol e FAQ sem controles verificados no DOM e nas capturas. “DESENVOLVER” inteiro nos viewports normais; sem truncamento. Sem caixa vazia de arte no hero/processo.
+- Menu: Enter/Espaço abre, Tab chega ao primeiro link, Escape fecha e retorna foco. Foco observado: rgb(74,54,235) solid 3px, afastamento 3px. Cinco âncoras do menu e dois CTAs do hero chegam aos IDs corretos. Tab após o LinkedIn de Gabriel chega ao CTA Contato, com foco visível e mailto completo preservado. Abertura de aplicativo de e-mail permanece teste manual (bloqueio já observado nessa ferramenta em rodada anterior; sem contorno).
+- Texto ampliado: página temporária de QA com raiz 200% (32px), em 1363/390/320px; sem overflow após corrigir números de Serviços e permitir redução de colunas. É teste de texto ampliado, não zoom do navegador. Espaçamento: line-height 1.5, letter-spacing .12em, word-spacing .16em e margem de parágrafo 2em, nos mesmos tamanhos, sem overflow. A página temporária não integra a entrega.
+- Zoom nativo 200%: atalho no navegador integrado não mudou DPR/viewport; acesso à janela Zen expirou aguardando controle. Não aprovado nem substituído por simulação. Gabriel deve validar no seu navegador. Sem teste de leitor de tela, aparelhos físicos ou conformidade WCAG integral.
+- Console consultado sem erros/avisos. Regras de prefers-reduced-motion implementadas e inspecionadas no CSS; emulação não realizada. Estados hover/active definidos sem alteração de geometria; não se declara auditoria integral dos estados.
+- Servidor: Python http.server, bind 127.0.0.1, diretório absoluto `C:\Users\gabisou\Documents\Codex\2026-11-08\voc-a-desenvolvedora-local-do-site\work\gabisou-visual\dist`, porta 8020. A tentativa em 8000 apresentou HTML antigo; a versão correta foi confirmada pelo H1/DOM em 8020. Não houve publicação.
+
+Evidências: capturas e matriz JSON em outputs/visual-responsivo do chat; checkpoints 01 (layout/conteúdo inicial) e 02 (versão final com ampliação), sem commit. Para revisar: abrir a prévia correta, percorrer cada seção, testar menu, Ctrl+200%/ampliação e CTA no cliente de e-mail. Próxima ação: aceite ou correções desta etapa; commit depende de autorização posterior explícita.
+
+---
+
 # Publicação em produção — 08/11/2026
 
 - Destino: `https://gabisou.com/`, projeto Netlify `gabisou-landing-page` (`46afdf5f-6029-4908-abd6-2fe41eeeeae5`).

@@ -1,5 +1,25 @@
 # GABiSOU — continuidade do site
 
+## Publicação da revisão visual autorizada — 08/11/2026
+
+- Gabriel autorizou expressamente subir e lançar esta entrega na main. Esta autorização substitui a proibição de commit/push/merge/deploy da rodada de implementação.
+- Branch `codex/visual-responsivo`; main remota reconfirmada em `1b6fd9758300220411df87ee3f9a96e0d28ebc9b`, sem alterações posteriores à base. Integração por pull request no repositório `gabisou/gabisou.github.io`; publicação automática no projeto Netlify existente `gabisou-landing-page`, domínio `https://gabisou.com/`.
+- Pré-publicação: check Python de fonte PASS, sintaxe header.js PASS, git diff --check PASS; release gerada em build/ com origem https://gabisou.com e check público PASS (15 links, 15 IDs, 2 imagens). Nenhuma mudança de infraestrutura, dependência, DNS ou configuração Netlify.
+- Permanecem documentados os limites dos testes de zoom nativo e abertura de cliente de e-mail. A autorização de lançamento não equivale a uma auditoria integral de acessibilidade. Confirmar SHA integrado, deploy ready e resposta do domínio antes de declarar publicado; identificadores finais acompanham o repasse desta publicação.
+
+## Revisão visual e responsiva completa — 08/11/2026
+
+- Escopo: especificação atual de Gabriel (todas as seções), que substitui os contratos históricos nos pontos descritos abaixo. Branch `codex/visual-responsivo`, a partir de `origin/main` atualizada em `1b6fd9758300220411df87ee3f9a96e0d28ebc9b`. Esse é também o HEAD final: não houve commit, conforme proibição explícita desta rodada. Alterações no working tree; cópias anteriores preservadas.
+- Fonte: HTML/CSS/JS nativos, `dist/` editável. Lidos AGENTS, checkpoint, Arquitetura e os sete DESIGN solicitados. Não acessados Figma, Netlify ou produção; nenhum asset gerado e nenhuma dependência instalada.
+- Tokens consolidados e Inter local em todo o main. Conteúdo usa container central de até 1200px com gutter único 32/24/20px. Alturas pelo conteúdo, tipografia em rem, hierarquia e espaçamentos novos nos seletores responsáveis; CSS legado das seções substituído, sem pilha de overrides.
+- Hero: conteúdo exato novo, destaque roxo na primeira parte; regiões 7:5 empilham abaixo de 1100px. Removido o texto “Ilustração em preparação”, por decisão expressa; arte suspensa não reinstalada. Slot vazio sem altura. Botões de pelo menos 52px e empilhados abaixo de 480px.
+- Serviços: três títulos com ponto final; três parágrafos da main preservados integralmente, inclusive o segundo (a rodada anterior em outra branch não é a fonte desta tarefa). Tags finais 3/3/4 na ordem recebida. Número externo em desktop, acima abaixo de 768px; texto até 68ch, card automático e tags abaixo.
+- Projetos: três placeholders e Ver mais desabilitado mantidos. Identificador e H2 “Projetos” separados, sem inventar mensagem; grade 3/2/1, cards independentes. Perfis 2/1, círculos decorativos 80px, nome/cargo agrupados, biografia integral e link no fluxo. Gabriel mantém o LinkedIn confirmado; Carol sem link. Seu texto passa a “Designer digital júnior.”, substituindo explicitamente a decisão anterior de “especialista”.
+- Processo: quatro blocos verticais com número acima, títulos 28px e sem offsets/traços antigos; mídia vazia sem caixa. Grades 4/2/1 nominais; mínimos em rem permitem reduzir colunas quando o texto é ampliado. Em texto 200% e viewport estreito, palavras longas podem quebrar naturalmente para preservar todo o conteúdo, sem corte.
+- FAQ: sinais “+” removidos por decisão editorial explícita; cinco perguntas mantidas como texto com separadores, sem respostas ou controles falsos. Grade 1:2 em desktop, empilhada abaixo de 1000px. Futuro acordeão depende de respostas aprovadas e contrato Enter/Espaço, Tab, aria-expanded/controls, +/−, foco e movimento reduzido.
+- Contato: título sem br, apoio novo, mailto completo preservado. Grade 2:1 a partir de 900px, CTA até 320px, 100% abaixo de 480px, raio 8px e altura mínima 52px. Estados de cor, pressionado e foco roxo 3px/offset 3px; reduced-motion remove transições.
+- Checks e evidências em VERIFICACAO.md. Prévia correta usa `http://127.0.0.1:8020/`, diretório absoluto deste worktree; porta 8000 apresentou uma cópia antiga e não foi usada para comprovar a nova versão. Checkpoints sem commit e capturas em `outputs/visual-responsivo` do chat. Aceite visual humano, zoom nativo 200% e abertura do cliente de e-mail pendentes. Próxima ação: Gabriel revisar esta versão e registrar ajustes desta mesma etapa.
+
 ## Produção confirmada em gabisou.com — 08/11/2026
 
 - Site publicado e aberto com sucesso em `https://gabisou.com/`. Projeto Netlify existente `gabisou-landing-page`, ID `46afdf5f-6029-4908-abd6-2fe41eeeeae5`.
