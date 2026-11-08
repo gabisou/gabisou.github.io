@@ -1,12 +1,22 @@
 # GABiSOU — continuidade do site
 
+## Fluxo vigente de branches e produção — 08/11/2026
+
+- Decisão: `main` é a branch de integração e produção. `codex/figma-redesign` é a branch de trabalho do redesign; não deve ser selecionada como origem de produção no Netlify.
+- Gabriel autorizou integrar a versão atual aprovada e publicar em `https://gabisou.com`. Base verificada: `main@12a9196889ef93bf3597765daa360a286bb5e761`, redesign `c27ad52ef033f698c5d4245af8273eb2239fd0fc`, 17 commits à frente e nenhuma divergência da main.
+- Próximas alterações: partir da `main` atualizada em uma branch de tarefa, implementar, executar checks pertinentes e obter a revisão/validação da etapa; integrar por pull request. Cada merge/push na `main` deverá iniciar build e deploy automáticos no projeto Netlify existente `gabisou-landing-page` (ID `46afdf5f-6029-4908-abd6-2fe41eeeeae5`), depois de concluir o vínculo.
+- A fonte editável permanece em `dist/`; `netlify.toml` prepara e verifica `build/` para produção. Nenhuma alteração visual nesta decisão. Reversão de versão publicada: reverter o commit na `main` e publicar a correção pelo mesmo fluxo.
+- Plugin Netlify conectado e leitura do projeto confirmada; a ferramenta não expõe alteração do repositório/branch de produção nem disparo de deploy. Último deploy confirmado: `67eef6c2dd395b00086bd7d1`, do repositório antigo `gabrieldevsouza/gabisou-landing-page`, commit `41e072063c06ec1880b5f24eb509e64e02e4f47a`.
+- Há dois repositórios homônimos: `gabrieldevsouza/gabisou.github.io` (pessoal, somente main) e `gabisou/gabisou.github.io` (organização, fonte correta e privada). No Netlify selecionar o segundo, branch `main`. O painel está sendo operado por Gabriel para concluir esse vínculo; deploy atual ainda não confirmado.
+- Validação reutilizada da mesma implementação e configuração: checks de fonte e release PASS (15 links, 15 IDs, 2 imagens), sintaxe JS e TOML válidas. A integração documental não exige uma nova revisão visual. Confirmar SHA final do merge e primeiro deploy antes de declarar a produção atualizada.
+
 ## Produção autorizada em gabisou.com — 08/11/2026
 
 - Gabriel considerou o visual atual suficiente e autorizou publicar a versão como está para a designer testar e orientar as próximas etapas. Isso substitui a pausa de publicação do checkpoint anterior; não criar outra hospedagem ou domínio de revisão.
 - Destino autorizado: projeto Netlify existente `gabisou-landing-page`, domínio `https://gabisou.com`. Fonte do redesign: `gabisou/gabisou.github.io`, branch `codex/figma-redesign`, base `e9bdcd8f14decd9bf3c5af068c74bc448ef58ca7`. Layout e conteúdo preservados.
 - `netlify.toml` preparado: checks antes de cada build; produção limpa somente a saída gerada `build/`, executa `prepare_release.py --origin https://gabisou.com --output build` e valida `check.py build --public`. Fontes permanecem em `dist/`. Python 3.12; Node usado apenas no check de sintaxe do JS.
 - Validação local da configuração: comando completo de produção PASS (15 links, 15 IDs, 2 imagens); sintaxe JS e TOML válidas; saída antiga de build removida no teste. Nenhuma instalação ou mudança de layout. Build remoto do Netlify ainda não executado.
-- Integração pendente: conferir/revincular o projeto existente ao repositório acima e escolher a branch de produção; usar `codex/figma-redesign` permite publicar cada push das próximas etapas diretamente, conforme a prioridade expressa por Gabriel. Confirmar builds ativos, primeira execução e resposta de `gabisou.com`; alterações locais sem push não são publicadas.
+- Integração pendente: vincular o projeto existente ao repositório `gabisou/gabisou.github.io` e selecionar `main` como branch de produção. A recomendação anterior de publicar diretamente `codex/figma-redesign` foi corrigida. Confirmar builds ativos, primeira execução e resposta de `gabisou.com`; alterações locais e pushes em branches de tarefa não atualizam produção.
 - O screenshot mostra deploy antigo `main@41e0720`, enquanto `main` do repositório indicado está em `12a9196889ef93bf3597765daa360a286bb5e761`: não presumir que a integração já aponta para este repositório.
 - Acesso: GitHub autenticado no navegador como `gabisoudev`. Netlify respondeu que a conta com o mesmo e-mail já existe e solicita acesso pelo método cadastrado; login Netlify ainda não concluído. Não alterar credenciais nem criar nova conta.
 - A publicação feita indevidamente em outro serviço foi rejeitada por Gabriel e teve o acesso público removido. Não reutilizá-la como destino de publicação.

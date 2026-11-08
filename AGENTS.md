@@ -15,6 +15,7 @@
 - No Windows, identificar o Python já disponível; não instalar ou trocar ferramentas automaticamente. `py -3` pode substituir `python` se o launcher estiver confirmado.
 
 ## Execução
+- Produção: branch `main` do repositório `gabisou/gabisou.github.io`, projeto Netlify existente `gabisou-landing-page`, domínio `https://gabisou.com`. Alterações em branches de tarefa; integrar por PR após checks e revisão da etapa. O deploy automático deve acompanhar merges/pushes na `main`; não selecionar `codex/figma-redesign` como branch de produção. Confirmar o vínculo e o deploy real no checkpoint antes de afirmar publicação.
 - Confirmar branch, commit e alterações existentes antes de editar e antes do handoff. Usar branch delimitada; não descartar alterações nem editar em paralelo os mesmos arquivos.
 - Clientes sem leitura automática de AGENTS.md devem lê-lo explicitamente. A presença de um plugin não comprova permissão, terminal ou navegador.
 - Aproveitar a stack existente. JavaScript mínimo somente quando necessário ao comportamento aprovado; não introduzir framework, backend, CMS ou dependências sem necessidade demonstrada.

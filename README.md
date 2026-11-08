@@ -1,45 +1,56 @@
-# GABiSOU — versão comercial do site (V3)
+# GABiSOU — site institucional
 
-Página em português para apresentar design de interfaces, sites, sistemas, aplicativos, integrações, automações e aplicações de IA. A versão 3 preserva a direção visual dos cinco wireframes fornecidos pela designer e refina a mensagem após analisar seis referências indicadas por Gabriel. O header e a seção Projetos do redesign usam HTML/CSS nativo, com JavaScript local para o Menu; as demais seções continuam na V3. Projetos contém somente os três placeholders autorizados do Figma; “Ver mais” permanece desabilitado até definir seu destino. Sem dependências de produção, formulário ou rastreadores. Logotipo original recuperado de `https://gabisou.com/logo.png` em 27/10/2026.
+Site em HTML/CSS e JavaScript nativos. Fontes editáveis versionadas em `dist/`; scripts Python usam a biblioteca padrão. Sem framework, npm, backend ou dependências de produção.
 
-## Estado
+## Estado e produção
 
-Versão implementada para revisão. Nada publicado; domínio, site atual e branch principal preservados. `dist/` contém a prévia sem indexação. O e-mail veio do site atual; a caixa não foi acessada e o recebimento não foi testado. WhatsApp omitido até confirmação do número.
+Gabriel autorizou publicar a versão atual em `https://gabisou.com` para revisão contínua com a designer. O conteúdo ainda inclui placeholders autorizados; não apresentar esses elementos como portfólio final.
 
-## Revisar localmente
+Repositório correto: `gabisou/gabisou.github.io`, da organização GABiSOU. Existe um repositório pessoal homônimo em `gabrieldevsouza`, que não é a fonte desta versão.
 
-No Windows de Gabriel, o padrão é `C:\Repos`; este clone fica em `C:\Repos\gabisou.github.io`. Setup comprovado em 28/10/2026: Python 3.13.15, check aprovado e renderização no navegador integrado do aplicativo. Branch `codex/figma-redesign`; base atual `eaa38db79d388901e273abb4d54ad6fa8703158d`, incorporada por fast-forward em 29/10/2026. Header/Projetos estão modificados localmente, sem commit/push, aguardando revisão técnica e validação visual humana. Checks: PASS (19 links, 14 IDs, 2 imagens). Detalhes, diferenças e capturas em [VERIFICACAO.md](docs/VERIFICACAO.md); o registro do setup de 28/10 foi preservado.
+- `main`: integração e produção.
+- Branches de tarefa: desenvolvimento e revisão; `codex/figma-redesign` contém o trabalho do redesign.
+- Projeto Netlify existente: `gabisou-landing-page`, ID `46afdf5f-6029-4908-abd6-2fe41eeeeae5`.
+- Vincular esse projeto ao repositório correto e à `main`. Cada merge/push nessa branch deve iniciar build e deploy automáticos. A confirmação do vínculo e do primeiro deploy permanece pendente no [checkpoint](docs/CONTINUIDADE.md).
 
-Na raiz do clone, em PowerShell:
+## Desenvolvimento e revisão
 
-```powershell
-Set-Location 'C:\Repos\gabisou.github.io'
+Comece pela `main` atualizada e use uma branch de tarefa. Implemente o escopo aprovado, execute os checks, apresente a etapa para revisão e integre por pull request. O aceite visual de Gabriel continua necessário para mudanças visuais nas próximas etapas.
+
+Na raiz do clone:
+
+```sh
 python -X utf8 scripts/check.py
+node --check dist/header.js
 python -m http.server 8000 --bind 127.0.0.1 --directory dist
 ```
 
-Abra `http://localhost:8000/` (mesmo servidor local em 127.0.0.1); mantenha o terminal ativo e use `Ctrl+C` para parar. Se a porta estiver ocupada, escolha outra sem encerrar processos desconhecidos. Nenhuma instalação de pacote é necessária. `dist/` contém fontes editáveis versionadas. A comprovação técnica não constitui aceite visual. A aba antiga em 127.0.0.1 reteve JavaScript anterior durante o QA; as evidências finais usam a origem local `localhost` recém-aberta.
+Abra `http://localhost:8000/`. Não é necessário instalar pacotes. No laptop de Gabriel, os repositórios ficam em `C:\GitHub`; confirme o caminho do checkout em uso.
 
-## Verificar e preparar para publicação
+## Build de produção
+
+O `netlify.toml` versionado executa os checks, limpa somente a saída gerada `build/`, prepara a origem `https://gabisou.com` e verifica a release pública. Publica exclusivamente `build/`, sem documentos ou fontes de suporte. Python 3.12 está declarado no ambiente de build.
+
+Para preparar localmente, use uma saída nova ou limpa:
 
 ```sh
-python scripts/check.py
-python scripts/prepare_release.py --origin https://gabisou.com --output build
-python scripts/check.py build --public
+python -X utf8 scripts/check.py
+node --check dist/header.js
+python -X utf8 scripts/prepare_release.py --origin https://gabisou.com --output build
+python -X utf8 scripts/check.py build --public
 ```
 
-Esses comandos apenas produzem e verificam arquivos. Não publicam, não alteram DNS e não configuram hospedagem. O domínio acima foi observado no site existente; sua manutenção como destino precisa ser confirmada antes do lançamento. `build/` recebe indexação, URL canônica, metadados da organização e sitemap. Publique apenas seu conteúdo, nunca a pasta de documentos ou a raiz do projeto.
+Gerar arquivos localmente não publica. `dist/` preserva os metadados de prévia; `build/` recebe indexação, canonical e sitemap de produção. Não edite somente a saída gerada. Para corrigir uma versão publicada, reverta o commit na `main` e deixe o mesmo fluxo publicar a correção.
 
-Antes de implantar: aprovação editorial, confirmação da hospedagem atual e de como recuperar a versão anterior. Nenhum custo de serviço foi contratado. Não há pipeline de publicação automática neste projeto.
+## Arquivos principais
 
-## Editar
+- Conteúdo e contatos: `dist/index.html`.
+- Estilos e responsividade: `dist/styles.css`.
+- Menu: `dist/header.js`.
+- Assets e fontes: `dist/assets/`.
+- Configuração de deploy: `netlify.toml`.
+- Estado vigente e próxima ação: [CONTINUIDADE.md](docs/CONTINUIDADE.md).
+- Critérios e evidências: [VERIFICACAO.md](docs/VERIFICACAO.md).
+- Diretrizes técnicas: [ARQUITETURA-E-ETAPAS.md](docs/ARQUITETURA-E-ETAPAS.md).
 
-- Conteúdo e destinos de contato: `dist/index.html`.
-- Cores, espaçamento e responsividade: `dist/styles.css`.
-- Identidade original: `dist/assets/logo.png`.
-- Referências e direção de mensagem: `docs/REFERENCIAS-E-MENSAGEM.md`.
-- Textos e orientação para design: `docs/CONTEUDO-PARA-DESIGN.md`.
-- Contexto, fontes e próxima tarefa: `docs/CONTINUIDADE.md`.
-- Resultados e limites dos testes: `docs/VERIFICACAO.md`.
-
-Após mudar a fonte, gere novamente `build/` e repita a verificação. Não edite só os arquivos gerados.
+Registros históricos não comprovam a versão atual nem substituem aprovações recentes.
