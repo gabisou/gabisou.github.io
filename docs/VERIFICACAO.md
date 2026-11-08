@@ -1,3 +1,15 @@
+# Publicação em produção — 08/11/2026
+
+- Destino: `https://gabisou.com/`, projeto Netlify `gabisou-landing-page` (`46afdf5f-6029-4908-abd6-2fe41eeeeae5`).
+- Plugin confirmou deploy `6af01dac5c3eec5e25f7075a`, contexto production, branch main, commit `3e6028c63b0302fdd0b35112e2fbcc324c24d156`, estado ready, sem erro.
+- Browser abriu o domínio principal e confirmou o conteúdo do redesign, stylesheet carregado, ambas as imagens completas, fonte loaded, menu inicializado, canonical correto e indexação `index, follow`.
+- Checks anteriores da mesma implementação/release continuam válidos: 15 links, 15 IDs e 2 imagens; sintaxe JS e TOML válidas. Esta rodada não altera aplicação, assets ou configuração de build.
+- Limite: sem nova bateria visual, teclado, aparelhos físicos ou auditoria integral WCAG. Gabriel já autorizou a versão atual como está para a designer testar em produção.
+- Acesso HTTP pelo terminal retornou 403; o navegador de execução abriu o site e confirmou os recursos acima. Não classificar esse retorno isolado como bloqueio de bots ou indisponibilidade pública.
+- O próximo deploy após o merge documental deve comprovar a atualização automática da main; acompanhar pelo plugin antes de declarar essa conferência concluída.
+
+---
+
 # Verificação — hero, etapa 1 parcial
 
 30/10/2026, Brasília. **Texto/CTA e estrutura implementados; revisão técnica e visual humana pendente. Hero incompleto, arte ainda não importada.**

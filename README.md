@@ -11,7 +11,7 @@ Repositório correto: `gabisou/gabisou.github.io`, da organização GABiSOU. Exi
 - `main`: integração e produção.
 - Branches de tarefa: desenvolvimento e revisão; `codex/figma-redesign` contém o trabalho do redesign.
 - Projeto Netlify existente: `gabisou-landing-page`, ID `46afdf5f-6029-4908-abd6-2fe41eeeeae5`.
-- Vincular esse projeto ao repositório correto e à `main`. Cada merge/push nessa branch deve iniciar build e deploy automáticos. A confirmação do vínculo e do primeiro deploy permanece pendente no [checkpoint](docs/CONTINUIDADE.md).
+- Produção confirmada em `https://gabisou.com/`, a partir da `main`, commit `3e6028c`. Deploy Netlify `6af01dac5c3eec5e25f7075a` em estado ready. Cada merge/push na main deve iniciar build e deploy; confira o commit publicado no [checkpoint](docs/CONTINUIDADE.md).
 
 ## Desenvolvimento e revisão
 

@@ -1,5 +1,14 @@
 # GABiSOU — continuidade do site
 
+## Produção confirmada em gabisou.com — 08/11/2026
+
+- Site publicado e aberto com sucesso em `https://gabisou.com/`. Projeto Netlify existente `gabisou-landing-page`, ID `46afdf5f-6029-4908-abd6-2fe41eeeeae5`.
+- Deploy de produção `6af01dac5c3eec5e25f7075a`, estado `ready`, publicado em 08/11/2026 às 03:58:59 (America/Sao_Paulo). Origem confirmada pelo plugin: `gabisou/gabisou.github.io`, branch `main`, commit `3e6028c63b0302fdd0b35112e2fbcc324c24d156`.
+- Browser confirmou conteúdo do redesign, CSS carregado, imagens carregadas, fonte em estado loaded, inicialização do menu, robots `index, follow` e canonical `https://gabisou.com/`. Isso é uma conferência de publicação, não uma nova auditoria visual/completa de acessibilidade.
+- Não há mais bloqueio de acesso para acompanhar o projeto pelo plugin Netlify. As notas anteriores sobre autenticação e vínculo pendentes são históricas e foram superadas por este deploy.
+- Fluxo vigente: tarefas em branches a partir da `main`, checks/revisão da etapa, PR e merge na `main`. A atualização deste registro serve também para conferir o próximo deploy automático após o merge; verificar o commit/deploy retornado pelo Netlify.
+- Próxima ação de produto: designer revisar a versão em produção e registrar decisões por seção. Desenvolver somente o próximo escopo aprovado; cada merge na main deve atualizar a produção após o build.
+
 ## Fluxo vigente de branches e produção — 08/11/2026
 
 - Decisão: `main` é a branch de integração e produção. `codex/figma-redesign` é a branch de trabalho do redesign; não deve ser selecionada como origem de produção no Netlify.
