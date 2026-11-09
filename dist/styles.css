@@ -54,7 +54,7 @@ main :is(.hero-layout,.services-container,.projects-inner,.about-layout,.process
   width:min(1200px,calc(100% - var(--content-gutter) * 2));margin-inline:auto;min-width:0;
 }
 main > section,main > .section-space {padding-block:48px}
-main :is(.services-eyebrow,.about-eyebrow,.process-eyebrow,.projects-eyebrow) {font-size:1rem;line-height:1.5;font-weight:400}
+main :is(.services-eyebrow,.about-eyebrow,.process-eyebrow) {font-size:1rem;line-height:1.5;font-weight:400}
 main :is(.services-intro,.about-intro,.process-intro) {display:grid;gap:12px;min-width:0}
 main .about-description {margin-top:4px;max-width:68ch}
 :is(a,button) {transition:color 120ms,background-color 120ms,border-color 120ms}
@@ -91,6 +91,7 @@ main .hero-action-secondary:active {background:var(--color-secondary);color:var(
 .hero-art-slot img {width:100%;max-width:425px;height:auto;margin-inline:auto;object-fit:contain}
 
 /* Serviços: número externo, card independente e tags informativas. */
+.services-intro > h2 {max-inline-size:min(100%,26ch)}
 .services-list {display:grid;gap:24px;margin:32px 0 0;padding:0;list-style:none}
 .service-row {display:grid;grid-template-columns:4rem minmax(0,1fr);gap:24px;align-items:start;min-width:0}
 .service-number {display:grid;place-items:center;width:4rem;min-height:4rem;border-radius:20px;background:var(--color-surface);font-size:2rem}
@@ -101,7 +102,6 @@ main .hero-action-secondary:active {background:var(--color-secondary);color:var(
 .service-tags li,.project-tags li {max-width:100%;padding:8px 16px;background:var(--color-secondary);color:var(--color-primary);border-radius:16px;font-size:.875rem;line-height:1.5;overflow-wrap:anywhere}
 
 /* Projetos: conteúdo provisório preservado; sem equalização forçada dos cards. */
-.projects-eyebrow {margin-bottom:12px}
 .projects-grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,max(12rem,calc((100% - 48px)/3))),1fr));gap:24px;align-items:start;margin-top:32px}
 .project-card {min-width:0;background:var(--color-surface);border-radius:22px}
 .project-media {display:grid;grid-template-rows:auto 1fr;gap:16px;aspect-ratio:517 / 255;padding:20px;background:#7D7D7D;color:#FFFFFF;border-radius:22px 22px 0 0;min-width:0}
@@ -136,6 +136,7 @@ main .process-step h3 {font-size:1.75rem}
 /* Contato: texto flexível e CTA dentro da própria coluna. */
 .contact-layout {display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:48px;align-items:center}
 .contact-intro {display:grid;gap:16px;min-width:0}
+.contact-intro > h2 {max-inline-size:min(100%,24ch)}
 .contact-action {min-width:0;justify-self:start;width:100%}
 main .contact-cta {width:100%;max-width:320px}
 
